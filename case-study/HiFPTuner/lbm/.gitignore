@@ -1,0 +1,12 @@
+*.json
+__pycache__
+*.o
+results-*/
+*.txt
+lbm_s
+reference.dat
+
+!replacement.txt
+!search_config_l*.json
+!sorted_partition.json
+!config.json

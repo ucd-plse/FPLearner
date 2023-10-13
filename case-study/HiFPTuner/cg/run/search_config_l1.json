@@ -1,0 +1,87 @@
+{
+    "0": {
+        "type": ["float", "double"],
+        "community": ["sprnvc.vecloc"]
+    },
+    "1": {
+        "type": ["float", "double"],
+        "community": ["sprnvc.vecelt", "sprnvc.v"]
+    },
+    "2": {
+        "type": ["float", "double"],
+        "community": ["main.norm_temp2", "main.norm_temp1"]
+    },
+    "3": {
+        "type": ["float", "double"],
+        "community": ["main.zeta", "main.rnorm"]
+    },
+    "4": {
+        "type": ["float", "double"],
+        "community": ["main.rnorm"]
+    },
+    "5": {
+        "type": ["float", "double"],
+        "community": ["vecset.v", "vecset.val"]
+    },
+    "6": {
+        "type": ["float", "double"],
+        "community": ["sparse.shift", "sparse.rcond"]
+    },
+    "7": {
+        "type": ["float", "double"],
+        "community": ["sparse.va", "sparse.scale", "sparse.a"]
+    },
+    "8": {
+        "type": ["float", "double"],
+        "community": ["sparse.size"]
+    },
+    "9": {
+        "type": ["float", "double"],
+        "community": ["sparse.ratio"]
+    },
+    "10": {
+        "type": ["float", "double"],
+        "community": ["makea.vc"]
+    },
+    "11": {
+        "type": ["float", "double"],
+        "community": ["makea.a"]
+    },
+    "12": {
+        "type": ["float", "double"],
+        "community": ["conj_grad.d", "conj_grad.z"]
+    },
+    "13": {
+        "type": ["float", "double"],
+        "community": ["conj_grad.r"]
+    },
+    "14": {
+        "type": ["float", "double"],
+        "community": ["conj_grad.rho", "conj_grad.rho0"]
+    },
+    "15": {
+        "type": ["float", "double"],
+        "community": ["conj_grad.alpha", "conj_grad.beta", "conj_grad.x"]
+    },
+    "16": {
+        "type": ["float", "double"],
+        "community": ["conj_grad.q", "conj_grad.a", "conj_grad.p"]
+    },
+    "17": {
+        "type": ["float", "double"],
+        "community": ["conj_grad.rnorm", "conj_grad.sum"]
+    },
+    "18": {
+        "type": ["float", "double"],
+        "community": ["conj_grad.sqrt"]
+    },
+    "19": {
+        "type": ["float", "double"],
+        "community": ["main.sqrt"]
+    },
+    "20": {
+        "type": ["float", "double"],
+        "community": ["icnvrt.x"]
+    }
+
+}

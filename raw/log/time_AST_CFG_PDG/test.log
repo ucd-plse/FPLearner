@@ -1,0 +1,9 @@
+2023-02-08 20:53:55,034 Savedir: time_allpurpose_root_AST_CFG_PDG
+2023-02-08 20:53:55,041 Test dataset size: 127
+2023-02-08 20:53:55,041 Split: 
+  test -> 127
+2023-02-08 20:53:55,041 Edges: ['AST', 'CFG', 'PDG']
+2023-02-08 20:53:56,730 Model (model/time_allpurpose_root_AST_CFG_PDG/checkpoint.pt) is loaded.
+2023-02-08 20:53:59,063 ============> Testing mode start...
+2023-02-08 20:54:44,206 	 Test Loss: 4.786186 |  Test Acc: 88.281% |  Test Pre: 89.49% |  Test Rec: 88.45% |  Test Fsc: 88.97%
+2023-02-08 20:54:44,206 	 Acc0: 79.37% |  Acc1: 96.88% |  Pre0: 95.42% |  Pre1: 83.56% |  Rec0: 79.68% | Rec1: 97.22% 

@@ -1,0 +1,139 @@
+{
+    "0": {
+        "type": ["float", "double"],
+        "community": ["sprnvc.vecloc"]
+    },
+    "1": {
+        "type": ["float", "double"],
+        "community": ["sprnvc.vecelt"]
+    },
+    "2": {
+        "type": ["float", "double"],
+        "community": ["sprnvc.v"]
+    },
+    "3": {
+        "type": ["float", "double"],
+        "community": ["main.norm_temp2"]
+    },
+    "4": {
+        "type": ["float", "double"],
+        "community": ["main.norm_temp1"]
+    },
+    "5": {
+        "type": ["float", "double"],
+        "community": ["main.zeta"]
+    },
+    "6": {
+        "type": ["float", "double"],
+        "community": ["main.rnorm"]
+    },
+    "7": {
+        "type": ["float", "double"],
+        "community": ["vecset.v"]
+    },
+    "8": {
+        "type": ["float", "double"],
+        "community": ["vecset.val"]
+    },
+    "9": {
+        "type": ["float", "double"],
+        "community": ["sparse.shift"]
+    },
+    "10": {
+        "type": ["float", "double"],
+        "community": ["sparse.rcond"]
+    },
+    "11": {
+        "type": ["float", "double"],
+        "community": ["sparse.va"]
+    },
+    "12": {
+        "type": ["float", "double"],
+        "community": ["sparse.scale"]
+    },
+    "13": {
+        "type": ["float", "double"],
+        "community": ["sparse.a"]
+    },
+    "14": {
+        "type": ["float", "double"],
+        "community": ["sparse.size"]
+    },
+    "15": {
+        "type": ["float", "double"],
+        "community": ["sparse.ratio"]
+    },
+    "16": {
+        "type": ["float", "double"],
+        "community": ["makea.vc"]
+    },
+    "17": {
+        "type": ["float", "double"],
+        "community": ["makea.a"]
+    },
+    "18": {
+        "type": ["float", "double"],
+        "community": ["conj_grad.d"]
+    },
+    "19": {
+        "type": ["float", "double"],
+        "community": ["conj_grad.z"]
+    },
+    "20": {
+        "type": ["float", "double"],
+        "community": ["conj_grad.r"]
+    },
+    "21": {
+        "type": ["float", "double"],
+        "community": ["conj_grad.rho0"]
+    },
+    "22": {
+        "type": ["float", "double"],
+        "community": ["conj_grad.rho"]
+    },
+    "23": {
+        "type": ["float", "double"],
+        "community": ["conj_grad.alpha"]
+    },
+    "24": {
+        "type": ["float", "double"],
+        "community": ["conj_grad.beta"]
+    },
+    "25": {
+        "type": ["float", "double"],
+        "community": ["conj_grad.x"]
+    },
+    "26": {
+        "type": ["float", "double"],
+        "community": ["conj_grad.q"]
+    },
+    "27": {
+        "type": ["float", "double"],
+        "community": ["conj_grad.a"]
+    },
+    "28": {
+        "type": ["float", "double"],
+        "community": ["conj_grad.p"]
+    },
+    "29": {
+        "type": ["float", "double"],
+        "community": ["conj_grad.rnorm"]
+    },
+    "30": {
+        "type": ["float", "double"],
+        "community": ["conj_grad.sum"]
+    },
+    "31": {
+        "type": ["float", "double"],
+        "community": ["conj_grad.sqrt"]
+    },
+    "32": {
+        "type": ["float", "double"],
+        "community": ["main.sqrt"]
+    },
+    "33": {
+        "type": ["float", "double"],
+        "community": ["icnvrt.x"]
+    }
+
+}

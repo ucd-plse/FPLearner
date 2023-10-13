@@ -1,0 +1,11 @@
+*.json
+__pycache__
+*.o
+results-*/
+*.txt
+*output
+tempscripts/build
+
+!rootnode.txt
+!CMakeLists.txt
+!replacement.txt

@@ -1,0 +1,106 @@
+{
+    "0": {
+        "type": ["float", "double"],
+        "community": ["norm2u3.s", "norm2u3.r", "norm2u3.a", "norm2u3.dn", "norm2u3.rnm2"]
+    },
+    "1": {
+        "type": ["float", "double"],
+        "community": ["zran3.xx", "zran3.x1", "zran3.x0"]
+    },
+    "2": {
+        "type": ["float", "double"],
+        "community": [ "rprj3.x1", "rprj3.x2", "rprj3.r", "rprj3.s"]
+    },
+    "3": {
+        "type": ["float", "double"],
+        "community": ["power.a", "power.aj"]
+    },
+    "4": {
+        "type": ["float", "double"],
+        "community": ["bubble.temp"]
+    },
+    "5": {
+        "type": ["float", "double"],
+        "community": ["zran3.a", "zran3.a1", "zran3.a2", "zran3.ai"]
+    },
+    "6": {
+        "type": ["float", "double"],
+        "community": ["interp.z3", "interp.z2", "interp.z1", "interp.z", "interp.u"]
+    },
+    "7": {
+        "type": ["float", "double"],
+        "community": ["main.old2"]
+    },
+    "8": {
+        "type": ["float", "double"],
+        "community": ["comm3.u"]
+    },
+    "9": {
+        "type": ["float", "double"],
+        "community": ["psinv.r1", "psinv.r2", "psinv.c", "psinv.r", "psinv.u"]
+    },
+    "10": {
+        "type": ["float", "double"],
+        "community": ["zran3.z"]
+    },
+    "11": {
+        "type": ["float", "double"],
+        "community": ["main.rnmu", "main.oldu"]
+    },
+    "12": {
+        "type": ["float", "double"],
+        "community": ["main.nn"]
+    },
+    "13": {
+        "type": ["float", "double"],
+        "community": ["norm2u3.sqrt"]
+    },
+    "14": {
+        "type": ["float", "double"],
+        "community": ["main.a"]
+    },
+    "15": {
+        "type": ["float", "double"],
+        "community": ["mg3P.r", "mg3P.a", "mg3P.c", "mg3P.u", "mg3P.v"]
+    },
+    "16": {
+        "type": ["float", "double"],
+        "community": ["rep_nrm.rnm2", "rep_nrm.rnmu"]
+    },
+    "17": {
+        "type": ["float", "double"],
+        "community": ["zran3.best"]
+    },
+    "18": {
+        "type": ["float", "double"],
+        "community": ["showall.z"]
+    },
+    "19": {
+        "type": ["float", "double"],
+        "community": ["power.power"]
+    },
+    "20": {
+        "type": ["float", "double"],
+        "community": ["zero3.z"]
+    },
+    "21": {
+        "type": ["float", "double"],
+        "community": ["rprj3.y2", "rprj3.y1"]
+    },
+    "22": {
+        "type": ["float", "double"],
+        "community": ["zran3.rdummy"]
+    },
+    "23": {
+        "type": ["float", "double"],
+        "community": ["power.rdummy"]
+    },
+    "24": {
+        "type": ["float", "double"],
+        "community": ["main.rnm2"]
+    },
+    "25": {
+        "type": ["float", "double"],
+        "community": ["main.c"]
+    }
+}

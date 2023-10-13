@@ -1,0 +1,11 @@
+*.json
+__pycache__
+*.o
+results-*/
+*.txt
+lbm_s
+reference.dat
+
+!replacement.txt
+!rootnode.txt
+!config.json

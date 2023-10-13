@@ -1,0 +1,9 @@
+2023-03-01 15:13:31,038 Savedir: MixBench/error_allpurpose_root_AST_CFG_PDG_CAST_DEP
+2023-03-01 15:13:31,050 Test dataset size: 120
+2023-03-01 15:13:31,050 Split: 
+  test -> 120
+2023-03-01 15:13:31,051 Edges: ['AST', 'CFG', 'PDG', 'CAST', 'DEP']
+2023-03-01 15:13:32,777 Model (model/MixBench/error_allpurpose_root_AST_CFG_PDG_CAST_DEP/checkpoint.pt) is loaded.
+2023-03-01 15:13:33,911 ============> Testing mode start...
+2023-03-01 15:14:14,466 	 Test Loss: 1.850765 |  Test Acc: 96.875% |  Test Pre: 97.24% |  Test Rec: 96.82% |  Test Fsc: 97.03%
+2023-03-01 15:14:14,466 	 Acc0: 92.98% |  Acc1: 100.00% |  Pre0: 100.00% |  Pre1: 94.49% |  Rec0: 93.63% | Rec1: 100.00% 

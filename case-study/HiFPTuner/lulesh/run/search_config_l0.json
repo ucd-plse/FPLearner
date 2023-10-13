@@ -1,0 +1,1033 @@
+{
+    "0": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcElemVolume.z1",
+            "CalcElemVolume.dz14"
+        ]
+    },
+    "1": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcElemVolume.dz31",
+            "CalcElemVolume.z3"
+        ]
+    },
+    "2": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcElemVolume.z4",
+            "CalcElemVolume.dz43"
+        ]
+    },
+    "3": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcFBHourglassForceForElems.gamma",
+            "CalcFBHourglassForceForElems.hourmodx"
+        ]
+    },
+    "4": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcFBHourglassForceForElems.hourmody"
+        ]
+    },
+    "5": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcFBHourglassForceForElems.hourmodz"
+        ]
+    },
+    "6": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcMonotonicQGradientsForElems.dyi",
+            "CalcMonotonicQGradientsForElems.dyj",
+            "CalcMonotonicQGradientsForElems.dyk",
+            "CalcMonotonicQGradientsForElems.y5",
+            "CalcMonotonicQGradientsForElems.y4",
+            "CalcMonotonicQGradientsForElems.y7",
+            "CalcMonotonicQGradientsForElems.y6",
+            "CalcMonotonicQGradientsForElems.y1",
+            "CalcMonotonicQGradientsForElems.y0",
+            "CalcMonotonicQGradientsForElems.y3",
+            "CalcMonotonicQGradientsForElems.y2"
+        ]
+    },
+    "7": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcMonotonicQGradientsForElems.norm",
+            "CalcMonotonicQGradientsForElems.ay",
+            "CalcMonotonicQGradientsForElems.x3",
+            "CalcMonotonicQGradientsForElems.x2",
+            "CalcMonotonicQGradientsForElems.x0",
+            "CalcMonotonicQGradientsForElems.x1",
+            "CalcMonotonicQGradientsForElems.x6",
+            "CalcMonotonicQGradientsForElems.x7",
+            "CalcMonotonicQGradientsForElems.x4",
+            "CalcMonotonicQGradientsForElems.x5",
+            "CalcMonotonicQGradientsForElems.dxk",
+            "CalcMonotonicQGradientsForElems.dxj",
+            "CalcMonotonicQGradientsForElems.dxi",
+            "CalcMonotonicQGradientsForElems.ptiny",
+            "CalcMonotonicQGradientsForElems.az",
+            "CalcMonotonicQGradientsForElems.vol"
+        ]
+    },
+    "8": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcMonotonicQGradientsForElems.z0",
+            "CalcMonotonicQGradientsForElems.z1",
+            "CalcMonotonicQGradientsForElems.z3",
+            "CalcMonotonicQGradientsForElems.z4",
+            "CalcMonotonicQGradientsForElems.z5",
+            "CalcMonotonicQGradientsForElems.z6",
+            "CalcMonotonicQGradientsForElems.z7",
+            "CalcMonotonicQGradientsForElems.ax",
+            "CalcMonotonicQGradientsForElems.z2",
+            "CalcMonotonicQGradientsForElems.dzi",
+            "CalcMonotonicQGradientsForElems.dzk",
+            "CalcMonotonicQGradientsForElems.dzj"
+        ]
+    },
+    "9": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "AreaFace.fy",
+            "AreaFace.gy",
+            "AreaFace.y3",
+            "AreaFace.y2",
+            "AreaFace.y1",
+            "AreaFace.y0"
+        ]
+    },
+    "10": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "AreaFace.gx",
+            "AreaFace.gz",
+            "AreaFace.area",
+            "AreaFace.x1",
+            "AreaFace.x2",
+            "AreaFace.x3",
+            "AreaFace.x0",
+            "AreaFace.z2",
+            "AreaFace.z3",
+            "AreaFace.z0",
+            "AreaFace.z1",
+            "AreaFace.fz",
+            "AreaFace.fx"
+        ]
+    },
+    "11": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcElemCharacteristicLength.charLength"
+        ]
+    },
+    "12": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcEnergyForElems.vhalf",
+            "CalcEnergyForElems.rho0",
+            "CalcEnergyForElems.ssc"
+        ]
+    },
+    "13": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcEnergyForElems.q_tilde"
+        ]
+    },
+    "14": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcEnergyForElems.emin",
+            "CalcEnergyForElems.sixth"
+        ]
+    },
+    "15": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "EvalEOSForElems.vchalf"
+        ]
+    },
+    "16": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcKinematicsForElems.dt2",
+            "CalcKinematicsForElems.deltaTime"
+        ]
+    },
+    "17": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcElemShapeFunctionDerivatives.y",
+            "CalcElemShapeFunctionDerivatives.fjyet",
+            "CalcElemShapeFunctionDerivatives.y3",
+            "CalcElemShapeFunctionDerivatives.y2",
+            "CalcElemShapeFunctionDerivatives.y1",
+            "CalcElemShapeFunctionDerivatives.y0",
+            "CalcElemShapeFunctionDerivatives.y7",
+            "CalcElemShapeFunctionDerivatives.y6",
+            "CalcElemShapeFunctionDerivatives.y5",
+            "CalcElemShapeFunctionDerivatives.y4",
+            "CalcElemShapeFunctionDerivatives.fjyze",
+            "CalcElemShapeFunctionDerivatives.fjyxi"
+        ]
+    },
+    "18": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcCourantConstraintForElems.dtf",
+            "CalcCourantConstraintForElems.qqc2",
+            "CalcCourantConstraintForElems.qqc",
+            "CalcCourantConstraintForElems.dtcourant_tmp",
+            "CalcCourantConstraintForElems.dtcourant_per_thread"
+        ]
+    },
+    "19": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "SumElemFaceNormal.y3",
+            "SumElemFaceNormal.bisectY1",
+            "SumElemFaceNormal.y1"
+        ]
+    },
+    "20": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "SumElemFaceNormal.y0",
+            "SumElemFaceNormal.y2",
+            "SumElemFaceNormal.bisectY0"
+        ]
+    },
+    "21": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcElemVolume.dz25",
+            "CalcElemVolume.z2"
+        ]
+    },
+    "22": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcElemVolume.dz72",
+            "CalcElemVolume.z7"
+        ]
+    },
+    "23": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcElemVolume.z5",
+            "CalcElemVolume.dz57"
+        ]
+    },
+    "24": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcFBHourglassForceForElems.fz_tmp"
+        ]
+    },
+    "25": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "IntegrateStressForElems.fx_tmp"
+        ]
+    },
+    "26": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcFBHourglassForceForElems.fx_tmp"
+        ]
+    },
+    "27": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcFBHourglassForceForElems.volume13"
+        ]
+    },
+    "28": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcFBHourglassForceForElems.volinv"
+        ]
+    },
+    "29": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcFBHourglassForceForElems.ss1",
+            "CalcFBHourglassForceForElems.mass1",
+            "CalcFBHourglassForceForElems.coefficient",
+            "CalcFBHourglassForceForElems.hourg"
+        ]
+    },
+    "30": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcElemVolume.dy25",
+            "CalcElemVolume.y5"
+        ]
+    },
+    "31": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcElemVolume.dy57",
+            "CalcElemVolume.y7"
+        ]
+    },
+    "32": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcElemVolume.dy72",
+            "CalcElemVolume.y2"
+        ]
+    },
+    "33": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcElemVelocityGradient.zvel",
+            "CalcElemVelocityGradient.dzddy",
+            "CalcElemVelocityGradient.dzddx"
+        ]
+    },
+    "34": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcElemVelocityGradient.inv_detJ",
+            "CalcElemVelocityGradient.xvel",
+            "CalcElemVelocityGradient.dxddy",
+            "CalcElemVelocityGradient.d",
+            "CalcElemVelocityGradient.pfz",
+            "CalcElemVelocityGradient.pfy",
+            "CalcElemVelocityGradient.detJ",
+            "CalcElemVelocityGradient.dxddz"
+        ]
+    },
+    "35": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcElemVelocityGradient.pfx",
+            "CalcElemVelocityGradient.yvel",
+            "CalcElemVelocityGradient.dyddx",
+            "CalcElemVelocityGradient.dyddz"
+        ]
+    },
+    "36": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcElemCharacteristicLength.a"
+        ]
+    },
+    "37": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcMonotonicQGradientsForElems.zv7",
+            "CalcMonotonicQGradientsForElems.zv3",
+            "CalcMonotonicQGradientsForElems.zv2",
+            "CalcMonotonicQGradientsForElems.zv1",
+            "CalcMonotonicQGradientsForElems.zv0",
+            "CalcMonotonicQGradientsForElems.zv6",
+            "CalcMonotonicQGradientsForElems.zv4",
+            "CalcMonotonicQGradientsForElems.dzv",
+            "CalcMonotonicQGradientsForElems.zv5"
+        ]
+    },
+    "38": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcFBHourglassForceForElems.fy_tmp"
+        ]
+    },
+    "39": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "VoluDer.dvdx",
+            "VoluDer.y0",
+            "VoluDer.y1",
+            "VoluDer.y4",
+            "VoluDer.y5",
+            "VoluDer.z1",
+            "VoluDer.z0"
+        ]
+    },
+    "40": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "VoluDer.x2",
+            "VoluDer.x0",
+            "VoluDer.dvdy",
+            "VoluDer.z2",
+            "VoluDer.z3",
+            "VoluDer.z5",
+            "VoluDer.z4"
+        ]
+    },
+    "41": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "VoluDer.x3",
+            "VoluDer.x1",
+            "VoluDer.x5",
+            "VoluDer.x4",
+            "VoluDer.twelfth",
+            "VoluDer.dvdz",
+            "VoluDer.y2",
+            "VoluDer.y3"
+        ]
+    },
+    "42": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcElemShapeFunctionDerivatives.fjxze",
+            "CalcElemShapeFunctionDerivatives.x",
+            "CalcElemShapeFunctionDerivatives.x4",
+            "CalcElemShapeFunctionDerivatives.x5",
+            "CalcElemShapeFunctionDerivatives.x6",
+            "CalcElemShapeFunctionDerivatives.x7",
+            "CalcElemShapeFunctionDerivatives.x0",
+            "CalcElemShapeFunctionDerivatives.x1",
+            "CalcElemShapeFunctionDerivatives.x2",
+            "CalcElemShapeFunctionDerivatives.x3",
+            "CalcElemShapeFunctionDerivatives.fjxet",
+            "CalcElemShapeFunctionDerivatives.fjxxi"
+        ]
+    },
+    "43": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcMonotonicQRegionForElems.norm",
+            "CalcMonotonicQRegionForElems.ptiny"
+        ]
+    },
+    "44": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcMonotonicQRegionForElems.delvp",
+            "CalcMonotonicQRegionForElems.monoq_limiter_mult"
+        ]
+    },
+    "45": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcMonotonicQRegionForElems.delvxzeta",
+            "CalcMonotonicQRegionForElems.qlin",
+            "CalcMonotonicQRegionForElems.qquad",
+            "CalcMonotonicQRegionForElems.phizeta",
+            "CalcMonotonicQRegionForElems.phixi",
+            "CalcMonotonicQRegionForElems.qqc_monoq",
+            "CalcMonotonicQRegionForElems.rho",
+            "CalcMonotonicQRegionForElems.delvm",
+            "CalcMonotonicQRegionForElems.delvxxi",
+            "CalcMonotonicQRegionForElems.phieta",
+            "CalcMonotonicQRegionForElems.monoq_max_slope",
+            "CalcMonotonicQRegionForElems.delvxeta",
+            "CalcMonotonicQRegionForElems.qlc_monoq"
+        ]
+    },
+    "46": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "IntegrateStressForElems.fy_tmp"
+        ]
+    },
+    "47": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "SumElemFaceNormal.z1",
+            "SumElemFaceNormal.bisectZ0",
+            "SumElemFaceNormal.z3"
+        ]
+    },
+    "48": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "SumElemFaceNormal.bisectZ1",
+            "SumElemFaceNormal.z0",
+            "SumElemFaceNormal.z2"
+        ]
+    },
+    "49": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "SumElemFaceNormal.normalY2",
+            "SumElemFaceNormal.normalY3",
+            "SumElemFaceNormal.normalY0",
+            "SumElemFaceNormal.normalY1",
+            "SumElemFaceNormal.x0",
+            "SumElemFaceNormal.x3",
+            "SumElemFaceNormal.areaY",
+            "SumElemFaceNormal.x1",
+            "SumElemFaceNormal.bisectX0",
+            "SumElemFaceNormal.bisectX1",
+            "SumElemFaceNormal.x2"
+        ]
+    },
+    "50": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "SumElemFaceNormal.normalZ3",
+            "SumElemFaceNormal.normalZ1",
+            "SumElemFaceNormal.normalZ0",
+            "SumElemFaceNormal.areaZ",
+            "SumElemFaceNormal.normalZ2"
+        ]
+    },
+    "51": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "SumElemFaceNormal.areaX",
+            "SumElemFaceNormal.normalX1",
+            "SumElemFaceNormal.normalX0",
+            "SumElemFaceNormal.normalX3",
+            "SumElemFaceNormal.normalX2"
+        ]
+    },
+    "52": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "SumElemStressesToNodeForces.stress_xx"
+        ]
+    },
+    "53": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "SumElemStressesToNodeForces.stress_yy"
+        ]
+    },
+    "54": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "SumElemStressesToNodeForces.stress_zz"
+        ]
+    },
+    "55": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcPressureForElems.pbvc",
+            "CalcPressureForElems.c1s"
+        ]
+    },
+    "56": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcPressureForElems.bvc",
+            "CalcPressureForElems.compression"
+        ]
+    },
+    "57": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcPressureForElems.p_new",
+            "CalcPressureForElems.e_old",
+            "CalcPressureForElems.pmin"
+        ]
+    },
+    "58": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcHydroConstraintForElems.dtdvov",
+            "CalcHydroConstraintForElems.dthydro_tmp",
+            "CalcHydroConstraintForElems.dvovmax",
+            "CalcHydroConstraintForElems.dthydro_per_thread"
+        ]
+    },
+    "59": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcElemVolume.x5",
+            "CalcElemVolume.dx57"
+        ]
+    },
+    "60": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcElemVolume.x2",
+            "CalcElemVolume.dx25"
+        ]
+    },
+    "61": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcElemVolume.dx72",
+            "CalcElemVolume.x7"
+        ]
+    },
+    "62": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcKinematicsForElems.volume",
+            "CalcKinematicsForElems.relativeVolume"
+        ]
+    },
+    "63": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcElemVolume.dx14",
+            "CalcElemVolume.x4"
+        ]
+    },
+    "64": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcElemVolume.dx43",
+            "CalcElemVolume.x3"
+        ]
+    },
+    "65": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcElemVolume.dx31",
+            "CalcElemVolume.x1"
+        ]
+    },
+    "66": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "IntegrateStressForElems.fz_tmp"
+        ]
+    },
+    "67": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcVelocityForNodes.xdtmp",
+            "CalcVelocityForNodes.ydtmp",
+            "CalcVelocityForNodes.dt",
+            "CalcVelocityForNodes.zdtmp"
+        ]
+    },
+    "68": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcMonotonicQGradientsForElems.xv3",
+            "CalcMonotonicQGradientsForElems.xv1",
+            "CalcMonotonicQGradientsForElems.dxv",
+            "CalcMonotonicQGradientsForElems.xv0",
+            "CalcMonotonicQGradientsForElems.xv5",
+            "CalcMonotonicQGradientsForElems.xv4",
+            "CalcMonotonicQGradientsForElems.xv7",
+            "CalcMonotonicQGradientsForElems.xv6",
+            "CalcMonotonicQGradientsForElems.xv2"
+        ]
+    },
+    "69": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcMonotonicQGradientsForElems.yv4",
+            "CalcMonotonicQGradientsForElems.yv5",
+            "CalcMonotonicQGradientsForElems.yv6",
+            "CalcMonotonicQGradientsForElems.yv7",
+            "CalcMonotonicQGradientsForElems.yv0",
+            "CalcMonotonicQGradientsForElems.yv1",
+            "CalcMonotonicQGradientsForElems.yv2",
+            "CalcMonotonicQGradientsForElems.yv3",
+            "CalcMonotonicQGradientsForElems.dyv"
+        ]
+    },
+    "70": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcSoundSpeedForElems.ssTmp",
+            "CalcSoundSpeedForElems.vnewc",
+            "CalcSoundSpeedForElems.pnewc",
+            "CalcSoundSpeedForElems.bvc",
+            "CalcSoundSpeedForElems.rho0",
+            "CalcSoundSpeedForElems.enewc",
+            "CalcSoundSpeedForElems.pbvc"
+        ]
+    },
+    "71": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcElemShapeFunctionDerivatives.z4",
+            "CalcElemShapeFunctionDerivatives.z5",
+            "CalcElemShapeFunctionDerivatives.z2",
+            "CalcElemShapeFunctionDerivatives.z3",
+            "CalcElemShapeFunctionDerivatives.z0",
+            "CalcElemShapeFunctionDerivatives.fjzze",
+            "CalcElemShapeFunctionDerivatives.fjzxi",
+            "CalcElemShapeFunctionDerivatives.z",
+            "CalcElemShapeFunctionDerivatives.z6",
+            "CalcElemShapeFunctionDerivatives.z7",
+            "CalcElemShapeFunctionDerivatives.z1",
+            "CalcElemShapeFunctionDerivatives.fjzet"
+        ]
+    },
+    "72": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcElemShapeFunctionDerivatives.volume",
+            "CalcElemShapeFunctionDerivatives.b",
+            "CalcElemShapeFunctionDerivatives.cjyet",
+            "CalcElemShapeFunctionDerivatives.cjzze",
+            "CalcElemShapeFunctionDerivatives.cjxze",
+            "CalcElemShapeFunctionDerivatives.cjxxi",
+            "CalcElemShapeFunctionDerivatives.cjyxi",
+            "CalcElemShapeFunctionDerivatives.cjzet",
+            "CalcElemShapeFunctionDerivatives.cjyze",
+            "CalcElemShapeFunctionDerivatives.cjzxi",
+            "CalcElemShapeFunctionDerivatives.cjxet"
+        ]
+    },
+    "73": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcElemVolume.y1",
+            "CalcElemVolume.dy14"
+        ]
+    },
+    "74": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcElemVolume.dy31",
+            "CalcElemVolume.y3"
+        ]
+    },
+    "75": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcElemVolume.dy43",
+            "CalcElemVolume.y4"
+        ]
+    },
+    "76": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": [
+            "CalcElemVolume.dx61",
+            "CalcElemVolume.dz20",
+            "CalcElemVolume.y0",
+            "CalcElemVolume.y6",
+            "CalcElemVolume.dz70",
+            "CalcElemVolume.dy70",
+            "CalcElemVolume.dx70",
+            "CalcElemVolume.x6",
+            "CalcElemVolume.dz50",
+            "CalcElemVolume.dy50",
+            "CalcElemVolume.x0",
+            "CalcElemVolume.dx20",
+            "CalcElemVolume.dx50",
+            "CalcElemVolume.dy20",
+            "CalcElemVolume.z6",
+            "CalcElemVolume.z0",
+            "CalcElemVolume.twelveth",
+            "CalcElemVolume.dy63",
+            "CalcElemVolume.volume",
+            "CalcElemVolume.dx63",
+            "CalcElemVolume.dx64",
+            "CalcElemVolume.dy64",
+            "CalcElemVolume.dy61",
+            "CalcElemVolume.dz61",
+            "CalcElemVolume.dz63",
+            "CalcElemVolume.dz64"
+        ]
+    },
+    "77": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": ["CalcHourglassControlForElems.hgcoef"]
+    },
+    "78": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": ["CalcVolumeForceForElems.hgcoef"]
+    },
+    "79": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": ["CalcPositionForNodes.dt"]
+    },
+    "80": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": ["CalcKinematicsForElems.detJ"]
+    },
+    "81": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": ["CalcPressureForElems.vnewc",
+        "CalcPressureForElems.p_cut",
+        "CalcPressureForElems.eosvmax"
+    ]
+    },
+    "82": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": ["CalcEnergyForElems.pmin",
+        "CalcEnergyForElems.p_cut",
+        "CalcEnergyForElems.e_cut",
+        "CalcEnergyForElems.q_cut",
+        "CalcEnergyForElems.eosvmax"
+    ]
+    },
+    "83": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": ["EvalEOSForElems.e_cut",
+        "EvalEOSForElems.p_cut",
+        "EvalEOSForElems.ss4o3",
+        "EvalEOSForElems.q_cut",
+        "EvalEOSForElems.eosvmax",
+        "EvalEOSForElems.eosvmin",
+        "EvalEOSForElems.pmin",
+        "EvalEOSForElems.emin",
+        "EvalEOSForElems.rho0"
+    ]
+    },
+    "84": {
+        "type": [
+            "float",
+            "double"
+        ],
+        "community": ["UpdateVolumesForElems.v_cut",
+        "UpdateVolumesForElems.tmpV"
+    ]
+    }
+}

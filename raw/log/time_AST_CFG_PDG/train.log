@@ -1,0 +1,907 @@
+2023-02-08 10:20:14,402 Savedir: time_allpurpose_root_AST_CFG_PDG
+2023-02-08 10:20:14,414 Dataset size: 628
+2023-02-08 10:20:14,414 Split: 
+  train -> 439, val -> 62, test -> 127
+2023-02-08 10:20:14,415 Edges: ['AST', 'CFG', 'PDG']
+2023-02-08 10:20:16,118 ============> Training mode start...
+2023-02-08 10:24:15,233 	Train Loss: 10.868662 | Train Acc: 54.050% | Acc0: 24.55% |  Acc1: 83.56% 
+2023-02-08 10:24:47,739 	 Val. Loss: 10.697480 |  Val. Acc: 64.509% |  Val. Pre: 70.18% |  Val. Rec: 64.42% |  Val. Fsc: 67.18%
+2023-02-08 10:24:47,742 	 Acc0: 41.94% |  Acc1: 87.10% |  Pre0: 80.42% |  Pre1: 59.94% |  Rec0: 42.14% | Rec1: 86.71% 
+2023-02-08 10:24:47,754 Epoch: 01 | Epoch Time: 4m 31s
+2023-02-08 10:24:47,754 Validation loss decreased (inf --> 10.697480).  Saving model ...
+2023-02-08 10:28:47,013 	Train Loss: 10.846361 | Train Acc: 51.881% | Acc0: 5.45% |  Acc1: 97.72% 
+2023-02-08 10:29:19,691 	 Val. Loss: 10.677520 |  Val. Acc: 64.732% |  Val. Pre: 73.28% |  Val. Rec: 64.56% |  Val. Fsc: 68.65%
+2023-02-08 10:29:19,692 	 Acc0: 35.48% |  Acc1: 93.55% |  Pre0: 87.50% |  Pre1: 59.06% |  Rec0: 36.07% | Rec1: 93.06% 
+2023-02-08 10:29:19,703 Epoch: 02 | Epoch Time: 4m 31s
+2023-02-08 10:29:19,703 Validation loss decreased (10.697480 --> 10.677520).  Saving model ...
+2023-02-08 10:33:16,554 	Train Loss: 10.794441 | Train Acc: 64.987% | Acc0: 45.45% |  Acc1: 84.93% 
+2023-02-08 10:33:48,583 	 Val. Loss: 10.642806 |  Val. Acc: 62.946% |  Val. Pre: 72.62% |  Val. Rec: 62.78% |  Val. Fsc: 67.34%
+2023-02-08 10:33:48,583 	 Acc0: 32.26% |  Acc1: 93.55% |  Pre0: 87.50% |  Pre1: 57.74% |  Rec0: 32.50% | Rec1: 93.06% 
+2023-02-08 10:33:48,595 Epoch: 03 | Epoch Time: 4m 28s
+2023-02-08 10:33:48,595 Validation loss decreased (10.677520 --> 10.642806).  Saving model ...
+2023-02-08 10:37:16,274 	Train Loss: 10.740713 | Train Acc: 57.621% | Acc0: 75.45% |  Acc1: 39.73% 
+2023-02-08 10:37:37,509 	 Val. Loss: 10.583976 |  Val. Acc: 76.116% |  Val. Pre: 79.46% |  Val. Rec: 75.46% |  Val. Fsc: 77.41%
+2023-02-08 10:37:37,509 	 Acc0: 58.06% |  Acc1: 93.55% |  Pre0: 90.18% |  Pre1: 68.75% |  Rec0: 57.86% | Rec1: 93.06% 
+2023-02-08 10:37:37,520 Epoch: 04 | Epoch Time: 3m 48s
+2023-02-08 10:37:37,520 Validation loss decreased (10.642806 --> 10.583976).  Saving model ...
+2023-02-08 10:40:14,264 	Train Loss: 10.674675 | Train Acc: 67.347% | Acc0: 40.45% |  Acc1: 93.61% 
+2023-02-08 10:40:35,612 	 Val. Loss: 10.475471 |  Val. Acc: 71.205% |  Val. Pre: 71.62% |  Val. Rec: 71.29% |  Val. Fsc: 71.45%
+2023-02-08 10:40:35,613 	 Acc0: 61.29% |  Acc1: 80.65% |  Pre0: 75.60% |  Pre1: 67.64% |  Rec0: 61.43% | Rec1: 81.15% 
+2023-02-08 10:40:35,624 Epoch: 05 | Epoch Time: 2m 58s
+2023-02-08 10:40:35,624 Validation loss decreased (10.583976 --> 10.475471).  Saving model ...
+2023-02-08 10:43:14,437 	Train Loss: 10.514630 | Train Acc: 67.570% | Acc0: 77.73% |  Acc1: 56.62% 
+2023-02-08 10:43:36,080 	 Val. Loss: 10.351087 |  Val. Acc: 70.982% |  Val. Pre: 81.46% |  Val. Rec: 70.54% |  Val. Fsc: 75.61%
+2023-02-08 10:43:36,080 	 Acc0: 41.94% |  Acc1: 100.00% |  Pre0: 100.00% |  Pre1: 62.92% |  Rec0: 41.07% | Rec1: 100.00% 
+2023-02-08 10:43:36,091 Epoch: 06 | Epoch Time: 3m 0s
+2023-02-08 10:43:36,091 Validation loss decreased (10.475471 --> 10.351087).  Saving model ...
+2023-02-08 10:46:13,946 	Train Loss: 10.260583 | Train Acc: 59.981% | Acc0: 60.45% |  Acc1: 58.45% 
+2023-02-08 10:46:35,189 	 Val. Loss: 9.965492 |  Val. Acc: 75.893% |  Val. Pre: 81.80% |  Val. Rec: 75.60% |  Val. Fsc: 78.57%
+2023-02-08 10:46:35,189 	 Acc0: 54.84% |  Acc1: 96.77% |  Pre0: 95.83% |  Pre1: 67.76% |  Rec0: 55.36% | Rec1: 95.83% 
+2023-02-08 10:46:35,200 Epoch: 07 | Epoch Time: 2m 59s
+2023-02-08 10:46:35,200 Validation loss decreased (10.351087 --> 9.965492).  Saving model ...
+2023-02-08 10:49:12,743 	Train Loss: 9.794641 | Train Acc: 67.921% | Acc0: 64.55% |  Acc1: 73.52% 
+2023-02-08 10:49:34,165 	 Val. Loss: 9.280440 |  Val. Acc: 68.080% |  Val. Pre: 68.37% |  Val. Rec: 66.98% |  Val. Fsc: 67.67%
+2023-02-08 10:49:34,165 	 Acc0: 67.74% |  Acc1: 67.74% |  Pre0: 68.89% |  Pre1: 67.86% |  Rec0: 67.50% | Rec1: 66.47% 
+2023-02-08 10:49:34,177 Epoch: 08 | Epoch Time: 2m 58s
+2023-02-08 10:49:34,177 Validation loss decreased (9.965492 --> 9.280440).  Saving model ...
+2023-02-08 10:52:14,788 	Train Loss: 8.816809 | Train Acc: 74.713% | Acc0: 62.73% |  Acc1: 86.30% 
+2023-02-08 10:52:36,088 	 Val. Loss: 9.150001 |  Val. Acc: 59.821% |  Val. Pre: 63.89% |  Val. Rec: 59.21% |  Val. Fsc: 61.46%
+2023-02-08 10:52:36,088 	 Acc0: 80.65% |  Acc1: 38.71% |  Pre0: 56.00% |  Pre1: 71.79% |  Rec0: 80.71% | Rec1: 37.70% 
+2023-02-08 10:52:36,101 Epoch: 09 | Epoch Time: 3m 1s
+2023-02-08 10:52:36,101 Validation loss decreased (9.280440 --> 9.150001).  Saving model ...
+2023-02-08 10:55:13,728 	Train Loss: 8.924248 | Train Acc: 70.982% | Acc0: 67.73% |  Acc1: 73.06% 
+2023-02-08 10:55:35,090 	 Val. Loss: 8.540687 |  Val. Acc: 75.893% |  Val. Pre: 77.89% |  Val. Rec: 75.46% |  Val. Fsc: 76.65%
+2023-02-08 10:55:35,090 	 Acc0: 61.29% |  Acc1: 90.32% |  Pre0: 86.01% |  Pre1: 69.76% |  Rec0: 61.43% | Rec1: 89.48% 
+2023-02-08 10:55:35,101 Epoch: 10 | Epoch Time: 2m 58s
+2023-02-08 10:55:35,101 Validation loss decreased (9.150001 --> 8.540687).  Saving model ...
+2023-02-08 10:58:14,465 	Train Loss: 8.379031 | Train Acc: 73.980% | Acc0: 57.27% |  Acc1: 90.87% 
+2023-02-08 10:58:35,650 	 Val. Loss: 8.838437 |  Val. Acc: 64.955% |  Val. Pre: 66.71% |  Val. Rec: 64.17% |  Val. Fsc: 65.42%
+2023-02-08 10:58:35,650 	 Acc0: 80.65% |  Acc1: 48.39% |  Pre0: 60.30% |  Pre1: 73.12% |  Rec0: 80.71% | Rec1: 47.62% 
+2023-02-08 10:58:35,661 Epoch: 11 | Epoch Time: 3m 0s
+2023-02-08 10:58:35,661 EarlyStopping counter: 1 out of 30
+2023-02-08 11:01:13,449 	Train Loss: 8.437387 | Train Acc: 72.927% | Acc0: 63.64% |  Acc1: 81.74% 
+2023-02-08 11:01:34,663 	 Val. Loss: 8.306445 |  Val. Acc: 75.893% |  Val. Pre: 79.34% |  Val. Rec: 75.46% |  Val. Fsc: 77.35%
+2023-02-08 11:01:34,664 	 Acc0: 58.06% |  Acc1: 93.55% |  Pre0: 90.18% |  Pre1: 68.51% |  Rec0: 57.86% | Rec1: 93.06% 
+2023-02-08 11:01:34,675 Epoch: 12 | Epoch Time: 2m 59s
+2023-02-08 11:01:34,675 Validation loss decreased (8.540687 --> 8.306445).  Saving model ...
+2023-02-08 11:04:13,164 	Train Loss: 8.151499 | Train Acc: 75.478% | Acc0: 57.27% |  Acc1: 94.52% 
+2023-02-08 11:04:34,450 	 Val. Loss: 8.226048 |  Val. Acc: 75.893% |  Val. Pre: 79.34% |  Val. Rec: 75.46% |  Val. Fsc: 77.35%
+2023-02-08 11:04:34,450 	 Acc0: 58.06% |  Acc1: 93.55% |  Pre0: 90.18% |  Pre1: 68.51% |  Rec0: 57.86% | Rec1: 93.06% 
+2023-02-08 11:04:34,462 Epoch: 13 | Epoch Time: 2m 59s
+2023-02-08 11:04:34,462 Validation loss decreased (8.306445 --> 8.226048).  Saving model ...
+2023-02-08 11:07:12,975 	Train Loss: 7.930581 | Train Acc: 75.096% | Acc0: 62.73% |  Acc1: 87.67% 
+2023-02-08 11:07:34,530 	 Val. Loss: 8.105056 |  Val. Acc: 75.893% |  Val. Pre: 79.34% |  Val. Rec: 75.46% |  Val. Fsc: 77.35%
+2023-02-08 11:07:34,530 	 Acc0: 58.06% |  Acc1: 93.55% |  Pre0: 90.18% |  Pre1: 68.51% |  Rec0: 57.86% | Rec1: 93.06% 
+2023-02-08 11:07:34,541 Epoch: 14 | Epoch Time: 3m 0s
+2023-02-08 11:07:34,541 Validation loss decreased (8.226048 --> 8.105056).  Saving model ...
+2023-02-08 11:10:13,148 	Train Loss: 7.828222 | Train Acc: 75.606% | Acc0: 56.82% |  Acc1: 94.06% 
+2023-02-08 11:10:34,766 	 Val. Loss: 8.050102 |  Val. Acc: 75.893% |  Val. Pre: 79.34% |  Val. Rec: 75.46% |  Val. Fsc: 77.35%
+2023-02-08 11:10:34,766 	 Acc0: 58.06% |  Acc1: 93.55% |  Pre0: 90.18% |  Pre1: 68.51% |  Rec0: 57.86% | Rec1: 93.06% 
+2023-02-08 11:10:34,777 Epoch: 15 | Epoch Time: 3m 0s
+2023-02-08 11:10:34,777 Validation loss decreased (8.105056 --> 8.050102).  Saving model ...
+2023-02-08 11:13:13,761 	Train Loss: 7.960489 | Train Acc: 75.989% | Acc0: 56.82% |  Acc1: 95.43% 
+2023-02-08 11:13:35,112 	 Val. Loss: 7.809625 |  Val. Acc: 77.679% |  Val. Pre: 80.32% |  Val. Rec: 77.24% |  Val. Fsc: 78.75%
+2023-02-08 11:13:35,112 	 Acc0: 61.29% |  Acc1: 93.55% |  Pre0: 90.18% |  Pre1: 70.45% |  Rec0: 61.43% | Rec1: 93.06% 
+2023-02-08 11:13:35,122 Epoch: 16 | Epoch Time: 3m 0s
+2023-02-08 11:13:35,122 Validation loss decreased (8.050102 --> 7.809625).  Saving model ...
+2023-02-08 11:16:13,563 	Train Loss: 7.749846 | Train Acc: 76.276% | Acc0: 56.82% |  Acc1: 95.43% 
+2023-02-08 11:16:34,826 	 Val. Loss: 7.721229 |  Val. Acc: 77.679% |  Val. Pre: 80.32% |  Val. Rec: 77.24% |  Val. Fsc: 78.75%
+2023-02-08 11:16:34,826 	 Acc0: 61.29% |  Acc1: 93.55% |  Pre0: 90.18% |  Pre1: 70.45% |  Rec0: 61.43% | Rec1: 93.06% 
+2023-02-08 11:16:34,838 Epoch: 17 | Epoch Time: 2m 59s
+2023-02-08 11:16:34,838 Validation loss decreased (7.809625 --> 7.721229).  Saving model ...
+2023-02-08 11:19:13,325 	Train Loss: 7.575159 | Train Acc: 77.168% | Acc0: 59.09% |  Acc1: 94.98% 
+2023-02-08 11:19:34,701 	 Val. Loss: 8.009524 |  Val. Acc: 77.455% |  Val. Pre: 82.79% |  Val. Rec: 76.85% |  Val. Fsc: 79.71%
+2023-02-08 11:19:34,701 	 Acc0: 58.06% |  Acc1: 96.77% |  Pre0: 96.43% |  Pre1: 69.15% |  Rec0: 57.86% | Rec1: 95.83% 
+2023-02-08 11:19:34,713 Epoch: 18 | Epoch Time: 2m 59s
+2023-02-08 11:19:34,713 EarlyStopping counter: 1 out of 30
+2023-02-08 11:22:12,497 	Train Loss: 7.630774 | Train Acc: 76.212% | Acc0: 61.36% |  Acc1: 91.32% 
+2023-02-08 11:22:33,861 	 Val. Loss: 7.784877 |  Val. Acc: 75.893% |  Val. Pre: 79.34% |  Val. Rec: 75.46% |  Val. Fsc: 77.35%
+2023-02-08 11:22:33,862 	 Acc0: 58.06% |  Acc1: 93.55% |  Pre0: 90.18% |  Pre1: 68.51% |  Rec0: 57.86% | Rec1: 93.06% 
+2023-02-08 11:22:33,873 Epoch: 19 | Epoch Time: 2m 59s
+2023-02-08 11:22:33,873 EarlyStopping counter: 2 out of 30
+2023-02-08 11:25:11,153 	Train Loss: 7.590681 | Train Acc: 77.679% | Acc0: 58.64% |  Acc1: 95.89% 
+2023-02-08 11:25:32,275 	 Val. Loss: 7.516664 |  Val. Acc: 77.679% |  Val. Pre: 80.32% |  Val. Rec: 77.24% |  Val. Fsc: 78.75%
+2023-02-08 11:25:32,275 	 Acc0: 61.29% |  Acc1: 93.55% |  Pre0: 90.18% |  Pre1: 70.45% |  Rec0: 61.43% | Rec1: 93.06% 
+2023-02-08 11:25:32,286 Epoch: 20 | Epoch Time: 2m 58s
+2023-02-08 11:25:32,286 Validation loss decreased (7.721229 --> 7.516664).  Saving model ...
+2023-02-08 11:28:09,602 	Train Loss: 7.572470 | Train Acc: 76.562% | Acc0: 57.27% |  Acc1: 94.98% 
+2023-02-08 11:28:31,052 	 Val. Loss: 7.489292 |  Val. Acc: 79.464% |  Val. Pre: 81.53% |  Val. Rec: 79.03% |  Val. Fsc: 80.26%
+2023-02-08 11:28:31,053 	 Acc0: 64.52% |  Acc1: 93.55% |  Pre0: 90.18% |  Pre1: 72.89% |  Rec0: 65.00% | Rec1: 93.06% 
+2023-02-08 11:28:31,064 Epoch: 21 | Epoch Time: 2m 58s
+2023-02-08 11:28:31,064 Validation loss decreased (7.516664 --> 7.489292).  Saving model ...
+2023-02-08 11:31:09,590 	Train Loss: 7.575682 | Train Acc: 77.902% | Acc0: 60.00% |  Acc1: 94.98% 
+2023-02-08 11:31:30,671 	 Val. Loss: 7.736332 |  Val. Acc: 79.241% |  Val. Pre: 80.61% |  Val. Rec: 78.49% |  Val. Fsc: 79.54%
+2023-02-08 11:31:30,671 	 Acc0: 67.74% |  Acc1: 90.32% |  Pre0: 87.05% |  Pre1: 74.17% |  Rec0: 67.50% | Rec1: 89.48% 
+2023-02-08 11:31:30,682 Epoch: 22 | Epoch Time: 2m 59s
+2023-02-08 11:31:30,682 EarlyStopping counter: 1 out of 30
+2023-02-08 11:34:09,168 	Train Loss: 7.510976 | Train Acc: 76.945% | Acc0: 58.64% |  Acc1: 94.98% 
+2023-02-08 11:34:30,339 	 Val. Loss: 7.373679 |  Val. Acc: 75.893% |  Val. Pre: 79.34% |  Val. Rec: 75.46% |  Val. Fsc: 77.35%
+2023-02-08 11:34:30,339 	 Acc0: 58.06% |  Acc1: 93.55% |  Pre0: 90.18% |  Pre1: 68.51% |  Rec0: 57.86% | Rec1: 93.06% 
+2023-02-08 11:34:30,350 Epoch: 23 | Epoch Time: 2m 59s
+2023-02-08 11:34:30,350 Validation loss decreased (7.489292 --> 7.373679).  Saving model ...
+2023-02-08 11:37:07,972 	Train Loss: 7.408957 | Train Acc: 77.105% | Acc0: 59.09% |  Acc1: 95.43% 
+2023-02-08 11:37:29,117 	 Val. Loss: 7.302498 |  Val. Acc: 75.893% |  Val. Pre: 79.34% |  Val. Rec: 75.46% |  Val. Fsc: 77.35%
+2023-02-08 11:37:29,117 	 Acc0: 58.06% |  Acc1: 93.55% |  Pre0: 90.18% |  Pre1: 68.51% |  Rec0: 57.86% | Rec1: 93.06% 
+2023-02-08 11:37:29,128 Epoch: 24 | Epoch Time: 2m 58s
+2023-02-08 11:37:29,128 Validation loss decreased (7.373679 --> 7.302498).  Saving model ...
+2023-02-08 11:40:06,756 	Train Loss: 7.387720 | Train Acc: 77.232% | Acc0: 59.09% |  Acc1: 94.52% 
+2023-02-08 11:40:28,024 	 Val. Loss: 7.263862 |  Val. Acc: 79.464% |  Val. Pre: 81.53% |  Val. Rec: 79.03% |  Val. Fsc: 80.26%
+2023-02-08 11:40:28,024 	 Acc0: 64.52% |  Acc1: 93.55% |  Pre0: 90.18% |  Pre1: 72.89% |  Rec0: 65.00% | Rec1: 93.06% 
+2023-02-08 11:40:28,035 Epoch: 25 | Epoch Time: 2m 58s
+2023-02-08 11:40:28,036 Validation loss decreased (7.302498 --> 7.263862).  Saving model ...
+2023-02-08 11:43:06,603 	Train Loss: 7.439348 | Train Acc: 74.585% | Acc0: 60.91% |  Acc1: 89.04% 
+2023-02-08 11:43:28,012 	 Val. Loss: 7.289605 |  Val. Acc: 77.679% |  Val. Pre: 80.32% |  Val. Rec: 77.24% |  Val. Fsc: 78.75%
+2023-02-08 11:43:28,012 	 Acc0: 61.29% |  Acc1: 93.55% |  Pre0: 90.18% |  Pre1: 70.45% |  Rec0: 61.43% | Rec1: 93.06% 
+2023-02-08 11:43:28,023 Epoch: 26 | Epoch Time: 2m 59s
+2023-02-08 11:43:28,023 EarlyStopping counter: 1 out of 30
+2023-02-08 11:46:08,853 	Train Loss: 7.376003 | Train Acc: 75.415% | Acc0: 57.27% |  Acc1: 94.98% 
+2023-02-08 11:46:30,861 	 Val. Loss: 7.206322 |  Val. Acc: 79.464% |  Val. Pre: 81.53% |  Val. Rec: 79.03% |  Val. Fsc: 80.26%
+2023-02-08 11:46:30,861 	 Acc0: 64.52% |  Acc1: 93.55% |  Pre0: 90.18% |  Pre1: 72.89% |  Rec0: 65.00% | Rec1: 93.06% 
+2023-02-08 11:46:30,872 Epoch: 27 | Epoch Time: 3m 2s
+2023-02-08 11:46:30,872 Validation loss decreased (7.263862 --> 7.206322).  Saving model ...
+2023-02-08 11:49:10,855 	Train Loss: 7.102175 | Train Acc: 76.881% | Acc0: 59.55% |  Acc1: 94.52% 
+2023-02-08 11:49:32,317 	 Val. Loss: 8.104351 |  Val. Acc: 69.643% |  Val. Pre: 71.04% |  Val. Rec: 69.29% |  Val. Fsc: 70.15%
+2023-02-08 11:49:32,317 	 Acc0: 83.87% |  Acc1: 54.84% |  Pre0: 65.00% |  Pre1: 77.08% |  Rec0: 83.21% | Rec1: 55.36% 
+2023-02-08 11:49:32,328 Epoch: 28 | Epoch Time: 3m 1s
+2023-02-08 11:49:32,328 EarlyStopping counter: 1 out of 30
+2023-02-08 11:52:11,050 	Train Loss: 7.404184 | Train Acc: 77.168% | Acc0: 65.00% |  Acc1: 89.04% 
+2023-02-08 11:52:32,511 	 Val. Loss: 7.310317 |  Val. Acc: 81.027% |  Val. Pre: 82.62% |  Val. Rec: 80.28% |  Val. Fsc: 81.43%
+2023-02-08 11:52:32,512 	 Acc0: 67.74% |  Acc1: 93.55% |  Pre0: 90.62% |  Pre1: 74.62% |  Rec0: 67.50% | Rec1: 93.06% 
+2023-02-08 11:52:32,523 Epoch: 29 | Epoch Time: 3m 0s
+2023-02-08 11:52:32,523 EarlyStopping counter: 2 out of 30
+2023-02-08 11:55:11,291 	Train Loss: 7.325870 | Train Acc: 77.105% | Acc0: 59.55% |  Acc1: 94.98% 
+2023-02-08 11:55:32,615 	 Val. Loss: 7.115605 |  Val. Acc: 77.679% |  Val. Pre: 80.32% |  Val. Rec: 77.24% |  Val. Fsc: 78.75%
+2023-02-08 11:55:32,615 	 Acc0: 61.29% |  Acc1: 93.55% |  Pre0: 90.18% |  Pre1: 70.45% |  Rec0: 61.43% | Rec1: 93.06% 
+2023-02-08 11:55:32,626 Epoch: 30 | Epoch Time: 3m 0s
+2023-02-08 11:55:32,626 Validation loss decreased (7.206322 --> 7.115605).  Saving model ...
+2023-02-08 11:58:10,955 	Train Loss: 7.024290 | Train Acc: 78.508% | Acc0: 61.82% |  Acc1: 94.98% 
+2023-02-08 11:58:32,354 	 Val. Loss: 7.299264 |  Val. Acc: 81.027% |  Val. Pre: 82.62% |  Val. Rec: 80.28% |  Val. Fsc: 81.43%
+2023-02-08 11:58:32,355 	 Acc0: 67.74% |  Acc1: 93.55% |  Pre0: 90.62% |  Pre1: 74.62% |  Rec0: 67.50% | Rec1: 93.06% 
+2023-02-08 11:58:32,364 Epoch: 31 | Epoch Time: 2m 59s
+2023-02-08 11:58:32,364 EarlyStopping counter: 1 out of 30
+2023-02-08 12:01:10,773 	Train Loss: 7.092981 | Train Acc: 76.977% | Acc0: 60.00% |  Acc1: 95.43% 
+2023-02-08 12:01:32,167 	 Val. Loss: 7.461186 |  Val. Acc: 82.366% |  Val. Pre: 82.91% |  Val. Rec: 81.23% |  Val. Fsc: 82.06%
+2023-02-08 12:01:32,167 	 Acc0: 77.42% |  Acc1: 87.10% |  Pre0: 87.26% |  Pre1: 78.55% |  Rec0: 77.14% | Rec1: 85.32% 
+2023-02-08 12:01:32,178 Epoch: 32 | Epoch Time: 2m 59s
+2023-02-08 12:01:32,178 EarlyStopping counter: 2 out of 30
+2023-02-08 12:04:10,405 	Train Loss: 7.231489 | Train Acc: 78.061% | Acc0: 60.45% |  Acc1: 95.43% 
+2023-02-08 12:04:31,900 	 Val. Loss: 7.402054 |  Val. Acc: 81.027% |  Val. Pre: 82.62% |  Val. Rec: 80.28% |  Val. Fsc: 81.43%
+2023-02-08 12:04:31,900 	 Acc0: 67.74% |  Acc1: 93.55% |  Pre0: 90.62% |  Pre1: 74.62% |  Rec0: 67.50% | Rec1: 93.06% 
+2023-02-08 12:04:31,911 Epoch: 33 | Epoch Time: 2m 59s
+2023-02-08 12:04:31,911 EarlyStopping counter: 3 out of 30
+2023-02-08 12:07:09,561 	Train Loss: 7.126750 | Train Acc: 78.221% | Acc0: 61.82% |  Acc1: 94.98% 
+2023-02-08 12:07:31,392 	 Val. Loss: 7.007140 |  Val. Acc: 77.679% |  Val. Pre: 80.32% |  Val. Rec: 77.24% |  Val. Fsc: 78.75%
+2023-02-08 12:07:31,393 	 Acc0: 61.29% |  Acc1: 93.55% |  Pre0: 90.18% |  Pre1: 70.45% |  Rec0: 61.43% | Rec1: 93.06% 
+2023-02-08 12:07:31,404 Epoch: 34 | Epoch Time: 2m 59s
+2023-02-08 12:07:31,404 Validation loss decreased (7.115605 --> 7.007140).  Saving model ...
+2023-02-08 12:10:09,990 	Train Loss: 7.015250 | Train Acc: 78.667% | Acc0: 61.82% |  Acc1: 95.89% 
+2023-02-08 12:10:31,480 	 Val. Loss: 7.001495 |  Val. Acc: 79.464% |  Val. Pre: 81.53% |  Val. Rec: 79.03% |  Val. Fsc: 80.26%
+2023-02-08 12:10:31,481 	 Acc0: 64.52% |  Acc1: 93.55% |  Pre0: 90.18% |  Pre1: 72.89% |  Rec0: 65.00% | Rec1: 93.06% 
+2023-02-08 12:10:31,492 Epoch: 35 | Epoch Time: 3m 0s
+2023-02-08 12:10:31,493 Validation loss decreased (7.007140 --> 7.001495).  Saving model ...
+2023-02-08 12:13:10,171 	Train Loss: 7.034851 | Train Acc: 78.571% | Acc0: 60.45% |  Acc1: 95.89% 
+2023-02-08 12:13:31,687 	 Val. Loss: 6.993323 |  Val. Acc: 81.027% |  Val. Pre: 82.62% |  Val. Rec: 80.28% |  Val. Fsc: 81.43%
+2023-02-08 12:13:31,687 	 Acc0: 67.74% |  Acc1: 93.55% |  Pre0: 90.62% |  Pre1: 74.62% |  Rec0: 67.50% | Rec1: 93.06% 
+2023-02-08 12:13:31,701 Epoch: 36 | Epoch Time: 3m 0s
+2023-02-08 12:13:31,701 Validation loss decreased (7.001495 --> 6.993323).  Saving model ...
+2023-02-08 12:16:10,155 	Train Loss: 6.907614 | Train Acc: 78.667% | Acc0: 62.73% |  Acc1: 94.98% 
+2023-02-08 12:16:31,526 	 Val. Loss: 6.939291 |  Val. Acc: 77.679% |  Val. Pre: 80.32% |  Val. Rec: 77.24% |  Val. Fsc: 78.75%
+2023-02-08 12:16:31,526 	 Acc0: 61.29% |  Acc1: 93.55% |  Pre0: 90.18% |  Pre1: 70.45% |  Rec0: 61.43% | Rec1: 93.06% 
+2023-02-08 12:16:31,537 Epoch: 37 | Epoch Time: 2m 59s
+2023-02-08 12:16:31,537 Validation loss decreased (6.993323 --> 6.939291).  Saving model ...
+2023-02-08 12:19:10,203 	Train Loss: 6.876044 | Train Acc: 78.571% | Acc0: 60.45% |  Acc1: 95.89% 
+2023-02-08 12:19:31,641 	 Val. Loss: 6.864397 |  Val. Acc: 79.464% |  Val. Pre: 81.53% |  Val. Rec: 79.03% |  Val. Fsc: 80.26%
+2023-02-08 12:19:31,642 	 Acc0: 64.52% |  Acc1: 93.55% |  Pre0: 90.18% |  Pre1: 72.89% |  Rec0: 65.00% | Rec1: 93.06% 
+2023-02-08 12:19:31,653 Epoch: 38 | Epoch Time: 3m 0s
+2023-02-08 12:19:31,653 Validation loss decreased (6.939291 --> 6.864397).  Saving model ...
+2023-02-08 12:22:10,189 	Train Loss: 7.023217 | Train Acc: 77.392% | Acc0: 60.91% |  Acc1: 93.61% 
+2023-02-08 12:22:31,575 	 Val. Loss: 6.980181 |  Val. Acc: 81.027% |  Val. Pre: 82.62% |  Val. Rec: 80.28% |  Val. Fsc: 81.43%
+2023-02-08 12:22:31,575 	 Acc0: 67.74% |  Acc1: 93.55% |  Pre0: 90.62% |  Pre1: 74.62% |  Rec0: 67.50% | Rec1: 93.06% 
+2023-02-08 12:22:31,586 Epoch: 39 | Epoch Time: 2m 59s
+2023-02-08 12:22:31,586 EarlyStopping counter: 1 out of 30
+2023-02-08 12:25:09,812 	Train Loss: 6.935382 | Train Acc: 78.731% | Acc0: 61.82% |  Acc1: 95.43% 
+2023-02-08 12:25:31,259 	 Val. Loss: 6.862777 |  Val. Acc: 77.679% |  Val. Pre: 80.32% |  Val. Rec: 77.24% |  Val. Fsc: 78.75%
+2023-02-08 12:25:31,259 	 Acc0: 61.29% |  Acc1: 93.55% |  Pre0: 90.18% |  Pre1: 70.45% |  Rec0: 61.43% | Rec1: 93.06% 
+2023-02-08 12:25:31,271 Epoch: 40 | Epoch Time: 2m 59s
+2023-02-08 12:25:31,271 Validation loss decreased (6.864397 --> 6.862777).  Saving model ...
+2023-02-08 12:28:09,617 	Train Loss: 6.785081 | Train Acc: 79.241% | Acc0: 61.36% |  Acc1: 96.35% 
+2023-02-08 12:28:30,894 	 Val. Loss: 6.863970 |  Val. Acc: 77.679% |  Val. Pre: 80.32% |  Val. Rec: 77.24% |  Val. Fsc: 78.75%
+2023-02-08 12:28:30,894 	 Acc0: 61.29% |  Acc1: 93.55% |  Pre0: 90.18% |  Pre1: 70.45% |  Rec0: 61.43% | Rec1: 93.06% 
+2023-02-08 12:28:30,905 Epoch: 41 | Epoch Time: 2m 59s
+2023-02-08 12:28:30,905 EarlyStopping counter: 1 out of 30
+2023-02-08 12:31:09,140 	Train Loss: 6.797630 | Train Acc: 79.241% | Acc0: 60.91% |  Acc1: 96.80% 
+2023-02-08 12:31:30,462 	 Val. Loss: 6.857197 |  Val. Acc: 81.027% |  Val. Pre: 82.62% |  Val. Rec: 80.28% |  Val. Fsc: 81.43%
+2023-02-08 12:31:30,462 	 Acc0: 67.74% |  Acc1: 93.55% |  Pre0: 90.62% |  Pre1: 74.62% |  Rec0: 67.50% | Rec1: 93.06% 
+2023-02-08 12:31:30,473 Epoch: 42 | Epoch Time: 2m 59s
+2023-02-08 12:31:30,473 Validation loss decreased (6.862777 --> 6.857197).  Saving model ...
+2023-02-08 12:34:09,144 	Train Loss: 6.704341 | Train Acc: 79.624% | Acc0: 63.18% |  Acc1: 95.89% 
+2023-02-08 12:34:30,602 	 Val. Loss: 6.753994 |  Val. Acc: 81.027% |  Val. Pre: 82.62% |  Val. Rec: 80.28% |  Val. Fsc: 81.43%
+2023-02-08 12:34:30,602 	 Acc0: 67.74% |  Acc1: 93.55% |  Pre0: 90.62% |  Pre1: 74.62% |  Rec0: 67.50% | Rec1: 93.06% 
+2023-02-08 12:34:30,613 Epoch: 43 | Epoch Time: 3m 0s
+2023-02-08 12:34:30,613 Validation loss decreased (6.857197 --> 6.753994).  Saving model ...
+2023-02-08 12:37:32,415 	Train Loss: 6.880009 | Train Acc: 78.380% | Acc0: 62.27% |  Acc1: 95.43% 
+2023-02-08 12:37:53,876 	 Val. Loss: 6.833746 |  Val. Acc: 81.027% |  Val. Pre: 82.62% |  Val. Rec: 80.28% |  Val. Fsc: 81.43%
+2023-02-08 12:37:53,877 	 Acc0: 67.74% |  Acc1: 93.55% |  Pre0: 90.62% |  Pre1: 74.62% |  Rec0: 67.50% | Rec1: 93.06% 
+2023-02-08 12:37:53,888 Epoch: 44 | Epoch Time: 3m 23s
+2023-02-08 12:37:53,888 EarlyStopping counter: 1 out of 30
+2023-02-08 12:40:32,282 	Train Loss: 6.724984 | Train Acc: 80.134% | Acc0: 61.82% |  Acc1: 97.72% 
+2023-02-08 12:40:53,781 	 Val. Loss: 7.224334 |  Val. Acc: 80.804% |  Val. Pre: 81.90% |  Val. Rec: 79.74% |  Val. Fsc: 80.81%
+2023-02-08 12:40:53,781 	 Acc0: 70.97% |  Acc1: 90.32% |  Pre0: 87.40% |  Pre1: 76.41% |  Rec0: 70.00% | Rec1: 89.48% 
+2023-02-08 12:40:53,792 Epoch: 45 | Epoch Time: 2m 59s
+2023-02-08 12:40:53,792 EarlyStopping counter: 2 out of 30
+2023-02-08 12:43:32,857 	Train Loss: 6.783671 | Train Acc: 78.221% | Acc0: 60.45% |  Acc1: 96.35% 
+2023-02-08 12:43:54,206 	 Val. Loss: 7.056137 |  Val. Acc: 81.027% |  Val. Pre: 82.62% |  Val. Rec: 80.28% |  Val. Fsc: 81.43%
+2023-02-08 12:43:54,206 	 Acc0: 67.74% |  Acc1: 93.55% |  Pre0: 90.62% |  Pre1: 74.62% |  Rec0: 67.50% | Rec1: 93.06% 
+2023-02-08 12:43:54,217 Epoch: 46 | Epoch Time: 3m 0s
+2023-02-08 12:43:54,217 EarlyStopping counter: 3 out of 30
+2023-02-08 12:46:32,737 	Train Loss: 6.876902 | Train Acc: 81.122% | Acc0: 66.82% |  Acc1: 95.89% 
+2023-02-08 12:46:54,280 	 Val. Loss: 6.801386 |  Val. Acc: 79.241% |  Val. Pre: 81.41% |  Val. Rec: 78.49% |  Val. Fsc: 79.92%
+2023-02-08 12:46:54,280 	 Acc0: 64.52% |  Acc1: 93.55% |  Pre0: 90.62% |  Pre1: 72.19% |  Rec0: 63.93% | Rec1: 93.06% 
+2023-02-08 12:46:54,292 Epoch: 47 | Epoch Time: 3m 0s
+2023-02-08 12:46:54,292 EarlyStopping counter: 4 out of 30
+2023-02-08 12:49:32,657 	Train Loss: 6.612942 | Train Acc: 79.114% | Acc0: 63.18% |  Acc1: 95.43% 
+2023-02-08 12:49:54,120 	 Val. Loss: 6.634047 |  Val. Acc: 79.241% |  Val. Pre: 81.41% |  Val. Rec: 78.49% |  Val. Fsc: 79.92%
+2023-02-08 12:49:54,120 	 Acc0: 64.52% |  Acc1: 93.55% |  Pre0: 90.62% |  Pre1: 72.19% |  Rec0: 63.93% | Rec1: 93.06% 
+2023-02-08 12:49:54,131 Epoch: 48 | Epoch Time: 2m 59s
+2023-02-08 12:49:54,131 Validation loss decreased (6.753994 --> 6.634047).  Saving model ...
+2023-02-08 12:52:32,613 	Train Loss: 6.610237 | Train Acc: 78.380% | Acc0: 60.91% |  Acc1: 96.80% 
+2023-02-08 12:52:54,120 	 Val. Loss: 6.669211 |  Val. Acc: 79.241% |  Val. Pre: 81.41% |  Val. Rec: 78.49% |  Val. Fsc: 79.92%
+2023-02-08 12:52:54,120 	 Acc0: 64.52% |  Acc1: 93.55% |  Pre0: 90.62% |  Pre1: 72.19% |  Rec0: 63.93% | Rec1: 93.06% 
+2023-02-08 12:52:54,132 Epoch: 49 | Epoch Time: 2m 59s
+2023-02-08 12:52:54,132 EarlyStopping counter: 1 out of 30
+2023-02-08 12:55:33,076 	Train Loss: 6.707964 | Train Acc: 77.615% | Acc0: 66.36% |  Acc1: 88.58% 
+2023-02-08 12:55:54,624 	 Val. Loss: 6.890923 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 12:55:54,624 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 12:55:54,635 Epoch: 50 | Epoch Time: 3m 0s
+2023-02-08 12:55:54,635 EarlyStopping counter: 2 out of 30
+2023-02-08 12:58:33,050 	Train Loss: 6.697042 | Train Acc: 78.284% | Acc0: 60.45% |  Acc1: 95.89% 
+2023-02-08 12:58:54,476 	 Val. Loss: 6.789505 |  Val. Acc: 81.027% |  Val. Pre: 82.62% |  Val. Rec: 80.28% |  Val. Fsc: 81.43%
+2023-02-08 12:58:54,476 	 Acc0: 67.74% |  Acc1: 93.55% |  Pre0: 90.62% |  Pre1: 74.62% |  Rec0: 67.50% | Rec1: 93.06% 
+2023-02-08 12:58:54,486 Epoch: 51 | Epoch Time: 2m 59s
+2023-02-08 12:58:54,487 EarlyStopping counter: 3 out of 30
+2023-02-08 13:01:32,408 	Train Loss: 6.575273 | Train Acc: 78.667% | Acc0: 61.82% |  Acc1: 95.89% 
+2023-02-08 13:01:53,868 	 Val. Loss: 6.685943 |  Val. Acc: 79.241% |  Val. Pre: 81.41% |  Val. Rec: 78.49% |  Val. Fsc: 79.92%
+2023-02-08 13:01:53,868 	 Acc0: 64.52% |  Acc1: 93.55% |  Pre0: 90.62% |  Pre1: 72.19% |  Rec0: 63.93% | Rec1: 93.06% 
+2023-02-08 13:01:53,880 Epoch: 52 | Epoch Time: 2m 59s
+2023-02-08 13:01:53,880 EarlyStopping counter: 4 out of 30
+2023-02-08 13:04:32,215 	Train Loss: 6.609914 | Train Acc: 79.624% | Acc0: 61.82% |  Acc1: 97.26% 
+2023-02-08 13:04:53,561 	 Val. Loss: 6.700924 |  Val. Acc: 79.241% |  Val. Pre: 81.41% |  Val. Rec: 78.49% |  Val. Fsc: 79.92%
+2023-02-08 13:04:53,561 	 Acc0: 64.52% |  Acc1: 93.55% |  Pre0: 90.62% |  Pre1: 72.19% |  Rec0: 63.93% | Rec1: 93.06% 
+2023-02-08 13:04:53,571 Epoch: 53 | Epoch Time: 2m 59s
+2023-02-08 13:04:53,572 EarlyStopping counter: 5 out of 30
+2023-02-08 13:07:31,333 	Train Loss: 6.549406 | Train Acc: 79.496% | Acc0: 63.64% |  Acc1: 96.35% 
+2023-02-08 13:07:52,902 	 Val. Loss: 6.654173 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 13:07:52,903 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 13:07:52,913 Epoch: 54 | Epoch Time: 2m 59s
+2023-02-08 13:07:52,913 EarlyStopping counter: 6 out of 30
+2023-02-08 13:10:31,731 	Train Loss: 6.465462 | Train Acc: 79.050% | Acc0: 63.18% |  Acc1: 95.89% 
+2023-02-08 13:10:53,129 	 Val. Loss: 6.602544 |  Val. Acc: 79.241% |  Val. Pre: 81.41% |  Val. Rec: 78.49% |  Val. Fsc: 79.92%
+2023-02-08 13:10:53,129 	 Acc0: 64.52% |  Acc1: 93.55% |  Pre0: 90.62% |  Pre1: 72.19% |  Rec0: 63.93% | Rec1: 93.06% 
+2023-02-08 13:10:53,140 Epoch: 55 | Epoch Time: 3m 0s
+2023-02-08 13:10:53,140 Validation loss decreased (6.634047 --> 6.602544).  Saving model ...
+2023-02-08 13:13:32,273 	Train Loss: 6.481479 | Train Acc: 79.050% | Acc0: 62.73% |  Acc1: 96.35% 
+2023-02-08 13:13:53,719 	 Val. Loss: 6.670691 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 13:13:53,719 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 13:13:53,731 Epoch: 56 | Epoch Time: 3m 0s
+2023-02-08 13:13:53,731 EarlyStopping counter: 1 out of 30
+2023-02-08 13:16:32,295 	Train Loss: 6.509337 | Train Acc: 80.517% | Acc0: 65.00% |  Acc1: 95.89% 
+2023-02-08 13:16:53,717 	 Val. Loss: 6.552386 |  Val. Acc: 79.241% |  Val. Pre: 81.41% |  Val. Rec: 78.49% |  Val. Fsc: 79.92%
+2023-02-08 13:16:53,717 	 Acc0: 64.52% |  Acc1: 93.55% |  Pre0: 90.62% |  Pre1: 72.19% |  Rec0: 63.93% | Rec1: 93.06% 
+2023-02-08 13:16:53,729 Epoch: 57 | Epoch Time: 2m 59s
+2023-02-08 13:16:53,729 Validation loss decreased (6.602544 --> 6.552386).  Saving model ...
+2023-02-08 13:19:33,522 	Train Loss: 6.431557 | Train Acc: 79.337% | Acc0: 62.73% |  Acc1: 96.35% 
+2023-02-08 13:19:54,953 	 Val. Loss: 6.746672 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 13:19:54,954 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 13:19:54,965 Epoch: 58 | Epoch Time: 3m 1s
+2023-02-08 13:19:54,965 EarlyStopping counter: 1 out of 30
+2023-02-08 13:22:34,109 	Train Loss: 6.516759 | Train Acc: 80.293% | Acc0: 65.00% |  Acc1: 95.43% 
+2023-02-08 13:22:55,636 	 Val. Loss: 6.641969 |  Val. Acc: 79.241% |  Val. Pre: 81.41% |  Val. Rec: 78.49% |  Val. Fsc: 79.92%
+2023-02-08 13:22:55,636 	 Acc0: 64.52% |  Acc1: 93.55% |  Pre0: 90.62% |  Pre1: 72.19% |  Rec0: 63.93% | Rec1: 93.06% 
+2023-02-08 13:22:55,646 Epoch: 59 | Epoch Time: 3m 0s
+2023-02-08 13:22:55,647 EarlyStopping counter: 2 out of 30
+2023-02-08 13:25:34,068 	Train Loss: 6.504920 | Train Acc: 80.006% | Acc0: 64.55% |  Acc1: 95.89% 
+2023-02-08 13:25:55,428 	 Val. Loss: 6.628441 |  Val. Acc: 79.241% |  Val. Pre: 81.41% |  Val. Rec: 78.49% |  Val. Fsc: 79.92%
+2023-02-08 13:25:55,428 	 Acc0: 64.52% |  Acc1: 93.55% |  Pre0: 90.62% |  Pre1: 72.19% |  Rec0: 63.93% | Rec1: 93.06% 
+2023-02-08 13:25:55,439 Epoch: 60 | Epoch Time: 2m 59s
+2023-02-08 13:25:55,439 EarlyStopping counter: 3 out of 30
+2023-02-08 13:28:33,981 	Train Loss: 6.460548 | Train Acc: 79.401% | Acc0: 62.73% |  Acc1: 95.89% 
+2023-02-08 13:28:55,237 	 Val. Loss: 6.735340 |  Val. Acc: 79.241% |  Val. Pre: 81.41% |  Val. Rec: 78.49% |  Val. Fsc: 79.92%
+2023-02-08 13:28:55,238 	 Acc0: 64.52% |  Acc1: 93.55% |  Pre0: 90.62% |  Pre1: 72.19% |  Rec0: 63.93% | Rec1: 93.06% 
+2023-02-08 13:28:55,250 Epoch: 61 | Epoch Time: 2m 59s
+2023-02-08 13:28:55,250 EarlyStopping counter: 4 out of 30
+2023-02-08 13:31:35,188 	Train Loss: 6.280880 | Train Acc: 81.250% | Acc0: 65.45% |  Acc1: 96.35% 
+2023-02-08 13:31:56,767 	 Val. Loss: 6.591871 |  Val. Acc: 79.241% |  Val. Pre: 81.41% |  Val. Rec: 78.49% |  Val. Fsc: 79.92%
+2023-02-08 13:31:56,768 	 Acc0: 64.52% |  Acc1: 93.55% |  Pre0: 90.62% |  Pre1: 72.19% |  Rec0: 63.93% | Rec1: 93.06% 
+2023-02-08 13:31:56,779 Epoch: 62 | Epoch Time: 3m 1s
+2023-02-08 13:31:56,780 EarlyStopping counter: 5 out of 30
+2023-02-08 13:34:35,446 	Train Loss: 6.249988 | Train Acc: 79.847% | Acc0: 62.73% |  Acc1: 96.80% 
+2023-02-08 13:34:56,857 	 Val. Loss: 6.541911 |  Val. Acc: 79.241% |  Val. Pre: 81.41% |  Val. Rec: 78.49% |  Val. Fsc: 79.92%
+2023-02-08 13:34:56,857 	 Acc0: 64.52% |  Acc1: 93.55% |  Pre0: 90.62% |  Pre1: 72.19% |  Rec0: 63.93% | Rec1: 93.06% 
+2023-02-08 13:34:56,870 Epoch: 63 | Epoch Time: 3m 0s
+2023-02-08 13:34:56,871 Validation loss decreased (6.552386 --> 6.541911).  Saving model ...
+2023-02-08 13:37:36,673 	Train Loss: 6.273436 | Train Acc: 81.250% | Acc0: 65.45% |  Acc1: 96.35% 
+2023-02-08 13:37:58,855 	 Val. Loss: 6.691740 |  Val. Acc: 77.455% |  Val. Pre: 78.98% |  Val. Rec: 76.71% |  Val. Fsc: 77.83%
+2023-02-08 13:37:58,855 	 Acc0: 64.52% |  Acc1: 90.32% |  Pre0: 86.46% |  Pre1: 71.50% |  Rec0: 63.93% | Rec1: 89.48% 
+2023-02-08 13:37:58,869 Epoch: 64 | Epoch Time: 3m 1s
+2023-02-08 13:37:58,869 EarlyStopping counter: 1 out of 30
+2023-02-08 13:40:43,925 	Train Loss: 6.392022 | Train Acc: 80.453% | Acc0: 64.09% |  Acc1: 97.26% 
+2023-02-08 13:41:06,074 	 Val. Loss: 6.685999 |  Val. Acc: 81.027% |  Val. Pre: 82.62% |  Val. Rec: 80.28% |  Val. Fsc: 81.43%
+2023-02-08 13:41:06,075 	 Acc0: 67.74% |  Acc1: 93.55% |  Pre0: 90.62% |  Pre1: 74.62% |  Rec0: 67.50% | Rec1: 93.06% 
+2023-02-08 13:41:06,086 Epoch: 65 | Epoch Time: 3m 7s
+2023-02-08 13:41:06,087 EarlyStopping counter: 2 out of 30
+2023-02-08 13:44:02,065 	Train Loss: 6.450774 | Train Acc: 80.357% | Acc0: 64.09% |  Acc1: 95.89% 
+2023-02-08 13:44:34,774 	 Val. Loss: 6.591731 |  Val. Acc: 81.027% |  Val. Pre: 82.62% |  Val. Rec: 80.28% |  Val. Fsc: 81.43%
+2023-02-08 13:44:34,774 	 Acc0: 67.74% |  Acc1: 93.55% |  Pre0: 90.62% |  Pre1: 74.62% |  Rec0: 67.50% | Rec1: 93.06% 
+2023-02-08 13:44:34,786 Epoch: 66 | Epoch Time: 3m 28s
+2023-02-08 13:44:34,787 EarlyStopping counter: 3 out of 30
+2023-02-08 13:47:51,841 	Train Loss: 6.357007 | Train Acc: 80.006% | Acc0: 64.09% |  Acc1: 96.35% 
+2023-02-08 13:48:13,301 	 Val. Loss: 6.736734 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 13:48:13,301 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 13:48:13,312 Epoch: 67 | Epoch Time: 3m 38s
+2023-02-08 13:48:13,312 EarlyStopping counter: 4 out of 30
+2023-02-08 13:50:51,667 	Train Loss: 6.460811 | Train Acc: 80.357% | Acc0: 65.91% |  Acc1: 94.06% 
+2023-02-08 13:51:13,617 	 Val. Loss: 6.705927 |  Val. Acc: 79.241% |  Val. Pre: 81.41% |  Val. Rec: 78.49% |  Val. Fsc: 79.92%
+2023-02-08 13:51:13,618 	 Acc0: 64.52% |  Acc1: 93.55% |  Pre0: 90.62% |  Pre1: 72.19% |  Rec0: 63.93% | Rec1: 93.06% 
+2023-02-08 13:51:13,629 Epoch: 68 | Epoch Time: 3m 0s
+2023-02-08 13:51:13,629 EarlyStopping counter: 5 out of 30
+2023-02-08 13:53:55,496 	Train Loss: 6.499553 | Train Acc: 79.624% | Acc0: 64.09% |  Acc1: 94.98% 
+2023-02-08 13:54:17,443 	 Val. Loss: 6.628754 |  Val. Acc: 79.241% |  Val. Pre: 81.41% |  Val. Rec: 78.49% |  Val. Fsc: 79.92%
+2023-02-08 13:54:17,443 	 Acc0: 64.52% |  Acc1: 93.55% |  Pre0: 90.62% |  Pre1: 72.19% |  Rec0: 63.93% | Rec1: 93.06% 
+2023-02-08 13:54:17,454 Epoch: 69 | Epoch Time: 3m 3s
+2023-02-08 13:54:17,454 EarlyStopping counter: 6 out of 30
+2023-02-08 13:56:56,806 	Train Loss: 6.366453 | Train Acc: 80.517% | Acc0: 63.64% |  Acc1: 97.26% 
+2023-02-08 13:57:18,271 	 Val. Loss: 6.500958 |  Val. Acc: 79.241% |  Val. Pre: 81.41% |  Val. Rec: 78.49% |  Val. Fsc: 79.92%
+2023-02-08 13:57:18,271 	 Acc0: 64.52% |  Acc1: 93.55% |  Pre0: 90.62% |  Pre1: 72.19% |  Rec0: 63.93% | Rec1: 93.06% 
+2023-02-08 13:57:18,283 Epoch: 70 | Epoch Time: 3m 0s
+2023-02-08 13:57:18,283 Validation loss decreased (6.541911 --> 6.500958).  Saving model ...
+2023-02-08 14:00:38,193 	Train Loss: 6.319171 | Train Acc: 79.560% | Acc0: 64.09% |  Acc1: 95.43% 
+2023-02-08 14:01:10,781 	 Val. Loss: 6.525469 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 14:01:10,781 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 14:01:10,793 Epoch: 71 | Epoch Time: 3m 52s
+2023-02-08 14:01:10,793 EarlyStopping counter: 1 out of 30
+2023-02-08 14:05:12,347 	Train Loss: 6.206899 | Train Acc: 80.230% | Acc0: 64.09% |  Acc1: 96.80% 
+2023-02-08 14:05:45,123 	 Val. Loss: 6.636508 |  Val. Acc: 79.241% |  Val. Pre: 81.41% |  Val. Rec: 78.49% |  Val. Fsc: 79.92%
+2023-02-08 14:05:45,123 	 Acc0: 64.52% |  Acc1: 93.55% |  Pre0: 90.62% |  Pre1: 72.19% |  Rec0: 63.93% | Rec1: 93.06% 
+2023-02-08 14:05:45,135 Epoch: 72 | Epoch Time: 4m 34s
+2023-02-08 14:05:45,135 EarlyStopping counter: 2 out of 30
+2023-02-08 14:09:46,376 	Train Loss: 6.320686 | Train Acc: 80.676% | Acc0: 65.91% |  Acc1: 95.89% 
+2023-02-08 14:10:19,091 	 Val. Loss: 6.488396 |  Val. Acc: 79.241% |  Val. Pre: 81.41% |  Val. Rec: 78.49% |  Val. Fsc: 79.92%
+2023-02-08 14:10:19,091 	 Acc0: 64.52% |  Acc1: 93.55% |  Pre0: 90.62% |  Pre1: 72.19% |  Rec0: 63.93% | Rec1: 93.06% 
+2023-02-08 14:10:19,102 Epoch: 73 | Epoch Time: 4m 33s
+2023-02-08 14:10:19,102 Validation loss decreased (6.500958 --> 6.488396).  Saving model ...
+2023-02-08 14:14:21,941 	Train Loss: 6.257352 | Train Acc: 80.804% | Acc0: 65.00% |  Acc1: 95.89% 
+2023-02-08 14:14:54,993 	 Val. Loss: 6.472700 |  Val. Acc: 79.241% |  Val. Pre: 81.41% |  Val. Rec: 78.49% |  Val. Fsc: 79.92%
+2023-02-08 14:14:54,994 	 Acc0: 64.52% |  Acc1: 93.55% |  Pre0: 90.62% |  Pre1: 72.19% |  Rec0: 63.93% | Rec1: 93.06% 
+2023-02-08 14:14:55,003 Epoch: 74 | Epoch Time: 4m 35s
+2023-02-08 14:14:55,003 Validation loss decreased (6.488396 --> 6.472700).  Saving model ...
+2023-02-08 14:18:57,997 	Train Loss: 6.169572 | Train Acc: 80.963% | Acc0: 65.45% |  Acc1: 96.35% 
+2023-02-08 14:19:30,707 	 Val. Loss: 6.510071 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 14:19:30,707 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 14:19:30,718 Epoch: 75 | Epoch Time: 4m 35s
+2023-02-08 14:19:30,718 EarlyStopping counter: 1 out of 30
+2023-02-08 14:23:31,983 	Train Loss: 6.245545 | Train Acc: 81.346% | Acc0: 69.09% |  Acc1: 94.06% 
+2023-02-08 14:24:05,545 	 Val. Loss: 6.728999 |  Val. Acc: 79.241% |  Val. Pre: 81.41% |  Val. Rec: 78.49% |  Val. Fsc: 79.92%
+2023-02-08 14:24:05,545 	 Acc0: 64.52% |  Acc1: 93.55% |  Pre0: 90.62% |  Pre1: 72.19% |  Rec0: 63.93% | Rec1: 93.06% 
+2023-02-08 14:24:05,557 Epoch: 76 | Epoch Time: 4m 34s
+2023-02-08 14:24:05,557 EarlyStopping counter: 2 out of 30
+2023-02-08 14:28:05,147 	Train Loss: 6.673028 | Train Acc: 79.337% | Acc0: 63.18% |  Acc1: 95.89% 
+2023-02-08 14:28:26,567 	 Val. Loss: 7.006702 |  Val. Acc: 79.241% |  Val. Pre: 80.61% |  Val. Rec: 78.49% |  Val. Fsc: 79.54%
+2023-02-08 14:28:26,567 	 Acc0: 67.74% |  Acc1: 90.32% |  Pre0: 87.05% |  Pre1: 74.17% |  Rec0: 67.50% | Rec1: 89.48% 
+2023-02-08 14:28:26,578 Epoch: 77 | Epoch Time: 4m 21s
+2023-02-08 14:28:26,578 EarlyStopping counter: 3 out of 30
+2023-02-08 14:31:05,415 	Train Loss: 6.365506 | Train Acc: 80.963% | Acc0: 65.00% |  Acc1: 96.80% 
+2023-02-08 14:31:26,847 	 Val. Loss: 6.493940 |  Val. Acc: 79.241% |  Val. Pre: 81.41% |  Val. Rec: 78.49% |  Val. Fsc: 79.92%
+2023-02-08 14:31:26,848 	 Acc0: 64.52% |  Acc1: 93.55% |  Pre0: 90.62% |  Pre1: 72.19% |  Rec0: 63.93% | Rec1: 93.06% 
+2023-02-08 14:31:26,859 Epoch: 78 | Epoch Time: 3m 0s
+2023-02-08 14:31:26,859 EarlyStopping counter: 4 out of 30
+2023-02-08 14:34:05,750 	Train Loss: 6.208942 | Train Acc: 82.239% | Acc0: 68.64% |  Acc1: 96.35% 
+2023-02-08 14:34:27,241 	 Val. Loss: 7.069914 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 14:34:27,241 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 14:34:27,253 Epoch: 79 | Epoch Time: 3m 0s
+2023-02-08 14:34:27,253 EarlyStopping counter: 5 out of 30
+2023-02-08 14:37:06,262 	Train Loss: 6.479309 | Train Acc: 81.027% | Acc0: 64.55% |  Acc1: 96.80% 
+2023-02-08 14:37:27,658 	 Val. Loss: 6.521263 |  Val. Acc: 79.241% |  Val. Pre: 81.41% |  Val. Rec: 78.49% |  Val. Fsc: 79.92%
+2023-02-08 14:37:27,658 	 Acc0: 64.52% |  Acc1: 93.55% |  Pre0: 90.62% |  Pre1: 72.19% |  Rec0: 63.93% | Rec1: 93.06% 
+2023-02-08 14:37:27,669 Epoch: 80 | Epoch Time: 3m 0s
+2023-02-08 14:37:27,669 EarlyStopping counter: 6 out of 30
+2023-02-08 14:40:06,447 	Train Loss: 6.139316 | Train Acc: 81.920% | Acc0: 67.73% |  Acc1: 95.43% 
+2023-02-08 14:40:27,876 	 Val. Loss: 6.702165 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 14:40:27,877 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 14:40:27,887 Epoch: 81 | Epoch Time: 3m 0s
+2023-02-08 14:40:27,888 EarlyStopping counter: 7 out of 30
+2023-02-08 14:43:06,572 	Train Loss: 6.207016 | Train Acc: 82.143% | Acc0: 66.36% |  Acc1: 97.26% 
+2023-02-08 14:43:28,077 	 Val. Loss: 6.466898 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 14:43:28,077 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 14:43:28,088 Epoch: 82 | Epoch Time: 3m 0s
+2023-02-08 14:43:28,088 Validation loss decreased (6.472700 --> 6.466898).  Saving model ...
+2023-02-08 14:46:29,546 	Train Loss: 6.218032 | Train Acc: 81.409% | Acc0: 65.45% |  Acc1: 97.26% 
+2023-02-08 14:46:59,814 	 Val. Loss: 6.507826 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 14:46:59,814 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 14:46:59,825 Epoch: 83 | Epoch Time: 3m 31s
+2023-02-08 14:46:59,825 EarlyStopping counter: 1 out of 30
+2023-02-08 14:51:01,298 	Train Loss: 6.215984 | Train Acc: 82.079% | Acc0: 67.73% |  Acc1: 96.35% 
+2023-02-08 14:51:34,004 	 Val. Loss: 6.467428 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 14:51:34,004 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 14:51:34,015 Epoch: 84 | Epoch Time: 4m 34s
+2023-02-08 14:51:34,015 EarlyStopping counter: 2 out of 30
+2023-02-08 14:55:36,248 	Train Loss: 6.186269 | Train Acc: 80.389% | Acc0: 66.82% |  Acc1: 94.98% 
+2023-02-08 14:56:08,908 	 Val. Loss: 6.556267 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 14:56:08,908 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 14:56:08,920 Epoch: 85 | Epoch Time: 4m 34s
+2023-02-08 14:56:08,921 EarlyStopping counter: 3 out of 30
+2023-02-08 14:59:12,354 	Train Loss: 6.176276 | Train Acc: 81.186% | Acc0: 63.64% |  Acc1: 98.63% 
+2023-02-08 14:59:33,926 	 Val. Loss: 6.597478 |  Val. Acc: 77.455% |  Val. Pre: 78.98% |  Val. Rec: 76.71% |  Val. Fsc: 77.83%
+2023-02-08 14:59:33,926 	 Acc0: 64.52% |  Acc1: 90.32% |  Pre0: 86.46% |  Pre1: 71.50% |  Rec0: 63.93% | Rec1: 89.48% 
+2023-02-08 14:59:33,937 Epoch: 86 | Epoch Time: 3m 25s
+2023-02-08 14:59:33,937 EarlyStopping counter: 4 out of 30
+2023-02-08 15:02:13,064 	Train Loss: 6.245541 | Train Acc: 79.656% | Acc0: 65.91% |  Acc1: 94.98% 
+2023-02-08 15:02:34,478 	 Val. Loss: 6.393841 |  Val. Acc: 79.241% |  Val. Pre: 81.41% |  Val. Rec: 78.49% |  Val. Fsc: 79.92%
+2023-02-08 15:02:34,478 	 Acc0: 64.52% |  Acc1: 93.55% |  Pre0: 90.62% |  Pre1: 72.19% |  Rec0: 63.93% | Rec1: 93.06% 
+2023-02-08 15:02:34,489 Epoch: 87 | Epoch Time: 3m 0s
+2023-02-08 15:02:34,489 Validation loss decreased (6.466898 --> 6.393841).  Saving model ...
+2023-02-08 15:05:16,431 	Train Loss: 6.056388 | Train Acc: 80.325% | Acc0: 66.36% |  Acc1: 95.89% 
+2023-02-08 15:05:37,892 	 Val. Loss: 6.451828 |  Val. Acc: 79.018% |  Val. Pre: 82.42% |  Val. Rec: 78.10% |  Val. Fsc: 80.20%
+2023-02-08 15:05:37,892 	 Acc0: 64.52% |  Acc1: 93.55% |  Pre0: 92.71% |  Pre1: 72.14% |  Rec0: 63.93% | Rec1: 92.26% 
+2023-02-08 15:05:37,906 Epoch: 88 | Epoch Time: 3m 3s
+2023-02-08 15:05:37,907 EarlyStopping counter: 1 out of 30
+2023-02-08 15:08:16,034 	Train Loss: 5.954153 | Train Acc: 81.346% | Acc0: 67.27% |  Acc1: 95.89% 
+2023-02-08 15:08:37,472 	 Val. Loss: 6.386515 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 15:08:37,472 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 15:08:37,484 Epoch: 89 | Epoch Time: 2m 59s
+2023-02-08 15:08:37,484 Validation loss decreased (6.393841 --> 6.386515).  Saving model ...
+2023-02-08 15:11:18,814 	Train Loss: 5.977076 | Train Acc: 82.812% | Acc0: 67.27% |  Acc1: 97.72% 
+2023-02-08 15:11:40,111 	 Val. Loss: 6.583945 |  Val. Acc: 81.027% |  Val. Pre: 82.62% |  Val. Rec: 80.28% |  Val. Fsc: 81.43%
+2023-02-08 15:11:40,111 	 Acc0: 67.74% |  Acc1: 93.55% |  Pre0: 90.62% |  Pre1: 74.62% |  Rec0: 67.50% | Rec1: 93.06% 
+2023-02-08 15:11:40,123 Epoch: 90 | Epoch Time: 3m 2s
+2023-02-08 15:11:40,123 EarlyStopping counter: 1 out of 30
+2023-02-08 15:14:20,347 	Train Loss: 6.050038 | Train Acc: 81.409% | Acc0: 67.73% |  Acc1: 94.98% 
+2023-02-08 15:14:41,958 	 Val. Loss: 6.371386 |  Val. Acc: 79.241% |  Val. Pre: 81.41% |  Val. Rec: 78.49% |  Val. Fsc: 79.92%
+2023-02-08 15:14:41,959 	 Acc0: 64.52% |  Acc1: 93.55% |  Pre0: 90.62% |  Pre1: 72.19% |  Rec0: 63.93% | Rec1: 93.06% 
+2023-02-08 15:14:41,970 Epoch: 91 | Epoch Time: 3m 1s
+2023-02-08 15:14:41,970 Validation loss decreased (6.386515 --> 6.371386).  Saving model ...
+2023-02-08 15:17:24,030 	Train Loss: 5.879610 | Train Acc: 81.059% | Acc0: 67.73% |  Acc1: 95.43% 
+2023-02-08 15:17:45,585 	 Val. Loss: 6.451808 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 15:17:45,585 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 15:17:45,596 Epoch: 92 | Epoch Time: 3m 3s
+2023-02-08 15:17:45,596 EarlyStopping counter: 1 out of 30
+2023-02-08 15:20:26,452 	Train Loss: 6.037597 | Train Acc: 84.088% | Acc0: 70.00% |  Acc1: 98.17% 
+2023-02-08 15:20:48,282 	 Val. Loss: 6.523825 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 15:20:48,282 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 15:20:48,293 Epoch: 93 | Epoch Time: 3m 2s
+2023-02-08 15:20:48,293 EarlyStopping counter: 2 out of 30
+2023-02-08 15:23:28,810 	Train Loss: 5.910951 | Train Acc: 82.589% | Acc0: 68.18% |  Acc1: 96.35% 
+2023-02-08 15:23:50,317 	 Val. Loss: 6.327253 |  Val. Acc: 79.241% |  Val. Pre: 81.41% |  Val. Rec: 78.49% |  Val. Fsc: 79.92%
+2023-02-08 15:23:50,318 	 Acc0: 64.52% |  Acc1: 93.55% |  Pre0: 90.62% |  Pre1: 72.19% |  Rec0: 63.93% | Rec1: 93.06% 
+2023-02-08 15:23:50,329 Epoch: 94 | Epoch Time: 3m 2s
+2023-02-08 15:23:50,329 Validation loss decreased (6.371386 --> 6.327253).  Saving model ...
+2023-02-08 15:26:32,176 	Train Loss: 5.862886 | Train Acc: 82.749% | Acc0: 68.18% |  Acc1: 97.26% 
+2023-02-08 15:26:53,626 	 Val. Loss: 6.355624 |  Val. Acc: 79.241% |  Val. Pre: 81.41% |  Val. Rec: 78.49% |  Val. Fsc: 79.92%
+2023-02-08 15:26:53,626 	 Acc0: 64.52% |  Acc1: 93.55% |  Pre0: 90.62% |  Pre1: 72.19% |  Rec0: 63.93% | Rec1: 93.06% 
+2023-02-08 15:26:53,640 Epoch: 95 | Epoch Time: 3m 3s
+2023-02-08 15:26:53,640 EarlyStopping counter: 1 out of 30
+2023-02-08 15:29:33,905 	Train Loss: 5.910657 | Train Acc: 81.856% | Acc0: 68.64% |  Acc1: 94.98% 
+2023-02-08 15:29:56,038 	 Val. Loss: 6.545218 |  Val. Acc: 82.589% |  Val. Pre: 83.45% |  Val. Rec: 81.77% |  Val. Fsc: 82.60%
+2023-02-08 15:29:56,038 	 Acc0: 74.19% |  Acc1: 90.32% |  Pre0: 90.28% |  Pre1: 76.62% |  Rec0: 74.64% | Rec1: 88.89% 
+2023-02-08 15:29:56,049 Epoch: 96 | Epoch Time: 3m 2s
+2023-02-08 15:29:56,049 EarlyStopping counter: 2 out of 30
+2023-02-08 15:32:35,605 	Train Loss: 6.221759 | Train Acc: 80.293% | Acc0: 70.91% |  Acc1: 89.50% 
+2023-02-08 15:32:57,194 	 Val. Loss: 6.645373 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 15:32:57,194 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 15:32:57,205 Epoch: 97 | Epoch Time: 3m 1s
+2023-02-08 15:32:57,205 EarlyStopping counter: 3 out of 30
+2023-02-08 15:35:36,990 	Train Loss: 6.355216 | Train Acc: 81.920% | Acc0: 67.73% |  Acc1: 95.43% 
+2023-02-08 15:35:58,562 	 Val. Loss: 6.655370 |  Val. Acc: 81.027% |  Val. Pre: 82.62% |  Val. Rec: 80.28% |  Val. Fsc: 81.43%
+2023-02-08 15:35:58,562 	 Acc0: 67.74% |  Acc1: 93.55% |  Pre0: 90.62% |  Pre1: 74.62% |  Rec0: 67.50% | Rec1: 93.06% 
+2023-02-08 15:35:58,575 Epoch: 98 | Epoch Time: 3m 1s
+2023-02-08 15:35:58,575 EarlyStopping counter: 4 out of 30
+2023-02-08 15:38:37,356 	Train Loss: 6.038899 | Train Acc: 81.409% | Acc0: 66.36% |  Acc1: 96.35% 
+2023-02-08 15:38:59,085 	 Val. Loss: 6.483837 |  Val. Acc: 79.241% |  Val. Pre: 81.41% |  Val. Rec: 78.49% |  Val. Fsc: 79.92%
+2023-02-08 15:38:59,086 	 Acc0: 64.52% |  Acc1: 93.55% |  Pre0: 90.62% |  Pre1: 72.19% |  Rec0: 63.93% | Rec1: 93.06% 
+2023-02-08 15:38:59,097 Epoch: 99 | Epoch Time: 3m 0s
+2023-02-08 15:38:59,097 EarlyStopping counter: 5 out of 30
+2023-02-08 15:41:38,323 	Train Loss: 5.975903 | Train Acc: 81.346% | Acc0: 67.27% |  Acc1: 95.89% 
+2023-02-08 15:41:59,912 	 Val. Loss: 6.560650 |  Val. Acc: 79.241% |  Val. Pre: 81.41% |  Val. Rec: 78.49% |  Val. Fsc: 79.92%
+2023-02-08 15:41:59,912 	 Acc0: 64.52% |  Acc1: 93.55% |  Pre0: 90.62% |  Pre1: 72.19% |  Rec0: 63.93% | Rec1: 93.06% 
+2023-02-08 15:41:59,924 Epoch: 100 | Epoch Time: 3m 0s
+2023-02-08 15:41:59,924 EarlyStopping counter: 6 out of 30
+2023-02-08 15:44:40,045 	Train Loss: 5.934273 | Train Acc: 82.079% | Acc0: 68.18% |  Acc1: 95.89% 
+2023-02-08 15:45:01,636 	 Val. Loss: 6.572948 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 15:45:01,636 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 15:45:01,647 Epoch: 101 | Epoch Time: 3m 1s
+2023-02-08 15:45:01,648 EarlyStopping counter: 7 out of 30
+2023-02-08 15:47:41,224 	Train Loss: 5.912538 | Train Acc: 81.856% | Acc0: 66.82% |  Acc1: 96.80% 
+2023-02-08 15:48:02,825 	 Val. Loss: 6.496316 |  Val. Acc: 79.241% |  Val. Pre: 81.41% |  Val. Rec: 78.49% |  Val. Fsc: 79.92%
+2023-02-08 15:48:02,826 	 Acc0: 64.52% |  Acc1: 93.55% |  Pre0: 90.62% |  Pre1: 72.19% |  Rec0: 63.93% | Rec1: 93.06% 
+2023-02-08 15:48:02,836 Epoch: 102 | Epoch Time: 3m 1s
+2023-02-08 15:48:02,837 EarlyStopping counter: 8 out of 30
+2023-02-08 15:50:43,013 	Train Loss: 5.931561 | Train Acc: 81.856% | Acc0: 68.18% |  Acc1: 95.43% 
+2023-02-08 15:51:04,644 	 Val. Loss: 6.739534 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 15:51:04,644 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 15:51:04,655 Epoch: 103 | Epoch Time: 3m 1s
+2023-02-08 15:51:04,655 EarlyStopping counter: 9 out of 30
+2023-02-08 15:53:43,858 	Train Loss: 6.062054 | Train Acc: 81.696% | Acc0: 66.82% |  Acc1: 95.89% 
+2023-02-08 15:54:05,182 	 Val. Loss: 6.410800 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 15:54:05,182 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 15:54:05,193 Epoch: 104 | Epoch Time: 3m 0s
+2023-02-08 15:54:05,193 EarlyStopping counter: 10 out of 30
+2023-02-08 15:56:45,500 	Train Loss: 5.789282 | Train Acc: 82.685% | Acc0: 69.09% |  Acc1: 96.80% 
+2023-02-08 15:57:06,934 	 Val. Loss: 6.333704 |  Val. Acc: 79.018% |  Val. Pre: 82.42% |  Val. Rec: 78.10% |  Val. Fsc: 80.20%
+2023-02-08 15:57:06,934 	 Acc0: 64.52% |  Acc1: 93.55% |  Pre0: 92.71% |  Pre1: 72.14% |  Rec0: 63.93% | Rec1: 92.26% 
+2023-02-08 15:57:06,946 Epoch: 105 | Epoch Time: 3m 1s
+2023-02-08 15:57:06,946 EarlyStopping counter: 11 out of 30
+2023-02-08 15:59:45,257 	Train Loss: 5.821907 | Train Acc: 83.418% | Acc0: 70.00% |  Acc1: 96.80% 
+2023-02-08 16:00:06,697 	 Val. Loss: 6.428719 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 16:00:06,697 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 16:00:06,708 Epoch: 106 | Epoch Time: 2m 59s
+2023-02-08 16:00:06,709 EarlyStopping counter: 12 out of 30
+2023-02-08 16:02:44,465 	Train Loss: 5.907445 | Train Acc: 82.812% | Acc0: 67.73% |  Acc1: 97.26% 
+2023-02-08 16:03:06,310 	 Val. Loss: 6.342831 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 16:03:06,310 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 16:03:06,322 Epoch: 107 | Epoch Time: 2m 59s
+2023-02-08 16:03:06,322 EarlyStopping counter: 13 out of 30
+2023-02-08 16:05:45,689 	Train Loss: 5.715019 | Train Acc: 83.642% | Acc0: 72.27% |  Acc1: 94.98% 
+2023-02-08 16:06:07,090 	 Val. Loss: 6.415571 |  Val. Acc: 80.804% |  Val. Pre: 81.64% |  Val. Rec: 80.28% |  Val. Fsc: 80.95%
+2023-02-08 16:06:07,091 	 Acc0: 70.97% |  Acc1: 90.32% |  Pre0: 87.05% |  Pre1: 76.22% |  Rec0: 71.07% | Rec1: 89.48% 
+2023-02-08 16:06:07,102 Epoch: 108 | Epoch Time: 3m 0s
+2023-02-08 16:06:07,102 EarlyStopping counter: 14 out of 30
+2023-02-08 16:08:45,960 	Train Loss: 5.924704 | Train Acc: 81.569% | Acc0: 68.64% |  Acc1: 94.98% 
+2023-02-08 16:09:07,446 	 Val. Loss: 6.353149 |  Val. Acc: 81.027% |  Val. Pre: 82.62% |  Val. Rec: 80.28% |  Val. Fsc: 81.43%
+2023-02-08 16:09:07,446 	 Acc0: 67.74% |  Acc1: 93.55% |  Pre0: 90.62% |  Pre1: 74.62% |  Rec0: 67.50% | Rec1: 93.06% 
+2023-02-08 16:09:07,457 Epoch: 109 | Epoch Time: 3m 0s
+2023-02-08 16:09:07,457 EarlyStopping counter: 15 out of 30
+2023-02-08 16:11:46,167 	Train Loss: 5.699041 | Train Acc: 82.015% | Acc0: 67.73% |  Acc1: 96.80% 
+2023-02-08 16:12:07,623 	 Val. Loss: 6.327367 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 16:12:07,623 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 16:12:07,634 Epoch: 110 | Epoch Time: 3m 0s
+2023-02-08 16:12:07,634 EarlyStopping counter: 16 out of 30
+2023-02-08 16:14:46,594 	Train Loss: 5.699376 | Train Acc: 82.908% | Acc0: 70.00% |  Acc1: 96.35% 
+2023-02-08 16:15:07,975 	 Val. Loss: 6.228040 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 16:15:07,976 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 16:15:07,987 Epoch: 111 | Epoch Time: 3m 0s
+2023-02-08 16:15:07,987 Validation loss decreased (6.327253 --> 6.228040).  Saving model ...
+2023-02-08 16:17:47,210 	Train Loss: 5.642788 | Train Acc: 84.758% | Acc0: 72.27% |  Acc1: 97.26% 
+2023-02-08 16:18:08,620 	 Val. Loss: 6.427925 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 16:18:08,620 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 16:18:08,631 Epoch: 112 | Epoch Time: 3m 0s
+2023-02-08 16:18:08,632 EarlyStopping counter: 1 out of 30
+2023-02-08 16:20:47,311 	Train Loss: 5.622585 | Train Acc: 83.291% | Acc0: 69.55% |  Acc1: 98.17% 
+2023-02-08 16:21:08,727 	 Val. Loss: 6.348185 |  Val. Acc: 79.018% |  Val. Pre: 82.42% |  Val. Rec: 78.10% |  Val. Fsc: 80.20%
+2023-02-08 16:21:08,727 	 Acc0: 64.52% |  Acc1: 93.55% |  Pre0: 92.71% |  Pre1: 72.14% |  Rec0: 63.93% | Rec1: 92.26% 
+2023-02-08 16:21:08,738 Epoch: 113 | Epoch Time: 3m 0s
+2023-02-08 16:21:08,738 EarlyStopping counter: 2 out of 30
+2023-02-08 16:23:48,529 	Train Loss: 5.860919 | Train Acc: 83.642% | Acc0: 70.91% |  Acc1: 96.35% 
+2023-02-08 16:24:10,177 	 Val. Loss: 6.364894 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 16:24:10,177 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 16:24:10,189 Epoch: 114 | Epoch Time: 3m 1s
+2023-02-08 16:24:10,189 EarlyStopping counter: 3 out of 30
+2023-02-08 16:26:49,878 	Train Loss: 5.750940 | Train Acc: 85.045% | Acc0: 72.27% |  Acc1: 97.26% 
+2023-02-08 16:27:11,575 	 Val. Loss: 6.298848 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 16:27:11,575 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 16:27:11,586 Epoch: 115 | Epoch Time: 3m 1s
+2023-02-08 16:27:11,586 EarlyStopping counter: 4 out of 30
+2023-02-08 16:29:52,404 	Train Loss: 5.650079 | Train Acc: 82.972% | Acc0: 69.09% |  Acc1: 96.80% 
+2023-02-08 16:30:14,236 	 Val. Loss: 6.431481 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 16:30:14,236 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 16:30:14,249 Epoch: 116 | Epoch Time: 3m 2s
+2023-02-08 16:30:14,249 EarlyStopping counter: 5 out of 30
+2023-02-08 16:32:53,868 	Train Loss: 5.610230 | Train Acc: 84.152% | Acc0: 70.45% |  Acc1: 97.26% 
+2023-02-08 16:33:15,319 	 Val. Loss: 6.284202 |  Val. Acc: 79.018% |  Val. Pre: 82.42% |  Val. Rec: 78.10% |  Val. Fsc: 80.20%
+2023-02-08 16:33:15,319 	 Acc0: 64.52% |  Acc1: 93.55% |  Pre0: 92.71% |  Pre1: 72.14% |  Rec0: 63.93% | Rec1: 92.26% 
+2023-02-08 16:33:15,330 Epoch: 117 | Epoch Time: 3m 1s
+2023-02-08 16:33:15,330 EarlyStopping counter: 6 out of 30
+2023-02-08 16:35:55,544 	Train Loss: 5.642636 | Train Acc: 84.375% | Acc0: 70.91% |  Acc1: 97.26% 
+2023-02-08 16:36:16,998 	 Val. Loss: 6.334491 |  Val. Acc: 80.580% |  Val. Pre: 83.45% |  Val. Rec: 79.88% |  Val. Fsc: 81.62%
+2023-02-08 16:36:16,998 	 Acc0: 67.74% |  Acc1: 93.55% |  Pre0: 92.71% |  Pre1: 74.18% |  Rec0: 67.50% | Rec1: 92.26% 
+2023-02-08 16:36:17,010 Epoch: 118 | Epoch Time: 3m 1s
+2023-02-08 16:36:17,010 EarlyStopping counter: 7 out of 30
+2023-02-08 16:38:56,378 	Train Loss: 5.576851 | Train Acc: 85.268% | Acc0: 72.73% |  Acc1: 97.26% 
+2023-02-08 16:39:17,913 	 Val. Loss: 6.282205 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 16:39:17,914 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 16:39:17,925 Epoch: 119 | Epoch Time: 3m 0s
+2023-02-08 16:39:17,925 EarlyStopping counter: 8 out of 30
+2023-02-08 16:41:59,842 	Train Loss: 5.490282 | Train Acc: 85.045% | Acc0: 72.27% |  Acc1: 97.26% 
+2023-02-08 16:42:21,325 	 Val. Loss: 6.151681 |  Val. Acc: 79.018% |  Val. Pre: 82.42% |  Val. Rec: 78.10% |  Val. Fsc: 80.20%
+2023-02-08 16:42:21,325 	 Acc0: 64.52% |  Acc1: 93.55% |  Pre0: 92.71% |  Pre1: 72.14% |  Rec0: 63.93% | Rec1: 92.26% 
+2023-02-08 16:42:21,336 Epoch: 120 | Epoch Time: 3m 3s
+2023-02-08 16:42:21,337 Validation loss decreased (6.228040 --> 6.151681).  Saving model ...
+2023-02-08 16:45:04,075 	Train Loss: 5.685326 | Train Acc: 82.844% | Acc0: 70.00% |  Acc1: 96.80% 
+2023-02-08 16:45:25,622 	 Val. Loss: 6.353255 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 16:45:25,622 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 16:45:25,636 Epoch: 121 | Epoch Time: 3m 4s
+2023-02-08 16:45:25,636 EarlyStopping counter: 1 out of 30
+2023-02-08 16:48:04,931 	Train Loss: 5.589724 | Train Acc: 85.045% | Acc0: 72.27% |  Acc1: 97.26% 
+2023-02-08 16:48:26,484 	 Val. Loss: 6.167709 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 16:48:26,484 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 16:48:26,496 Epoch: 122 | Epoch Time: 3m 0s
+2023-02-08 16:48:26,496 EarlyStopping counter: 2 out of 30
+2023-02-08 16:51:09,327 	Train Loss: 5.532990 | Train Acc: 84.088% | Acc0: 71.36% |  Acc1: 96.80% 
+2023-02-08 16:51:31,026 	 Val. Loss: 6.520167 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 16:51:31,026 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 16:51:31,037 Epoch: 123 | Epoch Time: 3m 4s
+2023-02-08 16:51:31,037 EarlyStopping counter: 3 out of 30
+2023-02-08 16:54:09,677 	Train Loss: 5.724679 | Train Acc: 83.705% | Acc0: 69.55% |  Acc1: 97.26% 
+2023-02-08 16:54:31,398 	 Val. Loss: 6.377452 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 16:54:31,398 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 16:54:31,409 Epoch: 124 | Epoch Time: 3m 0s
+2023-02-08 16:54:31,409 EarlyStopping counter: 4 out of 30
+2023-02-08 16:57:10,508 	Train Loss: 5.921190 | Train Acc: 84.598% | Acc0: 72.27% |  Acc1: 96.35% 
+2023-02-08 16:57:32,121 	 Val. Loss: 6.273072 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 16:57:32,121 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 16:57:32,133 Epoch: 125 | Epoch Time: 3m 0s
+2023-02-08 16:57:32,133 EarlyStopping counter: 5 out of 30
+2023-02-08 17:00:11,982 	Train Loss: 5.826321 | Train Acc: 83.036% | Acc0: 68.18% |  Acc1: 97.26% 
+2023-02-08 17:00:33,416 	 Val. Loss: 6.232118 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 17:00:33,416 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 17:00:33,428 Epoch: 126 | Epoch Time: 3m 1s
+2023-02-08 17:00:33,428 EarlyStopping counter: 6 out of 30
+2023-02-08 17:03:12,625 	Train Loss: 5.767292 | Train Acc: 83.929% | Acc0: 70.45% |  Acc1: 96.80% 
+2023-02-08 17:03:33,962 	 Val. Loss: 6.199006 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 17:03:33,963 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 17:03:33,973 Epoch: 127 | Epoch Time: 3m 0s
+2023-02-08 17:03:33,973 EarlyStopping counter: 7 out of 30
+2023-02-08 17:06:13,509 	Train Loss: 5.723381 | Train Acc: 82.972% | Acc0: 69.55% |  Acc1: 96.35% 
+2023-02-08 17:06:34,957 	 Val. Loss: 6.468854 |  Val. Acc: 79.241% |  Val. Pre: 81.41% |  Val. Rec: 78.49% |  Val. Fsc: 79.92%
+2023-02-08 17:06:34,957 	 Acc0: 64.52% |  Acc1: 93.55% |  Pre0: 90.62% |  Pre1: 72.19% |  Rec0: 63.93% | Rec1: 93.06% 
+2023-02-08 17:06:34,968 Epoch: 128 | Epoch Time: 3m 0s
+2023-02-08 17:06:34,968 EarlyStopping counter: 8 out of 30
+2023-02-08 17:09:14,102 	Train Loss: 5.598396 | Train Acc: 85.268% | Acc0: 75.45% |  Acc1: 94.52% 
+2023-02-08 17:09:35,611 	 Val. Loss: 6.757513 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 17:09:35,611 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 17:09:35,622 Epoch: 129 | Epoch Time: 3m 0s
+2023-02-08 17:09:35,623 EarlyStopping counter: 9 out of 30
+2023-02-08 17:12:14,037 	Train Loss: 5.820860 | Train Acc: 83.482% | Acc0: 69.55% |  Acc1: 96.80% 
+2023-02-08 17:12:35,735 	 Val. Loss: 6.534736 |  Val. Acc: 82.366% |  Val. Pre: 85.88% |  Val. Rec: 81.67% |  Val. Fsc: 83.72%
+2023-02-08 17:12:35,735 	 Acc0: 67.74% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 74.88% |  Rec0: 67.50% | Rec1: 95.83% 
+2023-02-08 17:12:35,747 Epoch: 130 | Epoch Time: 3m 0s
+2023-02-08 17:12:35,747 EarlyStopping counter: 10 out of 30
+2023-02-08 17:15:14,525 	Train Loss: 5.988296 | Train Acc: 83.004% | Acc0: 70.45% |  Acc1: 97.26% 
+2023-02-08 17:15:35,970 	 Val. Loss: 6.356495 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 17:15:35,971 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 17:15:35,981 Epoch: 131 | Epoch Time: 3m 0s
+2023-02-08 17:15:35,981 EarlyStopping counter: 11 out of 30
+2023-02-08 17:18:15,241 	Train Loss: 5.774653 | Train Acc: 85.427% | Acc0: 73.64% |  Acc1: 97.26% 
+2023-02-08 17:18:36,757 	 Val. Loss: 6.206865 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 17:18:36,757 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 17:18:36,770 Epoch: 132 | Epoch Time: 3m 0s
+2023-02-08 17:18:36,770 EarlyStopping counter: 12 out of 30
+2023-02-08 17:21:16,202 	Train Loss: 5.762605 | Train Acc: 82.526% | Acc0: 67.73% |  Acc1: 97.26% 
+2023-02-08 17:21:37,659 	 Val. Loss: 6.140682 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 17:21:37,659 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 17:21:37,672 Epoch: 133 | Epoch Time: 3m 0s
+2023-02-08 17:21:37,672 Validation loss decreased (6.151681 --> 6.140682).  Saving model ...
+2023-02-08 17:24:20,361 	Train Loss: 5.423030 | Train Acc: 85.268% | Acc0: 73.64% |  Acc1: 96.35% 
+2023-02-08 17:24:41,804 	 Val. Loss: 6.520370 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 17:24:41,804 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 17:24:41,816 Epoch: 134 | Epoch Time: 3m 4s
+2023-02-08 17:24:41,816 EarlyStopping counter: 1 out of 30
+2023-02-08 17:27:20,472 	Train Loss: 5.623336 | Train Acc: 84.152% | Acc0: 70.45% |  Acc1: 97.26% 
+2023-02-08 17:27:41,874 	 Val. Loss: 6.200470 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 17:27:41,874 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 17:27:41,885 Epoch: 135 | Epoch Time: 3m 0s
+2023-02-08 17:27:41,885 EarlyStopping counter: 2 out of 30
+2023-02-08 17:30:19,636 	Train Loss: 5.377843 | Train Acc: 83.418% | Acc0: 69.55% |  Acc1: 97.26% 
+2023-02-08 17:30:40,997 	 Val. Loss: 6.092263 |  Val. Acc: 79.018% |  Val. Pre: 82.42% |  Val. Rec: 78.10% |  Val. Fsc: 80.20%
+2023-02-08 17:30:40,997 	 Acc0: 64.52% |  Acc1: 93.55% |  Pre0: 92.71% |  Pre1: 72.14% |  Rec0: 63.93% | Rec1: 92.26% 
+2023-02-08 17:30:41,011 Epoch: 136 | Epoch Time: 2m 59s
+2023-02-08 17:30:41,012 Validation loss decreased (6.140682 --> 6.092263).  Saving model ...
+2023-02-08 17:33:19,270 	Train Loss: 5.308745 | Train Acc: 85.874% | Acc0: 75.00% |  Acc1: 96.80% 
+2023-02-08 17:33:40,707 	 Val. Loss: 6.168934 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 17:33:40,707 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 17:33:40,718 Epoch: 137 | Epoch Time: 2m 59s
+2023-02-08 17:33:40,718 EarlyStopping counter: 1 out of 30
+2023-02-08 17:36:18,215 	Train Loss: 5.259752 | Train Acc: 85.874% | Acc0: 75.00% |  Acc1: 96.80% 
+2023-02-08 17:36:39,408 	 Val. Loss: 6.269314 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 17:36:39,408 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 17:36:39,421 Epoch: 138 | Epoch Time: 2m 58s
+2023-02-08 17:36:39,421 EarlyStopping counter: 2 out of 30
+2023-02-08 17:39:17,002 	Train Loss: 5.208564 | Train Acc: 86.320% | Acc0: 75.45% |  Acc1: 97.26% 
+2023-02-08 17:39:38,405 	 Val. Loss: 6.000372 |  Val. Acc: 79.018% |  Val. Pre: 82.42% |  Val. Rec: 78.10% |  Val. Fsc: 80.20%
+2023-02-08 17:39:38,405 	 Acc0: 64.52% |  Acc1: 93.55% |  Pre0: 92.71% |  Pre1: 72.14% |  Rec0: 63.93% | Rec1: 92.26% 
+2023-02-08 17:39:38,416 Epoch: 139 | Epoch Time: 2m 58s
+2023-02-08 17:39:38,416 Validation loss decreased (6.092263 --> 6.000372).  Saving model ...
+2023-02-08 17:42:16,134 	Train Loss: 5.387173 | Train Acc: 84.024% | Acc0: 72.73% |  Acc1: 95.89% 
+2023-02-08 17:42:37,408 	 Val. Loss: 6.285391 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 17:42:37,408 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 17:42:37,419 Epoch: 140 | Epoch Time: 2m 58s
+2023-02-08 17:42:37,420 EarlyStopping counter: 1 out of 30
+2023-02-08 17:45:15,412 	Train Loss: 5.408115 | Train Acc: 86.097% | Acc0: 75.45% |  Acc1: 96.80% 
+2023-02-08 17:45:36,844 	 Val. Loss: 6.523787 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 17:45:36,844 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 17:45:36,855 Epoch: 141 | Epoch Time: 2m 59s
+2023-02-08 17:45:36,856 EarlyStopping counter: 2 out of 30
+2023-02-08 17:48:14,475 	Train Loss: 5.460711 | Train Acc: 85.427% | Acc0: 74.09% |  Acc1: 96.80% 
+2023-02-08 17:48:35,778 	 Val. Loss: 6.296912 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 17:48:35,778 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 17:48:35,789 Epoch: 142 | Epoch Time: 2m 58s
+2023-02-08 17:48:35,789 EarlyStopping counter: 3 out of 30
+2023-02-08 17:51:13,496 	Train Loss: 5.218326 | Train Acc: 86.033% | Acc0: 74.55% |  Acc1: 98.17% 
+2023-02-08 17:51:34,806 	 Val. Loss: 6.084702 |  Val. Acc: 82.366% |  Val. Pre: 85.08% |  Val. Rec: 81.67% |  Val. Fsc: 83.34%
+2023-02-08 17:51:34,807 	 Acc0: 70.97% |  Acc1: 93.55% |  Pre0: 93.30% |  Pre1: 76.86% |  Rec0: 71.07% | Rec1: 92.26% 
+2023-02-08 17:51:34,824 Epoch: 143 | Epoch Time: 2m 59s
+2023-02-08 17:51:34,824 EarlyStopping counter: 4 out of 30
+2023-02-08 17:54:13,237 	Train Loss: 5.137928 | Train Acc: 87.277% | Acc0: 77.73% |  Acc1: 96.35% 
+2023-02-08 17:54:34,779 	 Val. Loss: 6.514892 |  Val. Acc: 82.366% |  Val. Pre: 86.94% |  Val. Rec: 81.96% |  Val. Fsc: 84.38%
+2023-02-08 17:54:34,779 	 Acc0: 64.52% |  Acc1: 100.00% |  Pre0: 100.00% |  Pre1: 73.87% |  Rec0: 63.93% | Rec1: 100.00% 
+2023-02-08 17:54:34,791 Epoch: 144 | Epoch Time: 2m 59s
+2023-02-08 17:54:34,791 EarlyStopping counter: 5 out of 30
+2023-02-08 17:57:13,295 	Train Loss: 5.311484 | Train Acc: 84.981% | Acc0: 72.73% |  Acc1: 97.26% 
+2023-02-08 17:57:34,732 	 Val. Loss: 6.270645 |  Val. Acc: 78.795% |  Val. Pre: 79.92% |  Val. Rec: 78.49% |  Val. Fsc: 79.20%
+2023-02-08 17:57:34,732 	 Acc0: 74.19% |  Acc1: 83.87% |  Pre0: 83.54% |  Pre1: 76.31% |  Rec0: 74.64% | Rec1: 82.34% 
+2023-02-08 17:57:34,743 Epoch: 145 | Epoch Time: 2m 59s
+2023-02-08 17:57:34,743 EarlyStopping counter: 6 out of 30
+2023-02-08 18:00:13,183 	Train Loss: 5.235889 | Train Acc: 85.874% | Acc0: 75.45% |  Acc1: 96.35% 
+2023-02-08 18:00:34,606 	 Val. Loss: 5.971994 |  Val. Acc: 80.580% |  Val. Pre: 83.45% |  Val. Rec: 79.88% |  Val. Fsc: 81.62%
+2023-02-08 18:00:34,607 	 Acc0: 67.74% |  Acc1: 93.55% |  Pre0: 92.71% |  Pre1: 74.18% |  Rec0: 67.50% | Rec1: 92.26% 
+2023-02-08 18:00:34,620 Epoch: 146 | Epoch Time: 2m 59s
+2023-02-08 18:00:34,620 Validation loss decreased (6.000372 --> 5.971994).  Saving model ...
+2023-02-08 18:03:12,809 	Train Loss: 5.242742 | Train Acc: 86.607% | Acc0: 75.45% |  Acc1: 97.26% 
+2023-02-08 18:03:34,215 	 Val. Loss: 6.023444 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 18:03:34,215 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 18:03:34,226 Epoch: 147 | Epoch Time: 2m 59s
+2023-02-08 18:03:34,226 EarlyStopping counter: 1 out of 30
+2023-02-08 18:06:12,326 	Train Loss: 5.108891 | Train Acc: 86.990% | Acc0: 77.73% |  Acc1: 96.35% 
+2023-02-08 18:06:33,722 	 Val. Loss: 6.045061 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 18:06:33,722 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 18:06:33,733 Epoch: 148 | Epoch Time: 2m 59s
+2023-02-08 18:06:33,733 EarlyStopping counter: 2 out of 30
+2023-02-08 18:09:12,416 	Train Loss: 5.249246 | Train Acc: 86.320% | Acc0: 75.45% |  Acc1: 97.26% 
+2023-02-08 18:09:33,821 	 Val. Loss: 6.025607 |  Val. Acc: 80.580% |  Val. Pre: 83.45% |  Val. Rec: 79.88% |  Val. Fsc: 81.62%
+2023-02-08 18:09:33,821 	 Acc0: 67.74% |  Acc1: 93.55% |  Pre0: 92.71% |  Pre1: 74.18% |  Rec0: 67.50% | Rec1: 92.26% 
+2023-02-08 18:09:33,832 Epoch: 149 | Epoch Time: 3m 0s
+2023-02-08 18:09:33,832 EarlyStopping counter: 3 out of 30
+2023-02-08 18:12:12,020 	Train Loss: 5.114470 | Train Acc: 86.830% | Acc0: 75.91% |  Acc1: 97.26% 
+2023-02-08 18:12:33,383 	 Val. Loss: 5.964333 |  Val. Acc: 79.018% |  Val. Pre: 82.42% |  Val. Rec: 78.10% |  Val. Fsc: 80.20%
+2023-02-08 18:12:33,384 	 Acc0: 64.52% |  Acc1: 93.55% |  Pre0: 92.71% |  Pre1: 72.14% |  Rec0: 63.93% | Rec1: 92.26% 
+2023-02-08 18:12:33,395 Epoch: 150 | Epoch Time: 2m 59s
+2023-02-08 18:12:33,395 Validation loss decreased (5.971994 --> 5.964333).  Saving model ...
+2023-02-08 18:15:11,563 	Train Loss: 5.198607 | Train Acc: 87.659% | Acc0: 78.64% |  Acc1: 96.80% 
+2023-02-08 18:15:32,874 	 Val. Loss: 6.342386 |  Val. Acc: 82.366% |  Val. Pre: 86.94% |  Val. Rec: 81.96% |  Val. Fsc: 84.38%
+2023-02-08 18:15:32,874 	 Acc0: 64.52% |  Acc1: 100.00% |  Pre0: 100.00% |  Pre1: 73.87% |  Rec0: 63.93% | Rec1: 100.00% 
+2023-02-08 18:15:32,885 Epoch: 151 | Epoch Time: 2m 59s
+2023-02-08 18:15:32,885 EarlyStopping counter: 1 out of 30
+2023-02-08 18:18:11,444 	Train Loss: 5.097304 | Train Acc: 84.981% | Acc0: 75.00% |  Acc1: 94.98% 
+2023-02-08 18:18:32,838 	 Val. Loss: 6.083932 |  Val. Acc: 80.580% |  Val. Pre: 83.45% |  Val. Rec: 79.88% |  Val. Fsc: 81.62%
+2023-02-08 18:18:32,838 	 Acc0: 67.74% |  Acc1: 93.55% |  Pre0: 92.71% |  Pre1: 74.18% |  Rec0: 67.50% | Rec1: 92.26% 
+2023-02-08 18:18:32,849 Epoch: 152 | Epoch Time: 2m 59s
+2023-02-08 18:18:32,849 EarlyStopping counter: 2 out of 30
+2023-02-08 18:21:10,348 	Train Loss: 5.151106 | Train Acc: 86.033% | Acc0: 75.45% |  Acc1: 97.26% 
+2023-02-08 18:21:31,677 	 Val. Loss: 6.003498 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 18:21:31,677 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 18:21:31,689 Epoch: 153 | Epoch Time: 2m 58s
+2023-02-08 18:21:31,689 EarlyStopping counter: 3 out of 30
+2023-02-08 18:24:10,007 	Train Loss: 5.172925 | Train Acc: 87.213% | Acc0: 77.27% |  Acc1: 97.26% 
+2023-02-08 18:24:31,337 	 Val. Loss: 6.250813 |  Val. Acc: 82.366% |  Val. Pre: 86.94% |  Val. Rec: 81.96% |  Val. Fsc: 84.38%
+2023-02-08 18:24:31,337 	 Acc0: 64.52% |  Acc1: 100.00% |  Pre0: 100.00% |  Pre1: 73.87% |  Rec0: 63.93% | Rec1: 100.00% 
+2023-02-08 18:24:31,348 Epoch: 154 | Epoch Time: 2m 59s
+2023-02-08 18:24:31,348 EarlyStopping counter: 4 out of 30
+2023-02-08 18:27:09,458 	Train Loss: 5.698805 | Train Acc: 84.821% | Acc0: 73.64% |  Acc1: 95.43% 
+2023-02-08 18:27:30,862 	 Val. Loss: 6.018301 |  Val. Acc: 79.018% |  Val. Pre: 82.42% |  Val. Rec: 78.10% |  Val. Fsc: 80.20%
+2023-02-08 18:27:30,863 	 Acc0: 64.52% |  Acc1: 93.55% |  Pre0: 92.71% |  Pre1: 72.14% |  Rec0: 63.93% | Rec1: 92.26% 
+2023-02-08 18:27:30,874 Epoch: 155 | Epoch Time: 2m 59s
+2023-02-08 18:27:30,874 EarlyStopping counter: 5 out of 30
+2023-02-08 18:30:09,243 	Train Loss: 5.343976 | Train Acc: 84.694% | Acc0: 74.55% |  Acc1: 95.43% 
+2023-02-08 18:30:30,577 	 Val. Loss: 6.058303 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 18:30:30,577 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 18:30:30,588 Epoch: 156 | Epoch Time: 2m 59s
+2023-02-08 18:30:30,589 EarlyStopping counter: 6 out of 30
+2023-02-08 18:33:07,861 	Train Loss: 5.210017 | Train Acc: 85.938% | Acc0: 74.09% |  Acc1: 97.26% 
+2023-02-08 18:33:29,057 	 Val. Loss: 6.117518 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 18:33:29,057 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 18:33:29,068 Epoch: 157 | Epoch Time: 2m 58s
+2023-02-08 18:33:29,068 EarlyStopping counter: 7 out of 30
+2023-02-08 18:36:06,824 	Train Loss: 5.890300 | Train Acc: 82.908% | Acc0: 71.36% |  Acc1: 94.98% 
+2023-02-08 18:36:28,062 	 Val. Loss: 6.265787 |  Val. Acc: 79.241% |  Val. Pre: 81.41% |  Val. Rec: 78.49% |  Val. Fsc: 79.92%
+2023-02-08 18:36:28,063 	 Acc0: 64.52% |  Acc1: 93.55% |  Pre0: 90.62% |  Pre1: 72.19% |  Rec0: 63.93% | Rec1: 93.06% 
+2023-02-08 18:36:28,073 Epoch: 158 | Epoch Time: 2m 59s
+2023-02-08 18:36:28,073 EarlyStopping counter: 8 out of 30
+2023-02-08 18:39:05,744 	Train Loss: 5.904489 | Train Acc: 84.247% | Acc0: 73.18% |  Acc1: 95.89% 
+2023-02-08 18:39:27,076 	 Val. Loss: 6.477411 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 18:39:27,076 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 18:39:27,087 Epoch: 159 | Epoch Time: 2m 59s
+2023-02-08 18:39:27,087 EarlyStopping counter: 9 out of 30
+2023-02-08 18:42:05,192 	Train Loss: 5.844197 | Train Acc: 82.844% | Acc0: 70.00% |  Acc1: 96.80% 
+2023-02-08 18:42:26,476 	 Val. Loss: 6.220004 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 18:42:26,476 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 18:42:26,487 Epoch: 160 | Epoch Time: 2m 59s
+2023-02-08 18:42:26,487 EarlyStopping counter: 10 out of 30
+2023-02-08 18:45:04,059 	Train Loss: 5.772722 | Train Acc: 84.694% | Acc0: 72.73% |  Acc1: 97.26% 
+2023-02-08 18:45:25,404 	 Val. Loss: 6.294953 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 18:45:25,405 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 18:45:25,421 Epoch: 161 | Epoch Time: 2m 58s
+2023-02-08 18:45:25,421 EarlyStopping counter: 11 out of 30
+2023-02-08 18:49:07,143 	Train Loss: 5.653611 | Train Acc: 85.427% | Acc0: 73.64% |  Acc1: 97.26% 
+2023-02-08 18:49:39,862 	 Val. Loss: 6.223407 |  Val. Acc: 79.018% |  Val. Pre: 82.42% |  Val. Rec: 78.10% |  Val. Fsc: 80.20%
+2023-02-08 18:49:39,862 	 Acc0: 64.52% |  Acc1: 93.55% |  Pre0: 92.71% |  Pre1: 72.14% |  Rec0: 63.93% | Rec1: 92.26% 
+2023-02-08 18:49:39,874 Epoch: 162 | Epoch Time: 4m 14s
+2023-02-08 18:49:39,874 EarlyStopping counter: 12 out of 30
+2023-02-08 18:53:38,640 	Train Loss: 5.848512 | Train Acc: 82.749% | Acc0: 70.91% |  Acc1: 94.52% 
+2023-02-08 18:54:11,264 	 Val. Loss: 6.366866 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 18:54:11,264 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 18:54:11,276 Epoch: 163 | Epoch Time: 4m 31s
+2023-02-08 18:54:11,276 EarlyStopping counter: 13 out of 30
+2023-02-08 18:56:52,868 	Train Loss: 5.707370 | Train Acc: 84.024% | Acc0: 71.82% |  Acc1: 96.80% 
+2023-02-08 18:57:14,325 	 Val. Loss: 6.270979 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 18:57:14,326 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 18:57:14,339 Epoch: 164 | Epoch Time: 3m 3s
+2023-02-08 18:57:14,339 EarlyStopping counter: 14 out of 30
+2023-02-08 18:59:51,667 	Train Loss: 5.576109 | Train Acc: 83.960% | Acc0: 71.82% |  Acc1: 97.26% 
+2023-02-08 19:00:12,935 	 Val. Loss: 6.270583 |  Val. Acc: 80.580% |  Val. Pre: 83.45% |  Val. Rec: 79.88% |  Val. Fsc: 81.62%
+2023-02-08 19:00:12,935 	 Acc0: 67.74% |  Acc1: 93.55% |  Pre0: 92.71% |  Pre1: 74.18% |  Rec0: 67.50% | Rec1: 92.26% 
+2023-02-08 19:00:12,945 Epoch: 165 | Epoch Time: 2m 58s
+2023-02-08 19:00:12,945 EarlyStopping counter: 15 out of 30
+2023-02-08 19:02:49,365 	Train Loss: 5.643854 | Train Acc: 85.491% | Acc0: 73.64% |  Acc1: 96.80% 
+2023-02-08 19:03:10,453 	 Val. Loss: 6.281692 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 19:03:10,453 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 19:03:10,464 Epoch: 166 | Epoch Time: 2m 57s
+2023-02-08 19:03:10,464 EarlyStopping counter: 16 out of 30
+2023-02-08 19:05:46,595 	Train Loss: 5.647869 | Train Acc: 85.204% | Acc0: 73.18% |  Acc1: 97.26% 
+2023-02-08 19:06:07,865 	 Val. Loss: 6.252086 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 19:06:07,865 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 19:06:07,876 Epoch: 167 | Epoch Time: 2m 57s
+2023-02-08 19:06:07,876 EarlyStopping counter: 17 out of 30
+2023-02-08 19:08:44,859 	Train Loss: 5.560250 | Train Acc: 85.651% | Acc0: 75.00% |  Acc1: 96.35% 
+2023-02-08 19:09:06,070 	 Val. Loss: 6.308779 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 19:09:06,070 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 19:09:06,081 Epoch: 168 | Epoch Time: 2m 58s
+2023-02-08 19:09:06,081 EarlyStopping counter: 18 out of 30
+2023-02-08 19:11:42,505 	Train Loss: 5.232738 | Train Acc: 86.607% | Acc0: 75.45% |  Acc1: 97.26% 
+2023-02-08 19:12:03,679 	 Val. Loss: 6.137315 |  Val. Acc: 80.580% |  Val. Pre: 83.45% |  Val. Rec: 79.88% |  Val. Fsc: 81.62%
+2023-02-08 19:12:03,679 	 Acc0: 67.74% |  Acc1: 93.55% |  Pre0: 92.71% |  Pre1: 74.18% |  Rec0: 67.50% | Rec1: 92.26% 
+2023-02-08 19:12:03,690 Epoch: 169 | Epoch Time: 2m 57s
+2023-02-08 19:12:03,690 EarlyStopping counter: 19 out of 30
+2023-02-08 19:14:40,083 	Train Loss: 5.456708 | Train Acc: 86.384% | Acc0: 75.00% |  Acc1: 97.26% 
+2023-02-08 19:15:01,191 	 Val. Loss: 6.249444 |  Val. Acc: 82.366% |  Val. Pre: 85.88% |  Val. Rec: 81.67% |  Val. Fsc: 83.72%
+2023-02-08 19:15:01,191 	 Acc0: 67.74% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 74.88% |  Rec0: 67.50% | Rec1: 95.83% 
+2023-02-08 19:15:01,202 Epoch: 170 | Epoch Time: 2m 57s
+2023-02-08 19:15:01,202 EarlyStopping counter: 20 out of 30
+2023-02-08 19:17:37,893 	Train Loss: 5.602497 | Train Acc: 84.917% | Acc0: 73.64% |  Acc1: 96.80% 
+2023-02-08 19:17:59,096 	 Val. Loss: 6.254149 |  Val. Acc: 82.143% |  Val. Pre: 84.17% |  Val. Rec: 81.67% |  Val. Fsc: 82.90%
+2023-02-08 19:17:59,096 	 Acc0: 70.97% |  Acc1: 93.55% |  Pre0: 92.71% |  Pre1: 75.62% |  Rec0: 71.07% | Rec1: 92.26% 
+2023-02-08 19:17:59,110 Epoch: 171 | Epoch Time: 2m 57s
+2023-02-08 19:17:59,110 EarlyStopping counter: 21 out of 30
+2023-02-08 19:20:35,408 	Train Loss: 5.577593 | Train Acc: 85.204% | Acc0: 73.64% |  Acc1: 96.80% 
+2023-02-08 19:20:56,582 	 Val. Loss: 6.234230 |  Val. Acc: 82.366% |  Val. Pre: 85.88% |  Val. Rec: 81.67% |  Val. Fsc: 83.72%
+2023-02-08 19:20:56,582 	 Acc0: 67.74% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 74.88% |  Rec0: 67.50% | Rec1: 95.83% 
+2023-02-08 19:20:56,596 Epoch: 172 | Epoch Time: 2m 57s
+2023-02-08 19:20:56,596 EarlyStopping counter: 22 out of 30
+2023-02-08 19:23:33,114 	Train Loss: 5.671719 | Train Acc: 84.024% | Acc0: 71.82% |  Acc1: 96.80% 
+2023-02-08 19:23:54,178 	 Val. Loss: 6.264821 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 19:23:54,179 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 19:23:54,189 Epoch: 173 | Epoch Time: 2m 57s
+2023-02-08 19:23:54,189 EarlyStopping counter: 23 out of 30
+2023-02-08 19:26:30,775 	Train Loss: 5.533787 | Train Acc: 86.097% | Acc0: 75.00% |  Acc1: 97.26% 
+2023-02-08 19:26:51,915 	 Val. Loss: 6.190455 |  Val. Acc: 82.143% |  Val. Pre: 84.17% |  Val. Rec: 81.67% |  Val. Fsc: 82.90%
+2023-02-08 19:26:51,915 	 Acc0: 70.97% |  Acc1: 93.55% |  Pre0: 92.71% |  Pre1: 75.62% |  Rec0: 71.07% | Rec1: 92.26% 
+2023-02-08 19:26:51,926 Epoch: 174 | Epoch Time: 2m 57s
+2023-02-08 19:26:51,926 EarlyStopping counter: 24 out of 30
+2023-02-08 19:29:28,262 	Train Loss: 5.456437 | Train Acc: 86.384% | Acc0: 75.00% |  Acc1: 97.26% 
+2023-02-08 19:29:49,286 	 Val. Loss: 6.428750 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 19:29:49,286 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 19:29:49,297 Epoch: 175 | Epoch Time: 2m 57s
+2023-02-08 19:29:49,297 EarlyStopping counter: 25 out of 30
+2023-02-08 19:32:24,961 	Train Loss: 5.495980 | Train Acc: 84.471% | Acc0: 72.73% |  Acc1: 96.80% 
+2023-02-08 19:32:45,971 	 Val. Loss: 6.481261 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 19:32:45,971 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 19:32:45,982 Epoch: 176 | Epoch Time: 2m 56s
+2023-02-08 19:32:45,982 EarlyStopping counter: 26 out of 30
+2023-02-08 19:35:22,438 	Train Loss: 5.558269 | Train Acc: 85.491% | Acc0: 73.64% |  Acc1: 96.80% 
+2023-02-08 19:35:43,549 	 Val. Loss: 6.281989 |  Val. Acc: 82.143% |  Val. Pre: 84.17% |  Val. Rec: 81.67% |  Val. Fsc: 82.90%
+2023-02-08 19:35:43,550 	 Acc0: 70.97% |  Acc1: 93.55% |  Pre0: 92.71% |  Pre1: 75.62% |  Rec0: 71.07% | Rec1: 92.26% 
+2023-02-08 19:35:43,561 Epoch: 177 | Epoch Time: 2m 57s
+2023-02-08 19:35:43,561 EarlyStopping counter: 27 out of 30
+2023-02-08 19:38:20,237 	Train Loss: 5.567075 | Train Acc: 85.204% | Acc0: 74.09% |  Acc1: 96.35% 
+2023-02-08 19:38:41,389 	 Val. Loss: 6.280799 |  Val. Acc: 82.143% |  Val. Pre: 84.17% |  Val. Rec: 81.67% |  Val. Fsc: 82.90%
+2023-02-08 19:38:41,390 	 Acc0: 70.97% |  Acc1: 93.55% |  Pre0: 92.71% |  Pre1: 75.62% |  Rec0: 71.07% | Rec1: 92.26% 
+2023-02-08 19:38:41,400 Epoch: 178 | Epoch Time: 2m 57s
+2023-02-08 19:38:41,400 EarlyStopping counter: 28 out of 30
+2023-02-08 19:41:17,365 	Train Loss: 5.418239 | Train Acc: 85.874% | Acc0: 75.45% |  Acc1: 96.35% 
+2023-02-08 19:41:38,470 	 Val. Loss: 6.196531 |  Val. Acc: 80.804% |  Val. Pre: 84.85% |  Val. Rec: 79.88% |  Val. Fsc: 82.29%
+2023-02-08 19:41:38,470 	 Acc0: 64.52% |  Acc1: 96.77% |  Pre0: 96.88% |  Pre1: 72.83% |  Rec0: 63.93% | Rec1: 95.83% 
+2023-02-08 19:41:38,481 Epoch: 179 | Epoch Time: 2m 57s
+2023-02-08 19:41:38,481 EarlyStopping counter: 29 out of 30
+2023-02-08 19:44:14,930 	Train Loss: 5.485926 | Train Acc: 86.161% | Acc0: 74.55% |  Acc1: 97.26% 
+2023-02-08 19:44:36,020 	 Val. Loss: 6.419496 |  Val. Acc: 83.929% |  Val. Pre: 87.96% |  Val. Rec: 83.75% |  Val. Fsc: 85.80%
+2023-02-08 19:44:36,021 	 Acc0: 67.74% |  Acc1: 100.00% |  Pre0: 100.00% |  Pre1: 75.92% |  Rec0: 67.50% | Rec1: 100.00% 
+2023-02-08 19:44:36,032 Epoch: 180 | Epoch Time: 2m 57s
+2023-02-08 19:44:36,032 EarlyStopping counter: 30 out of 30
+2023-02-08 19:44:36,032 Early stopping

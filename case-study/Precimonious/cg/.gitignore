@@ -1,0 +1,9 @@
+*.json
+__pycache__
+*.o
+results-*/
+*.txt
+*output
+tempscripts/bin
+
+!rootnode.txt

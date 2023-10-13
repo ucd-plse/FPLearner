@@ -1,0 +1,455 @@
+{
+    "call19": {
+        "file": "cg.c",
+        "function": "conj_grad",
+        "lines": [
+            "613"
+        ],
+        "location": "../scripts/CG/cg.c:613:12",
+        "name": "sqrt",
+        "switch": "sqrtf",
+        "type": [
+            "float",
+            "float"
+        ]
+    },
+    "call5": {
+        "file": "cg.c",
+        "function": "main",
+        "lines": [
+            "248"
+        ],
+        "location": "../scripts/CG/cg.c:248:24",
+        "name": "sqrt",
+        "switch": "sqrtf",
+        "type": [
+            "float",
+            "float"
+        ]
+    },
+    "localVar1": {
+        "file": "cg.c",
+        "function": "main",
+        "lines": [
+            "130",
+            "183",
+            "222",
+            "266",
+            "368",
+            "372",
+            "377",
+            "383"
+        ],
+        "location": "localVar",
+        "name": "zeta",
+        "type": "float"
+    },
+    "localVar10": {
+        "file": "cg.c",
+        "function": "conj_grad",
+        "lines": [
+            "445",
+            "464",
+            "501",
+            "547",
+            "567"
+        ],
+        "location": "parmVar",
+        "name": "q",
+        "type": "float []"
+    },
+    "localVar11": {
+        "file": "cg.c",
+        "function": "conj_grad",
+        "lines": [
+            "446",
+            "466",
+            "467",
+            "475",
+            "567",
+            "575",
+            "587",
+            "602",
+            "609"
+        ],
+        "location": "parmVar",
+        "name": "r",
+        "type": "float []"
+    },
+    "localVar12": {
+        "file": "cg.c",
+        "function": "conj_grad",
+        "lines": [
+            "447",
+            "613"
+        ],
+        "location": "parmVar",
+        "name": "rnorm",
+        "type": "double *",
+        "switch": "sqrt"
+    },
+    "localVar13": {
+        "file": "cg.c",
+        "function": "conj_grad",
+        "lines": [
+            "451",
+            "545",
+            "547",
+            "553",
+            "598",
+            "600",
+            "602",
+            "609",
+            "610"
+        ],
+        "location": "localVar",
+        "name": "d",
+        "type": "double",
+        "switch": "sqrt"
+    },
+    "localVar14": {
+        "file": "cg.c",
+        "function": "conj_grad",
+        "lines": [
+            "452",
+            "497",
+            "499",
+            "501",
+            "596",
+            "610",
+            "613"
+        ],
+        "location": "localVar",
+        "name": "sum",
+        "type": "double"
+    },
+    "localVar15": {
+        "file": "cg.c",
+        "function": "conj_grad",
+        "lines": [
+            "453",
+            "458",
+            "475",
+            "553",
+            "558",
+            "564",
+            "575",
+            "581"
+        ],
+        "location": "localVar",
+        "name": "rho",
+        "type": "double"
+    },
+    "localVar16": {
+        "file": "cg.c",
+        "function": "conj_grad",
+        "lines": [
+            "454",
+            "558",
+            "581"
+        ],
+        "location": "localVar",
+        "name": "rho0",
+        "type": "double",
+        "switch": "sqrt"
+    },
+    "localVar17": {
+        "file": "cg.c",
+        "function": "conj_grad",
+        "lines": [
+            "455",
+            "553",
+            "566",
+            "567"
+        ],
+        "location": "localVar",
+        "name": "alpha",
+        "type": "double",
+        "switch": "sqrt"
+    },
+    "localVar18": {
+        "file": "cg.c",
+        "function": "conj_grad",
+        "lines": [
+            "456",
+            "581",
+            "587"
+        ],
+        "location": "localVar",
+        "name": "beta",
+        "type": "double",
+        "switch": "sqrt"
+    },
+    "localVar2": {
+        "file": "cg.c",
+        "function": "main",
+        "lines": [
+            "131"
+        ],
+        "location": "localVar",
+        "name": "rnorm",
+        "type": "double"
+    },
+    "localVar20": {
+        "file": "cg.c",
+        "function": "makea",
+        "lines": [
+            "644"
+        ],
+        "location": "parmVar",
+        "name": "a",
+        "type": "double []"
+    },
+    "localVar21": {
+        "file": "cg.c",
+        "function": "makea",
+        "lines": [
+            "658"
+        ],
+        "location": "localVar",
+        "name": "vc",
+        "type": "double"
+    },
+    "localVar22": {
+        "file": "cg.c",
+        "function": "sparse",
+        "lines": [
+            "701",
+            "769",
+            "806",
+            "811",
+            "831",
+            "853"
+        ],
+        "location": "parmVar",
+        "name": "a",
+        "type": "double []",
+        "switch": "sqrt"
+    },
+    "localVar23": {
+        "file": "cg.c",
+        "function": "sparse",
+        "lines": [
+            "713",
+            "779",
+            "795"
+        ],
+        "location": "parmVar",
+        "name": "rcond",
+        "type": "double",
+        "switch": "sqrt"
+    },
+    "localVar24": {
+        "file": "cg.c",
+        "function": "sparse",
+        "lines": [
+            "714",
+            "795"
+        ],
+        "location": "parmVar",
+        "name": "shift",
+        "type": "float",
+        "switch": "sqrt"
+    },
+    "localVar25": {
+        "file": "cg.c",
+        "function": "sparse",
+        "lines": [
+            "723",
+            "778",
+            "834"
+        ],
+        "location": "localVar",
+        "name": "size",
+        "type": "double",
+        "switch": "sqrt"
+    },
+    "localVar26": {
+        "file": "cg.c",
+        "function": "sparse",
+        "lines": [
+            "724"
+        ],
+        "location": "localVar",
+        "name": "scale",
+        "type": "double",
+        "switch": "sqrt"
+    },
+    "localVar27": {
+        "file": "cg.c",
+        "function": "sparse",
+        "lines": [
+            "725",
+            "779",
+            "834"
+        ],
+        "location": "localVar",
+        "name": "ratio",
+        "type": "double",
+        "switch": "sqrt"
+    },
+    "localVar28": {
+        "file": "cg.c",
+        "function": "sparse",
+        "lines": [
+            "726",
+            "795",
+            "831"
+        ],
+        "location": "localVar",
+        "name": "va",
+        "type": "double",
+        "switch": "sqrt"
+    },
+    "localVar29": {
+        "file": "cg.c",
+        "function": "sprnvc",
+        "lines": [
+            "874",
+            "903"
+        ],
+        "location": "parmVar",
+        "name": "v",
+        "type": "double []"
+    },
+    "localVar3": {
+        "file": "cg.c",
+        "function": "main",
+        "lines": [
+            "132",
+            "241"
+        ],
+        "location": "localVar",
+        "name": "norm_temp1",
+        "type": "double"
+    },
+    "localVar30": {
+        "file": "cg.c",
+        "function": "sprnvc",
+        "lines": [
+            "877",
+            "883",
+            "903"
+        ],
+        "location": "localVar",
+        "name": "vecelt",
+        "type": "double"
+    },
+    "localVar31": {
+        "file": "cg.c",
+        "function": "sprnvc",
+        "lines": [
+            "878",
+            "888",
+            "889"
+        ],
+        "location": "localVar",
+        "name": "vecloc",
+        "type": "double",
+        "switch": "sqrt"
+    },
+    "localVar32": {
+        "file": "cg.c",
+        "function": "icnvrt",
+        "lines": [
+            "913",
+            "915"
+        ],
+        "location": "parmVar",
+        "name": "x",
+        "type": "double",
+        "switch": "sqrt"
+    },
+    "localVar33": {
+        "file": "cg.c",
+        "function": "vecset",
+        "lines": [
+            "923",
+            "931",
+            "936"
+        ],
+        "location": "parmVar",
+        "name": "v",
+        "type": "double []",
+        "switch": "sqrt"
+    },
+    "localVar34": {
+        "file": "cg.c",
+        "function": "vecset",
+        "lines": [
+            "923",
+            "931",
+            "936"
+        ],
+        "location": "parmVar",
+        "name": "val",
+        "type": "double",
+        "switch": "sqrt"
+    },
+    "localVar4": {
+        "file": "cg.c",
+        "function": "main",
+        "lines": [
+            "133",
+            "242",
+            "248"
+        ],
+        "location": "localVar",
+        "name": "norm_temp2",
+        "type": "double"
+    },
+    "localVar6": {
+        "file": "cg.c",
+        "function": "conj_grad",
+        "lines": [
+            "441",
+            "466",
+            "609"
+        ],
+        "location": "parmVar",
+        "name": "x",
+        "type": "double []",
+        "switch": "sqrt"
+    },
+    "localVar7": {
+        "file": "cg.c",
+        "function": "conj_grad",
+        "lines": [
+            "442",
+            "465",
+            "566",
+            "600"
+        ],
+        "location": "parmVar",
+        "name": "z",
+        "type": "double []",
+        "switch": "sqrt"
+    },
+    "localVar8": {
+        "file": "cg.c",
+        "function": "conj_grad",
+        "lines": [
+            "443",
+            "499",
+            "600"
+        ],
+        "location": "parmVar",
+        "name": "a",
+        "type": "double []"
+    },
+    "localVar9": {
+        "file": "cg.c",
+        "function": "conj_grad",
+        "lines": [
+            "444",
+            "467",
+            "499",
+            "547",
+            "566",
+            "587"
+        ],
+        "location": "parmVar",
+        "name": "p",
+        "type": "double []"
+    }
+}

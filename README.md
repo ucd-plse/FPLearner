@@ -311,7 +311,7 @@ In this section, our artifact presents instructions to reproduce case study on f
 ##### ==> Run the following commands (approx. 1h)
   
 ```
-cd /root/home/case-study/Precimonious
+cd /root/home/case-study/Precimonious-plugin
 python3 run.py cg 10
 ```
 
@@ -359,7 +359,7 @@ mv config_temp.json results-eps=4-A/INVALID_config_cg_3.json
 >   - "fatal error: 'npbparams.h' file not found"
 
 
-After the precision tuning is done, you can find a folder in `case-study/<TunerName>/cg/run/results-eps==4-A` which contains the following files (`<TunerName>` is either `Precimonious` or `HiFPTuner`):
+After the precision tuning is done, you can find a folder in `case-study/<TunerName>-plugin/cg/run/results-eps==4-A` which contains the following files (`<TunerName>` is either `Precimonious` or `HiFPTuner`):
 
 - `*.json`: all precision configurations in the search
 - `.log`: a log file containing model prediction results for each configuration and the corresponding verification results
@@ -373,7 +373,7 @@ After the precision tuning is done, you can find a folder in `case-study/<TunerN
 ##### ==> Run the following commands (approx. 1h)
 
 ```
-cd /root/home/case-study/Precimonious
+cd /root/home/case-study/Precimonious-plugin
 python3 run.py mg 10
 ```
 
@@ -394,7 +394,7 @@ For `MG`, the timeout is 10s. The expected terminal output and results are simil
 ##### ==> Run the following commands (approx. 12h)
 
 ```
-cd /root/home/case-study/Precimonious
+cd /root/home/case-study/Precimonious-plugin
 python3 run.py lulesh 30
 ```
 ##### Option 2: HiFPTuner + Model Plugins  
@@ -417,12 +417,12 @@ Step 2: Make sure you are able to compile and run the LBM with `specmake` provid
 
 Step 3: Install SPEC CPU 2017 in the docker container.
 
-Step 4: Copy the source code of LBM to the path `/root/home/case-study/<TunerName>/scripts` and `/root/home/case-study/<TunerName>/tempscripts`. (Note that `<TunerName>` is either `Precimonious` or `HiFPTuner`. The following instructions will use `Precimonious` as an example.)
+Step 4: Copy the source code of LBM to the path `/root/home/case-study/<TunerName>-plugin/scripts` and `/root/home/case-study/<TunerName>-plugin/tempscripts`. (Note that `<TunerName>` is either `Precimonious` or `HiFPTuner`. The following instructions will use `Precimonious` as an example.)
 
 Step 5: Run the case study with the following commands
 
 ```
-cd /root/home/case-study/Precimonious
+cd /root/home/case-study/Precimonious-plugin
 python3 run.py lbm 300
 ```
 For `LBM`, the timeout is 300s. The expected terminal output and results are similar to `CG`.

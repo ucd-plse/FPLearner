@@ -307,7 +307,15 @@ In this section, our artifact presents instructions to reproduce case study on f
 
 #### 2.3.1 Case study on CG
 
-##### Option 1: Precimonious + Model Plugins
+##### Option 1: Precimonious
+##### ==> Run the following commands (approx. 1h)
+  
+```
+cd /root/home/case-study/Precimonious
+python3 run.py cg 10
+```
+
+##### Option 2: Precimonious + Model Plugins
 ##### ==> Run the following commands (approx. 1h)
   
 ```
@@ -315,7 +323,7 @@ cd /root/home/case-study/Precimonious-plugin
 python3 run.py cg 10
 ```
 
-##### Option 2: HiFPTuner + Model Plugins
+##### Option 3: HiFPTuner + Model Plugins
 ##### ==> Run the following commands (approx. 30min)
   
 ```

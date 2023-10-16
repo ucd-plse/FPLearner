@@ -327,7 +327,7 @@ python3 run.py cg 10
 ##### ==> Run the following commands (approx. 30min)
   
 ```
-cd /root/home/case-study/HiFPTuner
+cd /root/home/case-study/HiFPTuner-plugin
 python3 run.py cg 10
 ```
 
@@ -389,7 +389,7 @@ python3 run.py mg 10
 ##### ==> Run the following commands (approx. 40min)
 
 ```
-cd /root/home/case-study/HiFPTuner
+cd /root/home/case-study/HiFPTuner-plugin
 python3 run.py mg 10
 ```
 
@@ -409,7 +409,7 @@ python3 run.py lulesh 30
 ##### ==> Run the following commands (approx. 3h)
 
 ```
-cd /root/home/case-study/HiFPTuner
+cd /root/home/case-study/HiFPTuner-plugin
 python3 run.py lulesh 30
 ```
 

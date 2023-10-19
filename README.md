@@ -140,7 +140,7 @@ The user has two options to run the tool: the **CPU Only** option, and the **GPU
 
 - Clone this GitHub repository to your local directory 
 ```
-git clone https://github.com/JSId8qiHgdS3/Artifact.git <YOUR LOCAL PATH TO THIS REPO>
+git clone https://github.com/ucd-plse/FPLearner.git <YOUR LOCAL PATH TO THIS REPO>
 ```
 #####  2. Optional Prerequisites (for the GPU option)
 

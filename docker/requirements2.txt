@@ -1,0 +1,9 @@
+pyg_lib
+torch_scatter 
+torch_sparse 
+torch_cluster 
+torch_spline_conv 
+torch_geometric
+torchtext==0.14.1
+matplotlib==3.7.1
+nltk==3.8.1

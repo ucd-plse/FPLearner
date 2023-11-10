@@ -35,6 +35,8 @@ In the second part of our artifact, instructions are provided to play with our d
 >
 > ====== 2.3 Case study reproduction
 >
+> ============ 2.3.0 Toy example on funarc
+> 
 > ============ 2.3.1 Case study on CG
 >
 > ============ 2.3.2 Case study on MG
@@ -304,6 +306,17 @@ python3 main.py -train -b 1
 ### 2.3 Case study reproduction
 
 In this section, our artifact presents instructions to reproduce case study on four target benchmarks: `CG`, `MG`, `LULESH`, and `LBM`. The user has the option to incorporate the fine-tuned model plugins into two different precision tuners: `Precimonious` and `HiFPTuner`.
+
+#### 2.3.0 Toy example to run Precimonious on `funarc`
+```
+cd /root/home/case-study/Precimonious
+python3 run.py funarc 10
+```
+
+Note that the second argument `10` indicates the timeout in seconds to run the benchmark `funarc` once.
+To get an idea of how to compile and run `funarc`, check the file `/root/home/case-study/Precimonious/funarc/scripts/Makefile` 
+and run `make` under the same directory.
+
 
 #### 2.3.1 Case study on CG
 

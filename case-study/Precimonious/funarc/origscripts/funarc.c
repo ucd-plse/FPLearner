@@ -7,7 +7,7 @@
 
 #define ITERS 10
 
-long double fun( long double x ) {
+double fun( double x ) {
   int k, n = 5;
   double t1, d1 = 1.0L;
 

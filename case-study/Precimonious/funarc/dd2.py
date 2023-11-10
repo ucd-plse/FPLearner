@@ -10,12 +10,11 @@ TIME_ERROR = 0.05
 benchmark = sys.argv[1] # in lower case
 TIME_OUT = int(sys.argv[4])
 EPSILON = int(sys.argv[5])
-CLASS = sys.argv[6]
-RESULTSDIR = f"results-eps={EPSILON}-{CLASS}"
+RESULTSDIR = f"results-eps={EPSILON}"
 
 EXE_COUNT = 10
-benchfile = f"{benchmark.upper()}/{benchmark}.c"
-TO_RUN = f"../tempscripts/bin/{benchmark}.{CLASS}.x"
+benchfile = f"{benchmark}.c"
+TO_RUN = f"../tempscripts/{benchmark}"
 
 
 original_runtime = 0
@@ -47,21 +46,18 @@ def run_orig_config(search_config, original_config, benchmark):
   # (compare search_config with original_config)
   # step 2: transform benchmark(cg.c) with "config_temp.json"
 
-  os.system("rm -r ../tempscripts/{}".format(benchmark.upper()))
-  os.system("rm -r ../tempscripts/common")
-  os.system("cp -r ../scripts/{} ../tempscripts/".format(benchmark.upper()))
-  os.system("cp -r ../scripts/common ../tempscripts/")
-  os.system(f"python3 trans-type.py config_temp.json {benchmark}")
+  os.system("rm ../tempscripts/{}".format(benchfile))
+  os.system("python3 trans-type.py config_temp.json")
   if not os.path.exists("../tempscripts/{}".format(benchfile)):
     os.system("cp ../scripts/{} ../tempscripts/".format(benchfile))
 
 
   # delete previous log files and executable
   
-  os.system(f"rm log.txt time.txt {TO_RUN}")
+  os.system(f"rm -f log.txt time.txt {TO_RUN}")
 
   # step 3: recompile modified cg.c into executable
-  os.system(f"cd ../tempscripts; make clean; make {benchmark.upper()} CLASS={CLASS}")
+  os.system(f"cd ../tempscripts; make clean; make")
 
   # step 4: run executable
   if os.path.exists(TO_RUN):
@@ -163,20 +159,17 @@ def run_config(search_config, original_config, benchmark):
   # (compare search_config with original_config)
   # step 2: transform benchmark(cg.c) with "config_temp.json"
   # os.system("python3 setup.py {}".format(benchmark))
-  os.system("rm -r ../tempscripts/{}".format(benchmark.upper()))
-  os.system("rm -r ../tempscripts/common")
-  os.system("cp -r ../scripts/{} ../tempscripts/".format(benchmark.upper()))
-  os.system("cp -r ../scripts/common ../tempscripts/")
-  os.system(f"python3 trans-type.py config_temp.json {benchmark}")
+  os.system("rm ../tempscripts/{}".format(benchfile))
+  os.system("python3 trans-type.py config_temp.json")
   if not os.path.exists("../tempscripts/{}".format(benchfile)):
     os.system("cp ../scripts/{} ../tempscripts/".format(benchfile))
 
 
   # delete previous log files and executable
-  os.system(f"rm log.txt time.txt {TO_RUN}")
+  os.system(f"rm -f log.txt time.txt {TO_RUN}")
 
   # step 3: recompile modified cg.c into executable
-  os.system(f"cd ../tempscripts; make clean; make {benchmark.upper()} CLASS={CLASS}")
+  os.system(f"cd ../tempscripts; make clean; make")
 
   # step 4: run executable
   if os.path.exists(TO_RUN):

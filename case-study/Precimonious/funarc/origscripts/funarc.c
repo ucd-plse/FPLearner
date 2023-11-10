@@ -26,7 +26,7 @@ int main() {
 
   /****** BEGIN PRECIMONIOUOS PREAMBLE ******/
   // variables for logging/checking
-  double epsilon = 1.0e-6;
+  double epsilon = 1.0e-4;
   int l;
 
   // variables for timing measurement

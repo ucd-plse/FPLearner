@@ -54,23 +54,23 @@ In the second part of our artifact, instructions are provided to play with our d
 ### 1.1 Dataset for model training
 
 Our MixBench datasets, one for calculation error prediction
-([`raw/MixBench/error_root/processed`](https://github.com/JSId8qiHgdS3/Artifact/tree/master/raw/MixBench/error_root/processed)),
+([`raw/MixBench/error_root/processed`](https://github.com/ucd-plse/FPLearner/tree/main/raw/MixBench/error_root/processed)),
 and the other for execution runtime prediction
 on floating-point programs
-([`raw/MixBench/time_root/processed`](https://github.com/JSId8qiHgdS3/Artifact/tree/master/raw/MixBench/time_root/processed)), are provided to reproduce
+([`raw/MixBench/time_root/processed`](https://github.com/ucd-plse/FPLearner/tree/main/raw/MixBench/time_root/processed)), are provided to reproduce
 the experiment results reported in the paper.
 Each data object ("data_idx.pt") is a graph representation
 containing nodes, edges, and label information
 for a corresponding mixed-precision floating-point program.
 
 The MixBench dataset involves five benchmarks:
-[BlackScholes](https://github.com/JSId8qiHgdS3/Artifact/blob/master/raw/MixBench/orig_files/blackscholes.cpp), 
-[CFD](https://github.com/JSId8qiHgdS3/Artifact/blob/master/raw/MixBench/orig_files/euler3d.cpp), 
-[Hotspot](https://github.com/JSId8qiHgdS3/Artifact/blob/master/raw/MixBench/orig_files/hotspot.cpp), 
-[HPCCG](https://github.com/JSId8qiHgdS3/Artifact/blob/master/raw/MixBench/orig_files/hpccg.cpp), 
-and [LavaMD](https://github.com/JSId8qiHgdS3/Artifact/blob/master/raw/MixBench/orig_files/lavaMD.cpp).
+[BlackScholes](https://github.com/ucd-plse/FPLearner/blob/main/raw/MixBench/orig_files/blackscholes.cpp), 
+[CFD](https://github.com/ucd-plse/FPLearner/blob/main/raw/MixBench/orig_files/euler3d.cpp), 
+[Hotspot](https://github.com/ucd-plse/FPLearner/blob/main/raw/MixBench/orig_files/hotspot.cpp), 
+[HPCCG](https://github.com/ucd-plse/FPLearner/blob/main/raw/MixBench/orig_files/hpccg.cpp), 
+and [LavaMD](https://github.com/ucd-plse/FPLearner/blob/main/raw/MixBench/orig_files/lavaMD.cpp).
 The source code of these five benchmarks in their original precision
-can be found here ([`raw/MixBench/orig_files`](https://github.com/JSId8qiHgdS3/Artifact/tree/master/raw/MixBench/orig_files)).
+can be found here ([`raw/MixBench/orig_files`](https://github.com/ucd-plse/FPLearner/tree/main/raw/MixBench/orig_files)).
 
 | Task                       | Total | Label 0 | Label 1 | Avg. node count | Avg. edge count |
 | -------------------------- | ----- | ------- | ------- | --------------- | --------------- |
@@ -85,18 +85,18 @@ The table above shows the statistics of the two balanced datasets. Note that for
 
 <!-- (raw/model) -->
 
-In [`raw/model`](https://github.com/JSId8qiHgdS3/Artifact/tree/master/raw/model), the artifact provides the two well-trained models in FPLearner, [`error_AST_CFG_PDG_CAST_DEP_checkpoint.pt`](https://github.com/JSId8qiHgdS3/Artifact/blob/master/raw/model/error_AST_CFG_PDG_CAST_DEP_checkpoint.pt) and [`time_AST_CFG_PDG_CAST_DEP_checkpoint.pt`](https://github.com/JSId8qiHgdS3/Artifact/blob/master/raw/model/time_AST_CFG_PDG_CAST_DEP_checkpoint.pt), which were trained and tested on the provided MixBench dataset. Both models were trained
+In [`raw/model`](https://github.com/ucd-plse/FPLearner/tree/main/raw/model), the artifact provides the two well-trained models in FPLearner, [`error_AST_CFG_PDG_CAST_DEP_checkpoint.pt`](https://github.com/ucd-plse/FPLearner/blob/main/raw/model/error_AST_CFG_PDG_CAST_DEP_checkpoint.pt) and [`time_AST_CFG_PDG_CAST_DEP_checkpoint.pt`](https://github.com/ucd-plse/FPLearner/blob/main/raw/model/time_AST_CFG_PDG_CAST_DEP_checkpoint.pt), which were trained and tested on the provided MixBench dataset. Both models were trained
 on the composite graph representation (including AST, CFG, PDG, TypeCastingGraph, and VarDependenceGraph).
 
 #### 1.2.2 Training and testing log description
 
 <!-- (raw/log) -->
 
-In [`raw/log`](https://github.com/JSId8qiHgdS3/Artifact/tree/master/raw/log), the artifact provides training and testing logs for
+In [`raw/log`](https://github.com/ucd-plse/FPLearner/tree/main/raw/log), the artifact provides training and testing logs for
 both error and runtime prediction models on different combinations
 of edges. The logs provide the full set of results shown in the ablation study of edges in the paper.
 
-For example, the testing results including accuracy, precision, recall, and f-1 score for the error prediction model learning on a composite graph can be found in [`raw/log/error_AST_CFG_PDG_CAST_DEP/test.log`](https://github.com/JSId8qiHgdS3/Artifact/blob/master/raw/log/error_AST_CFG_PDG_CAST_DEP/test.log) which has the following content:
+For example, the testing results including accuracy, precision, recall, and f-1 score for the error prediction model learning on a composite graph can be found in [`raw/log/error_AST_CFG_PDG_CAST_DEP/test.log`](https://github.com/ucd-plse/FPLearner/blob/main/raw/log/error_AST_CFG_PDG_CAST_DEP/test.log) which has the following content:
 
 ```
 2023-03-01 15:13:31,038 Savedir: MixBench/error_allpurpose_root_AST_CFG_PDG_CAST_DEP
@@ -112,7 +112,7 @@ For example, the testing results including accuracy, precision, recall, and f-1 
 
 ### 1.3 Raw data from case study
 
-The running results from our case study on  the target benchmark CG are provided in [`raw/case-study/cg-results`](https://github.com/JSId8qiHgdS3/Artifact/tree/master/raw/case-study/cg-results).
+The running results from our case study on  the target benchmark CG are provided in [`raw/case-study/cg-results`](https://github.com/ucd-plse/FPLearner/tree/main/raw/case-study/cg-results).
 
 This folder consists of the following files:
 -  `*.json`: the precision configuraions for all mixed-precision floating-point programs in the search

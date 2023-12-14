@@ -340,13 +340,11 @@ python3 main.py -train -b 1
 ### 2.3 Case study reproduction
 
 <!-- ![cases](figures/motivation.png) -->
-
-
+<img src="figures/motivation.png" alt="Figure" width="650" height="auto">
 
 
 In this section, our artifact presents instructions to reproduce case study on four target benchmarks: `CG`, `MG`, `LULESH`, and `LBM`. The user has the option to incorporate the fine-tuned model plugins into two different precision tuners: `Precimonious` and `HiFPTuner`.
 
-<img src="figures/motivation.png" alt="Figure" width="600" height="auto" style="float: right; margin-left: 10px;">
 
 #### 2.3.0 Toy example to run Precimonious on `funarc`
 ```

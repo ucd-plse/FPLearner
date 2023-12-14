@@ -9,7 +9,8 @@
 
 double fun( double x ) {
   int k, n = 5;
-  double t1, d1 = 1.0L;
+  double t1 = 1.0L;
+  double d1 = 1.0L;
 
   t1 = x;
 
@@ -42,7 +43,10 @@ int main() {
   /****** END PRECIMONIOUOS PREAMBLE ******/
   
   int i, j, k, n = 1000000;
-  double h, t1, t2, dppi;
+  double h;
+  double t1;
+  double t2;
+  double dppi;
   double s1;
   
   for (l = 0; l < ITERS; l++) {

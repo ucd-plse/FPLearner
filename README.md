@@ -193,7 +193,7 @@ git clone https://github.com/ucd-plse/FPLearner.git <YOUR LOCAL PATH TO THIS REP
 ##### Step 1: Pull the Docker image 
 
 ```
-docker pull jsid8qihgds3/artifact_cu11.7.1
+docker pull ucdavisplse/fplearner
 ```
 
 Please note that the docker image size is 28.3GB.
@@ -201,7 +201,7 @@ Please note that the docker image size is 28.3GB.
 ##### Step 2: Run a Docker container (approx. a few secs)
 
 ```
-docker run -v <YOUR LOCAL PATH TO THIS REPO>:/root/home -ti --gpus all  --name artifact jsid8qihgds3/artifact_cu11.7.1
+docker run -v <YOUR LOCAL PATH TO THIS REPO>:/root/home -ti --gpus all  --name fplearner ucdavisplse/fplearner
 ```
 
 Please replace `<YOUR LOCAL PATH TO THIS REPO>`

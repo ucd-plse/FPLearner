@@ -7,7 +7,29 @@ The first part of our artifact, the raw data description, details the `MixBench`
 
 In the second part of our artifact, instructions are provided to play with our data, get statistics of our dataset, reproduce the testing scores of our pre-trained models on the dataset, as well as an optional step to train the prediction models from scratch. Besides, we also present the running commands to reconstruct the case studies on the four target benchmarks: `CG`, `MG`, `Lulesh`, and `LBM`.
 
-> **Contents Overview**
+## Overview of Contents
+
+- [1. Raw Data Description](#1-raw-data-description)
+  - [1.1 Dataset for model training](#11-dataset-for-model-training)
+  - [1.2 Raw data from model training](#12-raw-data-from-model-training)
+    - [1.2.1 Pre-trained model description](#121-pre-trained-model-description)
+    - [1.2.2 Training and testing log description](#122-training-and-testing-log-description)
+  - [1.3 Raw data from case study](#13-raw-data-from-case-study)
+- [2. Experiment Reproduction](#2-experiment-reproduction)
+  - [2.1 Environment preparation](#21-environment-preparation)
+    - [2.1.1 Setup environment via Docker](#211-setup-environment-via-docker)
+  - [2.2 Training and testing reproduction](#22-training-and-testing-reproduction)
+    - [2.2.1 Obtain statistics of the dataset](#211-setup-environment-via-docker)
+    - [2.2.2 Reproduce testing scores of the model](#222-reproduce-testing-scores-of-the-model)
+  - [2.3 Case study reproduction](#23-case-study-reproduction)
+    - [2.3.0 Toy example on funarc](#230-toy-example-to-run-precimonious-on-funarc)
+    - [2.3.1 Case study on CG](#231-case-study-on-cg)
+    - [2.3.2 Case study on MG](#232-case-study-on-mg)
+    - [2.3.3 Case study on Lulesh](#233-case-study-on-lulesh)
+    - [2.3.4 Case study on LBM](#234-case-study-on-lbm)
+
+
+<!-- > **Contents Overview**
 > 
 > **1. Raw Data Description**
 >
@@ -45,7 +67,7 @@ In the second part of our artifact, instructions are provided to play with our d
 > 
 > ============ 2.3.4 Case study on LBM
 
-<br/><br/>
+<br/><br/> -->
 
 
 

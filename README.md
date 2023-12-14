@@ -226,6 +226,9 @@ docker start -i artifact
 
 ### 2.2 Training and testing reproduction
 
+![approach](figures/approach.jpg)
+
+
 #### 2.2.1 Obtain statistics of the dataset
 
 The artifact provides the instructions to get statistics of our MixBench dataset.

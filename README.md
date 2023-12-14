@@ -3,6 +3,8 @@
 [![DOI](https://img.shields.io/badge/DOI-10.1145/3597503.3623338-blue)](https://doi.org/10.1145/3597503.3623338)
 [![P](https://img.shields.io/badge/Paper-FPLearner-orange)](https://www.computer.org/csdl/proceedings-article/icse/2024/021700a141/1RLIWpUoFKo)
 
+![approach](figures/approach.jpg)
+
 
 This is the artifact of the paper: **Predicting Performance and Accuracy of Mixed-Precision Programs for Precision Tuning**.
 The artifact is intended to provide the users with raw data descriptions and a set of guidelines to reproduce experiment results.
@@ -226,7 +228,7 @@ docker start -i artifact
 
 ### 2.2 Training and testing reproduction
 
-![approach](figures/approach.jpg)
+
 
 
 #### 2.2.1 Obtain statistics of the dataset
@@ -333,6 +335,9 @@ python3 main.py -train -b 1
 
 
 ### 2.3 Case study reproduction
+
+![cases](figures/motivation.png)
+
 
 In this section, our artifact presents instructions to reproduce case study on four target benchmarks: `CG`, `MG`, `LULESH`, and `LBM`. The user has the option to incorporate the fine-tuned model plugins into two different precision tuners: `Precimonious` and `HiFPTuner`.
 

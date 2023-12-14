@@ -3,7 +3,7 @@
 [![DOI](https://img.shields.io/badge/DOI-10.1145/3597503.3623338-blue)](https://doi.org/10.1145/3597503.3623338)
 [![P](https://img.shields.io/badge/Paper-FPLearner-orange)](https://www.computer.org/csdl/proceedings-article/icse/2024/021700a141/1RLIWpUoFKo)
 
-![approach](figures/approach.jpg)
+
 
 
 This is the artifact of the paper: **Predicting Performance and Accuracy of Mixed-Precision Programs for Precision Tuning**.
@@ -12,6 +12,9 @@ The artifact is intended to provide the users with raw data descriptions and a s
 The first part of our artifact, the raw data description, details the `MixBench` dataset used to train and test our prediction models, which were created from the MixBench programs. In addition, we provide a description of the running results from the model's training, testing, and case studies.
 
 In the second part of our artifact, instructions are provided to play with our data, get statistics of our dataset, reproduce the testing scores of our pre-trained models on the dataset, as well as an optional step to train the prediction models from scratch. Besides, we also present the running commands to reconstruct the case studies on the four target benchmarks: `CG`, `MG`, `Lulesh`, and `LBM`.
+
+![approach](figures/approach.jpg)
+
 
 ## Table of Contents
 
@@ -343,7 +346,7 @@ python3 main.py -train -b 1
 
 In this section, our artifact presents instructions to reproduce case study on four target benchmarks: `CG`, `MG`, `LULESH`, and `LBM`. The user has the option to incorporate the fine-tuned model plugins into two different precision tuners: `Precimonious` and `HiFPTuner`.
 
-<img src="figures/motivation.png" alt="Figure" width="700" height="auto">
+<img src="figures/motivation.png" alt="Figure" width="600" height="auto">
 
 #### 2.3.0 Toy example to run Precimonious on `funarc`
 ```

@@ -6,7 +6,7 @@
 
 
 
-This is the artifact of the paper: **Predicting Performance and Accuracy of Mixed-Precision Programs for Precision Tuning**.
+This is the artifact of the ICSE'24 paper: **Predicting Performance and Accuracy of Mixed-Precision Programs for Precision Tuning**.
 The artifact is intended to provide the users with raw data descriptions and a set of guidelines to reproduce experiment results.
 
 The first part of our artifact, the raw data description, details the `MixBench` dataset used to train and test our prediction models, which were created from the MixBench programs. In addition, we provide a description of the running results from the model's training, testing, and case studies.

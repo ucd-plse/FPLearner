@@ -11,7 +11,7 @@ The first part of our artifact, the raw data description, details the `MixBench`
 
 In the second part of our artifact, instructions are provided to play with our data, get statistics of our dataset, reproduce the testing scores of our pre-trained models on the dataset, as well as an optional step to train the prediction models from scratch. Besides, we also present the running commands to reconstruct the case studies on the four target benchmarks: `CG`, `MG`, `Lulesh`, and `LBM`.
 
-## Overview of Contents
+## Table of Contents
 
 - [1. Raw Data Description](#1-raw-data-description)
   - [1.1 Dataset for model training](#11-dataset-for-model-training)

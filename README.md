@@ -1,5 +1,9 @@
 # FPLearner
 
+[![DOI](https://img.shields.io/badge/DOI-10.1145/3597503.3623338-blue)](https://doi.org/10.1145/3597503.3623338)
+[![P](https://img.shields.io/badge/Paper-FPLearner-orange)](https://www.computer.org/csdl/proceedings-article/icse/2024/021700a141/1RLIWpUoFKo)
+
+
 This is the artifact of the paper: **Predicting Performance and Accuracy of Mixed-Precision Programs for Precision Tuning**.
 The artifact is intended to provide the users with raw data descriptions and a set of guidelines to reproduce experiment results.
 

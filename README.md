@@ -226,7 +226,7 @@ In the subsequent process of experiments reproduction,
 the first step is always to make sure you are inside the docker container. If you are not, please run the following command (approx. a few secs):
 
 ```
-docker start -i artifact
+docker start -i fplearner
 ```
 
 ### 2.2 Training and testing reproduction

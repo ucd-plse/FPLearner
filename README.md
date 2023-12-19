@@ -117,7 +117,7 @@ The table above shows the statistics of the two balanced datasets. Note that for
 <!-- (raw/model) -->
 
 In [`raw/model`](https://github.com/ucd-plse/FPLearner/tree/main/raw/model), the artifact provides the two well-trained models in FPLearner, [`error_AST_CFG_PDG_CAST_DEP_checkpoint.pt`](https://github.com/ucd-plse/FPLearner/blob/main/raw/model/error_AST_CFG_PDG_CAST_DEP_checkpoint.pt) and [`time_AST_CFG_PDG_CAST_DEP_checkpoint.pt`](https://github.com/ucd-plse/FPLearner/blob/main/raw/model/time_AST_CFG_PDG_CAST_DEP_checkpoint.pt), which were trained and tested on the provided MixBench dataset. Both models were trained
-on the composite graph representation (including AST, CFG, PDG, TypeCastingGraph, and VarDependenceGraph).
+on the composite graph representation (including AST, Control Flow, Program Dependence, TypeCasting, and AssignedFrom edges).
 
 #### 1.2.2 Training and testing log description
 

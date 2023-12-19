@@ -205,14 +205,22 @@ Please note that the docker image size is 28.3GB.
 
 ##### Step 2: Run a Docker container (approx. a few secs)
 
+The **CPU Only** option:
+
 ```
-docker run -v <YOUR LOCAL PATH TO THIS REPO>:/root/home -ti --gpus all  --name fplearner ucdavisplse/fplearner
+docker run -v <YOUR LOCAL PATH TO THIS REPO>:/root/home -ti  --name fplearner ucdavisplse/fplearner
+```
+
+The **GPU** option:
+
+```
+docker run -v <YOUR LOCAL PATH TO THIS REPO>:/root/home -ti --gpus all --name fplearner ucdavisplse/fplearner
 ```
 
 Please replace `<YOUR LOCAL PATH TO THIS REPO>`
 to your local path of this github repository.
 If necessary, you can also change the container's name.
-If the user prefers the CPU only option in the container, then remove the flag `--gpus all`.
+
 
 ##### Step 3: (For the GPU option) Check if CUDA is currently available in your container (approx. a few secs)
 

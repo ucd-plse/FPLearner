@@ -190,7 +190,7 @@ def test():
     loss_function = BCELoss(reduction="sum").to(DEVICE)
     
     if LOAD:
-        model.load_state_dict(torch.load(PRETRAINED)) 
+        model.load_state_dict(torch.load(PRETRAINED, map_location=DEVICE)) 
         print("Model ({}) is loaded.".format(PRETRAINED.split('/')[-1]))
         logger.info("Model ({}) is loaded.".format(PRETRAINED.split('/')[-1]))
 
@@ -252,7 +252,7 @@ def transfer():
     model = HeteroGNN(GRAPHS.split('_'))
     loss_function = BCELoss(reduction="sum").to(DEVICE)
     if LOAD:
-        model.load_state_dict(torch.load(os.path.join("model", PRETRAINED)))
+        model.load_state_dict(torch.load(os.path.join("model", PRETRAINED), map_location=DEVICE))
         print("Model ({}) is loaded.".format(PRETRAINED))
         logger.info("Model ({}) is loaded.".format(PRETRAINED))
         # for param in model.parameters():
@@ -336,7 +336,7 @@ def fix_transfer():
     model = HeteroGNN(GRAPHS.split('_'))
     loss_function = BCELoss(reduction="sum").to(DEVICE)
     if LOAD:
-        model.load_state_dict(torch.load(os.path.join("model", PRETRAINED)))
+        model.load_state_dict(torch.load(os.path.join("model", PRETRAINED), map_location=DEVICE))
         print("Model ({}) is loaded.".format(PRETRAINED))
         logger.info("Model ({}) is loaded.".format(PRETRAINED))
         # for param in model.parameters():
@@ -397,6 +397,7 @@ def main():
     global ROOT
     global TESTROOT
     global PRETRAINED
+    global LABEL
     if args.accuracy and args.performance:
         print("Please only specify one task at a time.")
         return
@@ -404,7 +405,8 @@ def main():
         ROOT = "../raw/MixBench/error_root"
         TESTROOT = "../raw/MixBench/error_root"
         PRETRAINED = "../raw/model/error_AST_CFG_PDG_CAST_DEP_checkpoint.pt"
-
+        LABEL = "error"
+        
     if args.data:
         dataset()
     if args.train:

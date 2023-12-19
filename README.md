@@ -174,7 +174,7 @@ you can choose the **CPU Only** option.
 
 - Ubuntu 20.04 with kernel version 5.14.0 (The reproduction package has not been tested on other systems.)
 - Docker 23.0.1 (The reproduction package has not been tested with other Docker versions.)
-- 40 GiB free disk space recommended
+- 40 GiB free disk space recommended (At lease more than 30 GiB to download the docker image and the github repo.)
 
 - Clone this GitHub repository to your local directory 
 ```

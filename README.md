@@ -103,10 +103,10 @@ and [LavaMD](https://github.com/ucd-plse/FPLearner/blob/main/raw/MixBench/orig_f
 The source code of these five benchmarks in their original precision
 can be found here ([`raw/MixBench/orig_files`](https://github.com/ucd-plse/FPLearner/tree/main/raw/MixBench/orig_files)).
 
-| Task                       | Total | Label 0 | Label 1 | Avg. node count | Avg. edge count |
+| Dataset                    | Total | Label 0 | Label 1 | Avg. node count | Avg. edge count |
 | -------------------------- | ----- | ------- | ------- | --------------- | --------------- |
-| Accuracy Prediction Dataset    | 600   | 300     | 300     | 3191            | 11597           |
-| Performance Prediction Dataset | 628   | 314     | 314     | 3195            | 11487           |
+| Accuracy Prediction        | 600   | 300     | 300     | 3191            | 11597           |
+| Performance Prediction     | 628   | 314     | 314     | 3195            | 11487           |
 
 The table above shows the statistics of the two balanced datasets. Note that for accuracy prediction, *label 0* refers to "program not within error threshold", and *label 1* refers to "program within error threshold"; while for performance prediction, *label 0* refers to "program with  no speedup", and *label 1* refers to "program with speedup".
 

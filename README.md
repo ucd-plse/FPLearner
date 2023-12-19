@@ -381,7 +381,7 @@ python3 main.py -train -b 1
 <img src="figures/motivation.png" alt="Figure" width="650" height="auto">
 
 
-In this section, our artifact presents instructions to reproduce case study on four target benchmarks: `CG`, `MG`, `LULESH`, and `LBM`. The user has the option to incorporate the fine-tuned model plugins into two different precision tuners: `Precimonious` and `HiFPTuner`.
+In this section, our artifact presents instructions to reproduce case study on four target benchmarks: `CG`, `MG`, `LULESH`, and `LBM`. The user has the options to incorporate `FPLearner` into two different precision tuners: `Precimonious` and `HiFPTuner`.
 
 
 #### 2.3.0 Toy example to run Precimonious on `funarc`

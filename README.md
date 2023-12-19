@@ -84,9 +84,9 @@ In the second part of our artifact, instructions are provided to play with our d
 
 ### 1.1 Dataset for model training
 
-Our MixBench datasets, one for calculation error prediction
+Our MixBench datasets, one for accuracy prediction
 ([`raw/MixBench/error_root/processed`](https://github.com/ucd-plse/FPLearner/tree/main/raw/MixBench/error_root/processed)),
-and the other for execution runtime prediction
+and the other for performance prediction
 on floating-point programs
 ([`raw/MixBench/time_root/processed`](https://github.com/ucd-plse/FPLearner/tree/main/raw/MixBench/time_root/processed)), are provided to reproduce
 the experiment results reported in the paper.
@@ -105,10 +105,10 @@ can be found here ([`raw/MixBench/orig_files`](https://github.com/ucd-plse/FPLea
 
 | Task                       | Total | Label 0 | Label 1 | Avg. node count | Avg. edge count |
 | -------------------------- | ----- | ------- | ------- | --------------- | --------------- |
-| Error Prediction Dataset   | 600   | 300     | 300     | 3191            | 11597           |
-| Runtime Prediction Dataset | 628   | 314     | 314     | 3195            | 11487           |
+| Accuracy Prediction Dataset    | 600   | 300     | 300     | 3191            | 11597           |
+| Performance Prediction Dataset | 628   | 314     | 314     | 3195            | 11487           |
 
-The table above shows the statistics of the two balanced datasets. Note that for error prediction, *label 0* refers to "program not within error threshold", and *label 1* refers to "program within error threshold"; while for runtime prediction, *label 0* refers to "program with  no speedup", and *label 1* refers to "program with speedup".
+The table above shows the statistics of the two balanced datasets. Note that for accuracy prediction, *label 0* refers to "program not within error threshold", and *label 1* refers to "program within error threshold"; while for performance prediction, *label 0* refers to "program with  no speedup", and *label 1* refers to "program with speedup".
 
 ### 1.2 Raw data from model training
 
@@ -124,10 +124,10 @@ on the composite graph representation (including AST, Control Flow, Program Depe
 <!-- (raw/log) -->
 
 In [`raw/log`](https://github.com/ucd-plse/FPLearner/tree/main/raw/log), the artifact provides training and testing logs for
-both error and runtime prediction models on different combinations
+both accuracy and performance prediction models on different combinations
 of edges. The logs provide the full set of results shown in the ablation study of edges in the paper.
 
-For example, the testing results including accuracy, precision, recall, and f-1 score for the error prediction model learning on a composite graph can be found in [`raw/log/error_AST_CFG_PDG_CAST_DEP/test.log`](https://github.com/ucd-plse/FPLearner/blob/main/raw/log/error_AST_CFG_PDG_CAST_DEP/test.log) which has the following content:
+For example, the testing results including accuracy, precision, recall, and f-1 score for the accuracy prediction model learning on a composite graph can be found in [`raw/log/error_AST_CFG_PDG_CAST_DEP/test.log`](https://github.com/ucd-plse/FPLearner/blob/main/raw/log/error_AST_CFG_PDG_CAST_DEP/test.log) which has the following content:
 
 ```
 2023-03-01 15:13:31,038 Savedir: MixBench/error_allpurpose_root_AST_CFG_PDG_CAST_DEP

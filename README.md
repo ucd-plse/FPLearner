@@ -304,11 +304,11 @@ The information involves:
 
 #### 2.2.2 Reproduce testing scores of the model
 
-The artifact provides three options to reproduce the testing scores of our model.
+The artifact provides three options to reproduce the testing scores of our model. To simplify, the instructions below utilize the performance prediction task as an illustration. Alternatively, you can opt for `-accr` to assess the accuracy prediction task.
 
 ##### Option 1: Testing on Pre-trained Model (Default)
 
-By default, you're reccomended to reproduce testing scores reported in the paper using the pre-trianed models. To simplify, the instructions below utilize the performance prediction task as an illustration. Alternatively, you can opt for `-accr` to assess the accuracy prediction task.
+By default, you're reccomended to reproduce testing scores reported in the paper using the pre-trianed models.
 
 ##### ==> Run the following commands (approx. 1min)
 

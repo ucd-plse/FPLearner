@@ -174,7 +174,7 @@ you can choose the **CPU Only** option.
 
 - Ubuntu 20.04 with kernel version 5.14.0 (The reproduction package has not been tested on other systems.)
 - Docker 23.0.1 (The reproduction package has not been tested with other Docker versions.)
-- 40 GiB free disk space recommended (At lease more than 30 GiB to download the docker image and the github repo.)
+- 40GB free disk space recommended (At lease more than 30GB to download the docker image and the github repo.)
 
 - Clone this GitHub repository to your local directory 
 ```
@@ -182,7 +182,7 @@ git clone https://github.com/ucd-plse/FPLearner.git <YOUR LOCAL PATH TO THIS REP
 ```
 #####  2. Optional Prerequisites (for the GPU option)
 
-- An NVIDIA GPU with 48GiB memory reccomended (The reproduction package is tested on the Nvidia RTX A6000, with the driver version 525.)
+- An NVIDIA GPU with 48GB memory reccomended (The reproduction package is tested on the Nvidia RTX A6000, with the driver version 525.)
 
 - NVIDIA Container Toolkit installed with the instructions from [here](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#setting-up-nvidia-container-toolkit) in the *Setting up NVIDIA Container Toolkit* section (The toolkit allows you to use GPUs in the Docker container.)
 

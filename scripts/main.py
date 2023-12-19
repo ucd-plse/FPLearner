@@ -20,7 +20,7 @@ from trainer import train as trainer_train
 from trainer import evaluate as trainer_eval
 torch.cuda.empty_cache()
 
-
+## default global options ##
 DEVICE = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 GRAPHS = "AST_CFG_PDG_CAST_DEP"
 ROOT = "../raw/MixBench/time_root"
@@ -34,7 +34,7 @@ if "time" in ROOT:
 else:
     LABEL = "error"
 LOAD = True
-
+############################
 
 def dataset():
     dataset = MixBench(root=ROOT)
@@ -385,12 +385,26 @@ def main():
     parser.add_argument('-fixtr', '--fixtransfer', action='store_true')
     parser.add_argument("-b", "--batch", type=int, default=16,
                     help="The batch size")
+    parser.add_argument('-accr', '--accuracy', action='store_true')
+    parser.add_argument('-perf', '--performance', action='store_true')
 
     args = parser.parse_args()
     global BATCH
     if args.batch:
         BATCH = args.batch
         print("BATCH SIZE = ", BATCH)
+    
+    global ROOT
+    global TESTROOT
+    global PRETRAINED
+    if args.accuracy and args.performance:
+        print("Please only specify one task at a time.")
+        return
+    elif args.accuracy:
+        ROOT = "../raw/MixBench/error_root"
+        TESTROOT = "../raw/MixBench/error_root"
+        PRETRAINED = "../raw/model/error_AST_CFG_PDG_CAST_DEP_checkpoint.pt"
+
     if args.data:
         dataset()
     if args.train:

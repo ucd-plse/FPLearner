@@ -244,7 +244,10 @@ docker start -i fplearner
 
 ### 2.2 Training and testing reproduction
 
-
+> In the following commandes,
+> the user can use `-perf` to specify the performance prediction task,
+> and use `-accr` to specify the accuracy prediction task.
+> If neither flag is used, the default task is performance prediction.
 
 
 #### 2.2.1 Obtain statistics of the dataset
@@ -253,14 +256,17 @@ The artifact provides the instructions to get statistics of our MixBench dataset
 
 ##### ==> Run the following commands (approx. a few secs)
 
+For the performance prediction task:
+
 ```
 cd /root/home/scripts
-python3 main.py -data
+python3 main.py -data -perf
 ```
 
 The expected terminal output is:
 
 ```
+BATCH SIZE =  16
 Finish dataset building.
 Dataset size is:  628
 100%|████████████████████| 628/628 [00:04<00:00, 153.55it/s]
@@ -268,6 +274,25 @@ in all:
 # runtime == 0:  314  # runtime == 1:  314
 # error == 0:  398  # error == 1:  230
 Average edge number per graph = 11486.964968152866, average node number per graph = 3195.353503184713
+```
+
+For the accuracy prediction task:
+
+```
+cd /root/home/scripts
+python3 main.py -data -accr
+```
+The expected terminal output is:
+
+```
+BATCH SIZE =  16
+Finish dataset building.
+Dataset size is:  600
+100%|████████████████████| 600/600 [00:25<00:00, 23.57it/s]
+in all:
+# runtime == 0:  372  # runtime == 1:  228
+# error == 0:  300  # error == 1:  300
+Average edge number per graph = 11596.956666666667, average node number per graph = 3191.036666666667
 ```
 
 The output messages describe the dataset information

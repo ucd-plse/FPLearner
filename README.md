@@ -205,13 +205,13 @@ Please note that the docker image size is 28.3GB.
 
 ##### Step 2: Run a Docker container (approx. a few secs)
 
-**CPU**:
+(The **CPU option**)
 
 ```
 docker run -v <YOUR LOCAL PATH TO THIS REPO>:/root/home -ti  --name fplearner ucdavisplse/fplearner
 ```
 
-**GPU**:
+(Or the **GPU option**)
 
 ```
 docker run -v <YOUR LOCAL PATH TO THIS REPO>:/root/home -ti --gpus all --name fplearner ucdavisplse/fplearner

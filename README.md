@@ -31,7 +31,7 @@ In the second part of our artifact, instructions are provided to play with our d
     - [2.2.1 Obtain statistics of the dataset](#211-setup-environment-via-docker)
     - [2.2.2 Reproduce testing scores of the model](#222-reproduce-testing-scores-of-the-model)
   - [2.3 Case study reproduction](#23-case-study-reproduction)
-    - [2.3.0 Toy example on funarc](#230-toy-example-to-run-precimonious-on-funarc)
+    - [2.3.0 Toy example on funarc](#230-optional-toy-example-to-run-precimonious-on-funarc)
     - [2.3.1 Case study on CG](#231-case-study-on-cg)
     - [2.3.2 Case study on MG](#232-case-study-on-mg)
     - [2.3.3 Case study on Lulesh](#233-case-study-on-lulesh)

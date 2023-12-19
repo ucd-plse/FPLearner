@@ -308,13 +308,13 @@ The artifact provides three options to reproduce the testing scores of our model
 
 ##### Option 1: Testing on Pre-trained Model (Default)
 
-By default, you're reccomended to reproduce testing scores reported in the paper useing the pre-trianed models. 
+By default, you're reccomended to reproduce testing scores reported in the paper using the pre-trianed models. To simplify, the instructions below utilize the performance prediction task as an illustration. Alternatively, you can opt for `-accr` to assess the accuracy prediction task.
 
 ##### ==> Run the following commands (approx. 1min)
 
 ```
 cd /root/home/scripts
-python3 main.py -test -b 16
+python3 main.py -test -b 16 -perf
 ```
 
 In this command, we set the batch size to be 16 by default.

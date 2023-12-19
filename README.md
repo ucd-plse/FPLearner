@@ -384,7 +384,11 @@ python3 main.py -train -b 1
 In this section, our artifact presents instructions to reproduce case study on four target benchmarks: `CG`, `MG`, `LULESH`, and `LBM`. The user has the options to incorporate `FPLearner` into two different precision tuners: `Precimonious` and `HiFPTuner`.
 
 
-#### 2.3.0 Toy example to run Precimonious on `funarc`
+#### 2.3.0 (Optional) Toy example to run Precimonious on `funarc`
+
+Before reproducing case studies, we first provide a toy example to 
+show how to use `Precimonious` to tune the precision of a small benchmark, `funarc`. Running the following command takes around 2min.
+
 ```
 cd /root/home/case-study/Precimonious
 python3 run.py funarc 10

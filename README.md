@@ -108,7 +108,7 @@ can be found here ([`raw/MixBench/orig_files`](https://github.com/ucd-plse/FPLea
 | Error Prediction Dataset   | 600   | 300     | 300     | 3191            | 11597           |
 | Runtime Prediction Dataset | 628   | 314     | 314     | 3195            | 11487           |
 
-The table above shows the statistics of the two balanced datasets. Note that for error prediction, *label 0* refers to "program not within error threshold", and *label 1* refers to "program within error threshold"; while for runtime prediction, *label 0* refers to "program with speedup", and *label 1* refers to "program with no speedup".
+The table above shows the statistics of the two balanced datasets. Note that for error prediction, *label 0* refers to "program not within error threshold", and *label 1* refers to "program within error threshold"; while for runtime prediction, *label 0* refers to "program with  no speedup", and *label 1* refers to "program with speedup".
 
 ### 1.2 Raw data from model training
 

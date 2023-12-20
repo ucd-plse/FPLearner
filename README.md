@@ -350,6 +350,7 @@ The output message contains the following information:
 
 <details>
 <summary>(Optional) Click to reproduce results of the edge ablation study.</summary>
+
 If the user wants to replicate the results of the edge ablation study, 
 they can use the `-graph` option to specify different edge types.
 For instance, set `CFG_PDG_CAST_DEP` in this option to test the graph "No AST" for the accuracy prediction model:

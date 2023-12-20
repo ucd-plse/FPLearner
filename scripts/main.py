@@ -385,6 +385,8 @@ def main():
     parser.add_argument('-fixtr', '--fixtransfer', action='store_true')
     parser.add_argument("-b", "--batch", type=int, default=16,
                     help="The batch size")
+    parser.add_argument("-graph", "--graph", type=str, default="AST_CFG_PDG_CAST_DEP",
+                    help="The edges")
     parser.add_argument('-accr', '--accuracy', action='store_true')
     parser.add_argument('-perf', '--performance', action='store_true')
 
@@ -394,9 +396,15 @@ def main():
         BATCH = args.batch
         print("BATCH SIZE = ", BATCH)
     
+    global GRAPHS
+    global PRETRAINED
+    if args.graph:
+        GRAPHS = args.graph
+        PRETRAINED = f"../raw/model/time_{GRAPHS}_checkpoint.pt"
+        print("GRAPHS = ", GRAPHS)
+    
     global ROOT
     global TESTROOT
-    global PRETRAINED
     global LABEL
     if args.accuracy and args.performance:
         print("Please only specify one task at a time.")
@@ -404,7 +412,7 @@ def main():
     elif args.accuracy:
         ROOT = "../raw/MixBench/error_root"
         TESTROOT = "../raw/MixBench/error_root"
-        PRETRAINED = "../raw/model/error_AST_CFG_PDG_CAST_DEP_checkpoint.pt"
+        PRETRAINED = f"../raw/model/error_{GRAPHS}_checkpoint.pt"
         LABEL = "error"
         
     if args.data:

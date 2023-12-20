@@ -267,6 +267,7 @@ python3 main.py -data -perf
 
 ```
 BATCH SIZE =  16
+GRAPHS =  AST_CFG_PDG_CAST_DEP
 Finish dataset building.
 Dataset size is:  628
 100%|████████████████████| 628/628 [00:04<00:00, 153.55it/s]
@@ -287,6 +288,7 @@ python3 main.py -data -accr
 
 ```
 BATCH SIZE =  16
+GRAPHS =  AST_CFG_PDG_CAST_DEP
 Finish dataset building.
 Dataset size is:  600
 100%|████████████████████| 600/600 [00:25<00:00, 23.57it/s]
@@ -315,14 +317,16 @@ By default, you're reccomended to reproduce testing scores reported in the paper
 
 ```
 cd /root/home/scripts
-python3 main.py -test -b 16 -perf
+python3 main.py -test -perf -b 16 
 ```
 
-In this command, we set the batch size to be 16 by default.
+In this command, we are testing the performance prediction model with all types of edges by default, under the batch size 16. 
 
 :small_orange_diamond: Expected terminal output:
 
 ```
+BATCH SIZE =  16
+GRAPHS =  AST_CFG_PDG_CAST_DEP
 Savedir:  runtime_AST_CFG_PDG_CAST_DEP
 Test dataset size: 127
 Split: 
@@ -344,7 +348,35 @@ The output message contains the following information:
 - The confusion matrix on the testing dataset
 - Metric scores to reflect the model's performance (accuracy, precision, recall and f1 score)
 
+If the user wants to replicate the results of the edge ablation study, 
+they can use the `-graph` option to specify different edge types.
+For instance, set `CFG_PDG_CAST_DEP` in this option to test the graph "No AST" for the accuracy prediction model:
 
+##### ==> Run the following commands (approx. 1min)
+
+```
+cd /root/home/scripts
+python3 main.py -test -accr -b 16 -graph CFG_PDG_CAST_DEP
+```
+
+:small_orange_diamond: Expected terminal output:
+
+```
+BATCH SIZE =  16
+GRAPHS =  CFG_PDG_CAST_DEP
+Savedir:  runtime_CFG_PDG_CAST_DEP
+Test dataset size: 120
+Split: 
+  test -> 12
+Edges: ['CFG', 'PDG', 'CAST', 'DEP']
+Model (error_CFG_PDG_CAST_DEP_checkpoint.pt) is loaded.
+100%|████████████████████| 8/8 [00:57<00:00,  7.20s/it]
+Confusion_matrix: 
+ [[46 11]
+ [ 3 60]]
+	 Test Loss: 4.462965 |  Test Acc: 89.062% |  Test Pre: 90.21% |  Test Rec: 90.16% |  Test Fsc: 90.19%
+	 Acc0: 80.70% |  Acc1: 95.24% |  Pre0: 94.79% |  Pre1: 85.63% |  Rec0: 84.21% | Rec1: 96.11% 
+```
 
 ##### Option 2: Train the Model from Scratch with Required GPU (Optional)
 

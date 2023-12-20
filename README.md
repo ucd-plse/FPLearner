@@ -348,6 +348,9 @@ The output message contains the following information:
 - The confusion matrix on the testing dataset
 - Metric scores to reflect the model's performance (accuracy, precision, recall and f1 score)
 
+<details>
+<summary>(Optional) Click to reproduce results of the edge ablation study.</summary>
+<pre>
 If the user wants to replicate the results of the edge ablation study, 
 they can use the `-graph` option to specify different edge types.
 For instance, set `CFG_PDG_CAST_DEP` in this option to test the graph "No AST" for the accuracy prediction model:
@@ -377,6 +380,8 @@ Confusion_matrix:
 	 Test Loss: 4.462965 |  Test Acc: 89.062% |  Test Pre: 90.21% |  Test Rec: 90.16% |  Test Fsc: 90.19%
 	 Acc0: 80.70% |  Acc1: 95.24% |  Pre0: 94.79% |  Pre1: 85.63% |  Rec0: 84.21% | Rec1: 96.11% 
 ```
+</pre>
+</details>
 
 ##### Option 2: Train the Model from Scratch with Required GPU (Optional)
 

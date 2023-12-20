@@ -426,7 +426,8 @@ In this section, our artifact presents instructions to reproduce case study on f
 
 
 #### 2.3.0 (Optional) Toy example to run Precimonious on `funarc`
-
+<details>
+<summary>Click to run this example.</summary>
 Before reproducing case studies, we first provide a toy example to 
 show how to use `Precimonious` to tune the precision of a small benchmark, `funarc`. Running the following command takes around 2min.
 
@@ -438,7 +439,7 @@ python3 run.py funarc 10
 Note that the second argument `10` indicates the timeout in seconds to run the benchmark `funarc` once.
 To get an idea of how to compile and run `funarc`, check the file `/root/home/case-study/Precimonious/funarc/scripts/Makefile` 
 and run `make` under the same directory.
-
+</details>
 
 #### 2.3.1 Case study on CG
 

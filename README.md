@@ -263,7 +263,7 @@ cd /root/home/scripts
 python3 main.py -data -perf
 ```
 
-The expected terminal output is:
+:small_orange_diamond: **Expected terminal output**:
 
 ```
 BATCH SIZE =  16

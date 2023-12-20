@@ -159,7 +159,6 @@ This folder consists of the following files:
 
 ## 2. Experiment Reproduction
 
-> Please note that results of our model's training and case studies are non-deterministic, and thus are expected to vary from what is reported.
 
 ### 2.1 Environment preparation
 
@@ -417,11 +416,13 @@ python3 main.py -train -b 1
 
 ### 2.3 Case study reproduction
 
-<!-- ![cases](figures/motivation.png) -->
+
 <img src="figures/motivation.png" alt="Figure" width="650" height="auto">
 
 
 In this section, our artifact presents instructions to reproduce case study on four target benchmarks: `CG`, `MG`, `LULESH`, and `LBM`. The user has the options to incorporate `FPLearner` into two different precision tuners: `Precimonious` and `HiFPTuner`.
+
+> Please note that results of our case studies are non-deterministic, and thus are expected to vary from what is reported.
 
 
 #### 2.3.0 (Optional) Toy example to run Precimonious on `funarc`

@@ -119,6 +119,9 @@ The table above shows the statistics of the two balanced datasets. Note that for
 In [`raw/model`](https://github.com/ucd-plse/FPLearner/tree/main/raw/model), the artifact provides the two well-trained models in FPLearner, [`error_AST_CFG_PDG_CAST_DEP_checkpoint.pt`](https://github.com/ucd-plse/FPLearner/blob/main/raw/model/error_AST_CFG_PDG_CAST_DEP_checkpoint.pt) (accuracy prediction model) and [`time_AST_CFG_PDG_CAST_DEP_checkpoint.pt`](https://github.com/ucd-plse/FPLearner/blob/main/raw/model/time_AST_CFG_PDG_CAST_DEP_checkpoint.pt) (performance prediction model), which were trained and tested on the provided MixBench dataset. Both models were trained
 on the composite graph representation (including AST, Control Flow, Program Dependence, TypeCasting, and AssignedFrom edges).
 
+In addition, the user can also find all the other pre-trained models in this directory, which are used for the edge ablation study. For example, 
+[`error_CFG_PDG_CAST_DEP_checkpoint.pt`](https://github.com/ucd-plse/FPLearner/blob/main/raw/model/error_CFG_PDG_CAST_DEP_checkpoint.pt) is the accuracy prediction model trained with *graphs_no_AST*.
+
 #### 1.2.2 Training and testing log description
 
 <!-- (raw/log) -->
@@ -350,7 +353,7 @@ The output message contains the following information:
 
 <details>
 <summary>(Optional) Click to reproduce results of the edge ablation study.</summary>
- 
+
 If the user wants to replicate the results of the edge ablation study, 
 they can use the `-graph` option to specify different edge types.
 For instance, set `CFG_PDG_CAST_DEP` in this option to test the graph "No AST" for the accuracy prediction model:

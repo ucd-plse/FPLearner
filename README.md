@@ -263,7 +263,7 @@ cd /root/home/scripts
 python3 main.py -data -perf
 ```
 
-:small_orange_diamond: **Expected terminal output**:
+:small_orange_diamond: Expected terminal output:
 
 ```
 BATCH SIZE =  16
@@ -282,7 +282,8 @@ For the accuracy prediction task:
 cd /root/home/scripts
 python3 main.py -data -accr
 ```
-The expected terminal output is:
+
+:small_orange_diamond: Expected terminal output:
 
 ```
 BATCH SIZE =  16
@@ -319,7 +320,7 @@ python3 main.py -test -b 16 -perf
 
 In this command, we set the batch size to be 16 by default.
 
-The expected terminal output is:
+:small_orange_diamond: Expected terminal output:
 
 ```
 Savedir:  runtime_AST_CFG_PDG_CAST_DEP
@@ -460,6 +461,7 @@ mv config_temp.json results-eps=4-A/INVALID_config_cg_3.json
 >   - "clang-12: error: linker command failed with exit code 1" 
 >   - "fatal error: 'npbparams.h' file not found"
 
+:small_orange_diamond: Expected results:
 
 After the precision tuning is done, you can find a folder in `case-study/<TunerName>-plugin/cg/run/results-eps==4-A` which contains the following files (`<TunerName>` is either `Precimonious` or `HiFPTuner`):
 

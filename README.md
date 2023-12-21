@@ -362,7 +362,7 @@ The output message contains the following information:
 - Metric scores to reflect the model's performance (accuracy, precision, recall and f1 score)
 
 <details>
-<summary>(Optional) <b>Click here</b> to reproduce results of the edge ablation study.</summary>
+<summary><b>Click here</b> to reproduce results of the edge ablation study.</summary>
 
 If the user wants to replicate the results of the edge ablation study, 
 they can use the `-graph` option to specify different edge types.

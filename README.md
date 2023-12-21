@@ -167,9 +167,10 @@ This folder consists of the following files:
 The user has two options to run the tool: the **CPU Only** option, and the **GPU** option.
 
 **Difference between two options**:
-If you want to train models by yourself, it's recommended to choose the **GPU** option. 
-Otherwise, if you just want to replicate the experiment results and use the pre-trained model,
-you can choose the **CPU Only** option.
+If the user aims to replicate the experiment results by using the pre-trained model,
+they can choose the **CPU Only** option. Otherwise, if they want to train models by themselves, 
+it's recommended to choose the **GPU** option. 
+
 
 #### 2.1.1 Setup environment via Docker
 

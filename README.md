@@ -486,18 +486,10 @@ In the command `python3 run.py cg 10`, we execute the script called `run.py` to 
 <summary><b>Click here</b> to check the beginning of the sample terminal output.</summary>
 <pre><code>
 include.json is generated.
+map.json is generated.
 rm -f *.out *config_*.json *.txt
-Plugin arg size = 6
-Output path = ./
-Output file name = config.json
-Input file name = cg.c
-Output file created - ./config.json
-Output file created - ./search_config.json
-/usr/bin/ld: /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crt1.o: in function `_start':
-(.text+0x24): undefined reference to `main'
-clang-12: error: linker command failed with exit code 1 (use -v to see invocation)
-Runtime time_predictor ../src/time_ggnn_5graphs_trl.pt is loaded.
-Error error_predictor ../src/error_ggnn_5graphs_trl.pt is loaded.
+Runtime time_predictor ../src/time_finetune.pt is loaded.
+Error error_predictor ../src/error_finetune.pt is loaded.
 Rootnode is 1534.
 One time preloading...
 ** Searching for valid configuration using delta-debugging algorithm
@@ -512,8 +504,10 @@ mv config_temp.json results-eps=4-A/INVALID_config_cg_3.json
 </details>
 
 > Please ignore the possible error messages during the search which do not have any affect to the run:
+>   - "pandas FutureWarning: df.append"
 >   - "clang-12: error: linker command failed with exit code 1" 
 >   - "fatal error: 'npbparams.h' file not found"
+
 
 :small_orange_diamond: Expected results:
 

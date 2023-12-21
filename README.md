@@ -162,6 +162,8 @@ This folder consists of the following files:
 
 ### 2.1 Environment preparation
 
+> Total time for environment preparation: approx. 20min
+
 The user has two options to run the tool: the **CPU Only** option, and the **GPU** option.
 
 **Difference between two options**:
@@ -178,10 +180,7 @@ you can choose the **CPU Only** option.
 - Docker 23.0.1 (The reproduction package has not been tested with other Docker versions.)
 - 40GB free disk space recommended (At lease more than 30GB to download the docker image and the github repo.)
 
-- Clone this GitHub repository to your local directory 
-```
-git clone https://github.com/ucd-plse/FPLearner.git <YOUR LOCAL PATH TO THIS REPO>
-```
+
 #####  2. Optional Prerequisites (for the GPU option)
 
 - An NVIDIA GPU with 48GB memory reccomended (The reproduction package is tested on the Nvidia RTX A6000, with the driver version 525.)
@@ -196,16 +195,29 @@ git clone https://github.com/ucd-plse/FPLearner.git <YOUR LOCAL PATH TO THIS REP
 
 
 
-##### 3. Start the Docker Container
-##### Step 1: Pull the Docker image 
+##### 3. Git Clone and Start the Docker Container
+
+:bulb: In the following steps, please replace `<YOUR LOCAL PATH TO THIS REPO>`
+to your local path of this github repository.
+
+##### Step 1: Git clone the repo (approx. a few secs)
+
+Clone this GitHub repository to your local directory.
+
+```
+git clone https://github.com/ucd-plse/FPLearner.git <YOUR LOCAL PATH TO THIS REPO>
+```
+
+##### Step 2: Pull the Docker image (approx. 15min)
+
+Please note that the docker image size is 28.3GB.
 
 ```
 docker pull ucdavisplse/fplearner
 ```
 
-Please note that the docker image size is 28.3GB.
 
-##### Step 2: Run a Docker container (approx. a few secs)
+##### Step 3: Run a Docker container (approx. a few secs)
 
 (The CPU option)
 
@@ -219,12 +231,10 @@ docker run -v <YOUR LOCAL PATH TO THIS REPO>:/root/home -ti  --name fplearner uc
 docker run -v <YOUR LOCAL PATH TO THIS REPO>:/root/home -ti --gpus all --name fplearner ucdavisplse/fplearner
 ```
 
-Please replace `<YOUR LOCAL PATH TO THIS REPO>`
-to your local path of this github repository.
 If necessary, you can also change the container's name.
 
 
-##### Step 3: (For the GPU option) Check if CUDA is currently available in your container (approx. a few secs)
+##### Step 4: (For the GPU option) Check if CUDA is currently available in your container (approx. a few secs)
 
 When you are inside the container,
 
@@ -237,7 +247,7 @@ you could first check the PyTorch version and the CUDA version
 in the running environment, check [pytorch.org](https://pytorch.org)
 to make sure the PyTorch version matches with the CUDA version.
 
-In the subsequent process of experiments reproduction,
+:bulb: In the subsequent process of experiments reproduction,
 the first step is always to make sure you are inside the docker container. If you are not, please run the following command (approx. a few secs):
 
 ```

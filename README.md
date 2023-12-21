@@ -362,7 +362,7 @@ The output message contains the following information:
 - Metric scores to reflect the model's performance (accuracy, precision, recall and f1 score)
 
 <details>
-<summary>(Optional) **Click here** to reproduce results of the edge ablation study.</summary>
+<summary>(Optional) <b>Click here</b> to reproduce results of the edge ablation study.</summary>
 
 If the user wants to replicate the results of the edge ablation study, 
 they can use the `-graph` option to specify different edge types.
@@ -438,7 +438,7 @@ In this section, our artifact presents instructions to reproduce case study on f
 
 #### 2.3.0 (Optional) Toy example to run Precimonious on `funarc`
 <details>
-<summary>**Click here** to run this example.</summary>
+<summary><b>Click here</b>b> to run this example.</summary>
 Before reproducing case studies, we first provide a toy example to 
 show how to use `Precimonious` to tune the precision of a small benchmark, `funarc`. Running the following command takes around 2min.
 
@@ -481,7 +481,7 @@ python3 run.py cg 10
 In the command `python3 run.py cg 10`, we execute the script called `run.py` to start dynamic precision tuning with plugin on the benchmark `CG`. The second argument `10` indicates the maximum time in seconds to run the benchmark `CG` once.
 
 <details>
-<summary>**Click here** to check the beginning of the sample terminal output.</summary>
+<summary><b>Click here</b>b> to check the beginning of the sample terminal output.</summary>
 <pre><code>
 include.json is generated.
 rm -f *.out *config_*.json *.txt

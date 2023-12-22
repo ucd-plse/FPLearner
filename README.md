@@ -16,12 +16,12 @@ Instructions are provided to play with our data, get statistics of our dataset, 
 
 ## Table of Contents
 
-- [Data](#data)
-  - [Dataset for model training](#dataset-for-model-training)
-  - [Raw data from model training](#raw-data-from-model-training)
-    - [Pre-trained model description](#pre-trained-model-description)
-    - [Training and testing log description](#training-and-testing-log-description)
-  - [Raw data from case study](#raw-data-from-case-study)
+- [1 Data](#1-data)
+  - [1.1 Dataset for model training](#11-dataset-for-model-training)
+  - [1.2 Raw data from model training](#12-raw-data-from-model-training)
+    - [1.2.1 Pre-trained model description](#121-pre-trained-model-description)
+    - [1.2.2 Training and testing log description](#122-training-and-testing-log-description)
+  - [1.3 Raw data from case study](#13-raw-data-from-case-study)
 - [Setup](#setup)
   - [Required Prerequisites (for both options)](#required-prerequisites-for-both-options)
   - [Optional Prerequisites (for the GPU option)](#optional-prerequisites-for-the-gpu-option)
@@ -40,9 +40,9 @@ Instructions are provided to play with our data, get statistics of our dataset, 
     - [Case study on LBM](#case-study-on-lbm)
 
 
-## Data
+## 1 Data
 
-### Dataset for model training
+### 1.1 Dataset for model training
 
 Our MixBench datasets, one for accuracy prediction
 ([`raw/MixBench/error_root/processed`](https://github.com/ucd-plse/FPLearner/tree/main/raw/MixBench/error_root/processed)),
@@ -70,9 +70,9 @@ can be found here ([`raw/MixBench/orig_files`](https://github.com/ucd-plse/FPLea
 
 The table above shows the statistics of the two balanced datasets. Note that for accuracy prediction, *label 0* refers to "program not within error threshold", and *label 1* refers to "program within error threshold"; while for performance prediction, *label 0* refers to "program with  no speedup", and *label 1* refers to "program with speedup".
 
-### Raw data from model training
+### 1.2 Raw data from model training
 
-#### Pre-trained model description
+#### 1.2.1 Pre-trained model description
 
 In [`raw/model`](https://github.com/ucd-plse/FPLearner/tree/main/raw/model), the artifact provides the two well-trained models in FPLearner, [`error_AST_CFG_PDG_CAST_DEP_checkpoint.pt`](https://github.com/ucd-plse/FPLearner/blob/main/raw/model/error_AST_CFG_PDG_CAST_DEP_checkpoint.pt) (accuracy prediction model) and [`time_AST_CFG_PDG_CAST_DEP_checkpoint.pt`](https://github.com/ucd-plse/FPLearner/blob/main/raw/model/time_AST_CFG_PDG_CAST_DEP_checkpoint.pt) (performance prediction model), which were trained and tested on the provided MixBench dataset. Both models were trained
 on the composite graph representation (including AST, Control Flow, Program Dependence, TypeCasting, and AssignedFrom edges).
@@ -80,7 +80,7 @@ on the composite graph representation (including AST, Control Flow, Program Depe
 In addition, the user can also find all the other pre-trained models in this directory, which are used for the edge ablation study. For example, 
 [`error_CFG_PDG_CAST_DEP_checkpoint.pt`](https://github.com/ucd-plse/FPLearner/blob/main/raw/model/error_CFG_PDG_CAST_DEP_checkpoint.pt) is the accuracy prediction model trained with *graphs_no_AST*.
 
-#### Training and testing log description
+#### 1.2.2 Training and testing log description
 
 In [`raw/log`](https://github.com/ucd-plse/FPLearner/tree/main/raw/log), the artifact provides training and testing logs for
 both accuracy and performance prediction models on different combinations
@@ -100,7 +100,7 @@ For example, the testing results including accuracy, precision, recall, and f-1 
 2023-03-01 15:14:14,466 	 Acc0: 92.98% |  Acc1: 100.00% |  Pre0: 100.00% |  Pre1: 94.49% |  Rec0: 93.63% | Rec1: 100.00% 
 ```
 
-### Raw data from case study
+### 1.3 Raw data from case study
 
 The running results from our case study on  the target benchmark CG are provided in [`raw/case-study/cg-results`](https://github.com/ucd-plse/FPLearner/tree/main/raw/case-study/cg-results).
 

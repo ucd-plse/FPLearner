@@ -27,17 +27,17 @@ Instructions are provided to play with our data, get statistics of our dataset, 
   - [2.2 Optional Prerequisites (for the GPU option)](#22-optional-prerequisites-for-the-gpu-option)
   - [2.3 Steps to Set Up](#23-steps-to-set-up)
   
-- [Usage](#usage)
-  - [Test the installation](#test-the-installation)
-  - [Reproduction of model training and testing](#reproduction-of-model-training-and-testing)
-    - [Obtain statistics of the dataset](#obtain-statistics-of-the-dataset)
-    - [Reproduce testing scores of the model](#reproduce-testing-scores-of-the-model)
-  - [Reproduction of case studies](#reproduction-of-case-studies)
-    - [Toy example to run Precimonious on funarc](#optional-toy-example-to-run-precimonious-on-funarc)
-    - [Case study on CG](#case-study-on-cg)
-    - [Case study on MG](#case-study-on-mg)
-    - [Case study on LULESH](#case-study-on-lulesh)
-    - [Case study on LBM](#case-study-on-lbm)
+- [3 Usage](#3-usage)
+  - [3.1 Test the installation](#31-test-the-installation)
+  - [3.2 Reproduction of model training and testing](#32-reproduction-of-model-training-and-testing)
+    - [3.2.1 Obtain statistics of the dataset](#321-obtain-statistics-of-the-dataset)
+    - [3.2.2 Reproduce testing scores of the model](#322-reproduce-testing-scores-of-the-model)
+  - [3.3 Reproduction of case studies](#33-reproduction-of-case-studies)
+    - [3.3.1 Toy example to run Precimonious on funarc](#331-optional-toy-example-to-run-precimonious-on-funarc)
+    - [3.3.2 Case study on CG](#332-case-study-on-cg)
+    - [3.3.3 Case study on MG](#333-case-study-on-mg)
+    - [3.3.4 Case study on LULESH](#334-case-study-on-lulesh)
+    - [3.3.5 Case study on LBM](#335-case-study-on-lbm)
 
 
 ## 1 Data
@@ -214,9 +214,9 @@ in the running environment, check [pytorch.org](https://pytorch.org)
 to make sure the PyTorch version matches with the CUDA version.
 
 
-## Usage
+## 3 Usage
 
-### Test the installation
+### 3.1 Test the installation
 
 In the setup stage, after the user runs
 or starts a Docker container using the commands mentioned above (i.e., `docker run` or `docker start`) and checks `pwd` and `ls`, the user will see the following messages indicating that they are inside the container and the installation is successful:
@@ -250,7 +250,7 @@ WARNING: The NVIDIA Driver was not detected.  GPU functionality will not be avai
 ```
 
 
-### Reproduction of model training and testing 
+### 3.2 Reproduction of model training and testing 
 
 In the following commandes,
 the user can use `-perf` to specify the performance prediction task,
@@ -258,7 +258,7 @@ and use `-accr` to specify the accuracy prediction task.
 If neither flag is used, the default task is performance prediction.
 
 
-#### Obtain statistics of the dataset
+#### 3.2.1 Obtain statistics of the dataset
 
 The artifact provides the instructions to get statistics of our MixBench dataset.
 
@@ -313,7 +313,7 @@ The information involves:
 - Label distribution
 - The average number of edges and nodes per graph in the dataset
 
-#### Reproduce testing scores of the model
+#### 3.2.2 Reproduce testing scores of the model
 
 The artifact provides three options to reproduce the testing scores of our model. To simplify, the instructions below utilize the performance prediction task as an illustration. Alternatively, you can opt for `-accr` to assess the accuracy prediction task.
 
@@ -419,7 +419,7 @@ python3 main.py -train -b 1
 ```
 
 
-### Reproduction of case studies
+### 3.3 Reproduction of case studies
 
 
 <img src="figures/motivation.png" alt="Figure" width="650" height="auto">
@@ -432,7 +432,7 @@ In this section, our artifact presents instructions to reproduce case study on f
 > As a result, the approximate duration of running the following commands could also vary on different machines.
 
 
-#### (Optional) Toy example to run Precimonious on funarc
+#### 3.3.1 (Optional) Toy example to run Precimonious on funarc
 
 Before reproducing case studies, we first provide a toy example to 
 show how to use `Precimonious` to tune the precision of a small benchmark, `funarc`. 
@@ -449,7 +449,7 @@ To get an idea of how to compile and run `funarc`, check the file `/root/home/ca
 and run `make` under the same directory.
 
 
-#### Case study on CG
+#### 3.3.2 Case study on CG
 
 ##### Option 1: Precimonious
 ##### ==> Run the following commands (approx. 1h)
@@ -512,7 +512,7 @@ After the precision tuning is done, you can find a folder in `case-study/<TunerN
 - `dd2_valid_{BENCH}_{IDX}.json`: the best precision configuration found by our tool
 - `best_speedup_{BENCH}_{IDX}.txt`: the corresponding best speed up
 
-#### Case study on MG
+#### 3.3.3 Case study on MG
 
 ##### Option 1: Precimonious + Model Plugins  
 ##### ==> Run the following commands (approx. 1h)
@@ -533,7 +533,7 @@ python3 run.py mg 10
 
 For `MG`, the timeout is 10s. The expected terminal output and results are similar to `CG`.
 
-#### Case study on LULESH
+#### 3.3.4 Case study on LULESH
 
 ##### Option 1: Precimonious + Model Plugins  
 ##### ==> Run the following commands (approx. 12h)
@@ -552,7 +552,7 @@ python3 run.py lulesh 30
 
 For `LULESH`, the timeout is 30s. The expected terminal output and results are similar to `CG`.
 
-#### Case study on LBM
+#### 3.3.5 Case study on LBM
 
 The `LBM` benchmark from SPEC CPU 2017 is proprietary and require a license from SPEC to use. We offer the instructions below and scripts for running our tool on LBM, but we don't provide the source code of LBM or any scripts to run SPEC benchmarks. If you have licence to SPEC CPU 2017 Benchmark Suites, please follow the instructions to run our tool:
 

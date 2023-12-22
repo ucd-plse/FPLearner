@@ -36,7 +36,7 @@ Instructions are provided to play with our data, get statistics of our dataset, 
     - [Toy example to run Precimonious on funarc](#optional-toy-example-to-run-precimonious-on-funarc)
     - [Case study on CG](#case-study-on-cg)
     - [Case study on MG](#case-study-on-mg)
-    - [Case study on Lulesh](#case-study-on-lulesh)
+    - [Case study on LULESH](#case-study-on-lulesh)
     - [Case study on LBM](#case-study-on-lbm)
 
 

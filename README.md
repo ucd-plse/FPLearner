@@ -102,9 +102,9 @@ For example, the testing results including accuracy, precision, recall, and f-1 
 
 ### 1.3 Raw data from case study
 
-The running results from our case study on  the target benchmark CG are provided in [`raw/case-study/cg-results`](https://github.com/ucd-plse/FPLearner/tree/main/raw/case-study/cg-results).
+The running results from all case studies, including `Precimonious+FPLearner` and `HiFPTuner+FPLearner` on the four target benchmarks `CG`, `MG`, `Lulesh`, and `LBM` are provided in [`raw/case-study/`](https://github.com/ucd-plse/FPLearner/tree/main/raw/case-study/).
 
-This folder consists of the following files:
+Each folder (e.g., [raw/case-study/HiFPTuner+FPLearner/cg-results/](https://github.com/ucd-plse/FPLearner/tree/main/raw/case-study/HiFPTuner%2BFPLearner/cg-results)) consists of the following files:
 -  `*.json`: the precision configuraions for all mixed-precision floating-point programs in the search
 -  `dd2-20230301-160059.log`: the log file which contains both the prediction results and the ground truth for each candidate program
 -  `df-configs.csv`: the csv file which contains both the prediction results and the ground truth for each candidate program

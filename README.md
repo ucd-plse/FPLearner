@@ -246,7 +246,7 @@ cd /root/home/scripts
 python3 main.py -data -perf
 ```
 
-Expected terminal output:
+:small_orange_diamond: Expected terminal output:
 
 ```
 BATCH SIZE =  16
@@ -267,7 +267,7 @@ cd /root/home/scripts
 python3 main.py -data -accr
 ```
 
-Expected terminal output:
+:small_orange_diamond: Expected terminal output:
 
 ```
 BATCH SIZE =  16
@@ -305,7 +305,7 @@ python3 main.py -test -perf -b 16
 
 In this command, we are testing the performance prediction model with all types of edges by default, under the batch size 16. 
 
-Expected terminal output:
+:small_orange_diamond: Expected terminal output:
 
 ```
 BATCH SIZE =  16
@@ -344,7 +344,7 @@ cd /root/home/scripts
 python3 main.py -test -accr -b 16 -graph CFG_PDG_CAST_DEP
 ```
 
-Expected terminal output:
+:small_orange_diamond: Expected terminal output:
 
 ```
 BATCH SIZE =  16
@@ -477,7 +477,7 @@ mv config_temp.json results-eps=4-A/INVALID_config_cg_3.json
 >   - "fatal error: 'npbparams.h' file not found"
 
 
-Expected results:
+:small_orange_diamond: Expected results:
 
 After the precision tuning is done, you can find a folder in `case-study/<TunerName>-plugin/cg/run/results-eps==4-A` which contains the following files (`<TunerName>` is either `Precimonious` or `HiFPTuner`):
 

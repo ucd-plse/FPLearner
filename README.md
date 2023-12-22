@@ -1,8 +1,8 @@
 # FPLearner Artifact 
-<!-- ![approach](figures/approach.jpg) -->
 
+[![DOI](https://img.shields.io/badge/DOI-10.1145/3597503.3623338-blue)](https://doi.org/10.1145/3597503.3623338)
+[![P](https://img.shields.io/badge/Paper-FPLearner-orange)](https://www.computer.org/csdl/proceedings-article/icse/2024/021700a141/1RLIWpUoFKo)
 
-## Purpose
 
 This is the **executable** artifact of the ICSE'24 paper: **Predicting Performance and Accuracy of Mixed-Precision Programs for Precision Tuning**.
 The artifact is intended to provide the users with raw data descriptions and a set of guidelines to reproduce experiment results.
@@ -11,19 +11,9 @@ The raw data description details the `MixBench` dataset used to train and test o
 
 Instructions are provided to play with our data, get statistics of our dataset, reproduce the testing scores of our pre-trained models on the dataset, as well as an optional step to train the prediction models from scratch. Besides, we also present the running commands to replicate and reproduce results in the case studies on the four target benchmarks: `CG`, `MG`, `Lulesh`, and `LBM`.
 
-### Badges
-[TBD]
-<!-- [![Badge1](URL1)](Reason1)
-[![Badge2](URL2)](Reason2) -->
+![approach](figures/approach.jpg)
 
-This artifact is applying for the Artifacts **Available** and Artifacts **Reusable** badges.
 
-## Provenance
-[TBD]
-
-The artifact can be obtained from ...
-
-Link to the paper’s preprint is https://www.computer.org/csdl/proceedings-article/icse/2024/021700a141/1RLIWpUoFKo.
 
 ## Data
 

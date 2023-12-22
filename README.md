@@ -14,6 +14,31 @@ Instructions are provided to play with our data, get statistics of our dataset, 
 ![approach](figures/approach.jpg)
 
 
+## Table of Contents
+
+- [Data](#data)
+  - [Dataset for model training](#dataset-for-model-training)
+  - [Raw data from model training](#raw-data-from-model-training)
+    - [Pre-trained model description](#pre-trained-model-description)
+    - [Training and testing log description](#training-and-testing-log-description)
+  - [Raw data from case study](#raw-data-from-case-study)
+- [Setup](#setup)
+  - [Required Prerequisites (for both options)](#required-prerequisites-for-both-options)
+  - [Optional Prerequisites (for the GPU option)](#optional-prerequisites-for-the-gpu-option)
+  - [Steps to Set Up](#steps-to-set-up)
+  
+- [Usage](#usage)
+  - [Test the installation](#test-the-installation)
+  - [Reproduction of model training and testing](#reproduction-of-model-training-and-testing)
+    - [Obtain statistics of the dataset](#setup-environment-via-docker)
+    - [Reproduce testing scores of the model](#reproduce-testing-scores-of-the-model)
+  - [Reproduction of case studies](#reproduction-of-case-studies)
+    - [Toy example to run Precimonious on funarc](#optional-toy-example-to-run-precimonious-on-funarc)
+    - [Case study on CG](#case-study-on-cg)
+    - [Case study on MG](#case-study-on-mg)
+    - [Case study on Lulesh](#case-study-on-lulesh)
+    - [Case study on LBM](#case-study-on-lbm)
+
 
 ## Data
 
@@ -397,7 +422,7 @@ python3 main.py -train -b 1
 ### Reproduction of case studies
 
 
-<!-- <img src="figures/motivation.png" alt="Figure" width="650" height="auto"> -->
+<img src="figures/motivation.png" alt="Figure" width="650" height="auto">
 
 
 In this section, our artifact presents instructions to reproduce case study on four target benchmarks: `CG`, `MG`, `LULESH`, and `LBM`. The user has the options to incorporate `FPLearner` into two different precision tuners: `Precimonious` and `HiFPTuner`.

@@ -1,4 +1,4 @@
-# FPLearner Artifact 
+# FPLearner 
 
 [![DOI](https://img.shields.io/badge/DOI-10.1145/3597503.3623338-blue)](https://doi.org/10.1145/3597503.3623338)
 [![P](https://img.shields.io/badge/Paper-FPLearner-orange)](https://www.computer.org/csdl/proceedings-article/icse/2024/021700a141/1RLIWpUoFKo)

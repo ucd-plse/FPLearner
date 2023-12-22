@@ -30,7 +30,7 @@ Instructions are provided to play with our data, get statistics of our dataset, 
 - [Usage](#usage)
   - [Test the installation](#test-the-installation)
   - [Reproduction of model training and testing](#reproduction-of-model-training-and-testing)
-    - [Obtain statistics of the dataset](#setup-environment-via-docker)
+    - [Obtain statistics of the dataset](#obtain-statistics-of-the-dataset)
     - [Reproduce testing scores of the model](#reproduce-testing-scores-of-the-model)
   - [Reproduction of case studies](#reproduction-of-case-studies)
     - [Toy example to run Precimonious on funarc](#optional-toy-example-to-run-precimonious-on-funarc)

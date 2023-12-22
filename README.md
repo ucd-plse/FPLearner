@@ -22,10 +22,10 @@ Instructions are provided to play with our data, get statistics of our dataset, 
     - [1.2.1 Pre-trained model description](#121-pre-trained-model-description)
     - [1.2.2 Training and testing log description](#122-training-and-testing-log-description)
   - [1.3 Raw data from case study](#13-raw-data-from-case-study)
-- [Setup](#setup)
-  - [Required Prerequisites (for both options)](#required-prerequisites-for-both-options)
-  - [Optional Prerequisites (for the GPU option)](#optional-prerequisites-for-the-gpu-option)
-  - [Steps to Set Up](#steps-to-set-up)
+- [2 Setup](#2-setup)
+  - [2.1 Required Prerequisites (for both options)](#21-required-prerequisites-for-both-options)
+  - [2.2 Optional Prerequisites (for the GPU option)](#22-optional-prerequisites-for-the-gpu-option)
+  - [2.3 Steps to Set Up](#23-steps-to-set-up)
   
 - [Usage](#usage)
   - [Test the installation](#test-the-installation)
@@ -111,7 +111,7 @@ This folder consists of the following files:
 -  `dd2_valid_cg_441.json`: the final precision configuration found in the search
 -  `best_speedup_cg_441.txt`: the corresponding best speedup
 
-## Setup 
+## 2 Setup 
 
 > Total time for environment setup: approx. 20min
 
@@ -124,7 +124,7 @@ it's recommended to choose the **GPU** option.
 
 
  
-### Required Prerequisites (for both options)
+### 2.1 Required Prerequisites (for both options)
 
 #### Hardware
 
@@ -139,7 +139,7 @@ it's recommended to choose the **GPU** option.
 
 
 
-###  Optional Prerequisites (for the GPU option)
+###  2.2 Optional Prerequisites (for the GPU option)
 
 - An NVIDIA GPU with 48GB memory is recommended (The reproduction package is tested on the Nvidia RTX A6000, with the driver version 525.)
 
@@ -153,7 +153,7 @@ it's recommended to choose the **GPU** option.
 
 
 
-### Steps to Set Up
+### 2.3 Steps to Set Up
 
 In the following steps, please replace `<YOUR LOCAL PATH TO THIS REPO>`
 to your local path of this github repository.

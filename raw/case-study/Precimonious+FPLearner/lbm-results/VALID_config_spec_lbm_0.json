@@ -1,0 +1,487 @@
+{
+    "localVar1": {
+        "file": "lbm.c",
+        "function": "LBM_performStreamCollideBGK",
+        "lines": [
+            "171",
+            "232",
+            "237"
+        ],
+        "location": "localVar",
+        "name": "uy",
+        "type": "double"
+    },
+    "localVar10": {
+        "file": "lbm.c",
+        "function": "LBM_performStreamCollideTRT",
+        "lines": [
+            "277"
+        ],
+        "location": "localVar",
+        "name": "fs",
+        "type": "double"
+    },
+    "localVar11": {
+        "file": "lbm.c",
+        "function": "LBM_performStreamCollideTRT",
+        "lines": [
+            "278"
+        ],
+        "location": "localVar",
+        "name": "fa",
+        "type": "double"
+    },
+    "localVar12": {
+        "file": "lbm.c",
+        "function": "LBM_performStreamCollideTRT",
+        "lines": [
+            "279"
+        ],
+        "location": "localVar",
+        "name": "feqs",
+        "type": "double"
+    },
+    "localVar13": {
+        "file": "lbm.c",
+        "function": "LBM_performStreamCollideTRT",
+        "lines": [
+            "280"
+        ],
+        "location": "localVar",
+        "name": "feqa",
+        "type": "double"
+    },
+    "localVar14": {
+        "file": "lbm.c",
+        "function": "LBM_handleInOutFlow",
+        "lines": [
+            "418",
+            "467",
+            "471",
+            "565",
+            "569"
+        ],
+        "location": "localVar",
+        "name": "ux",
+        "type": "double"
+    },
+    "localVar15": {
+        "file": "lbm.c",
+        "function": "LBM_handleInOutFlow",
+        "lines": [
+            "419",
+            "468",
+            "471",
+            "566",
+            "569"
+        ],
+        "location": "localVar",
+        "name": "uy",
+        "type": "double"
+    },
+    "localVar16": {
+        "file": "lbm.c",
+        "function": "LBM_handleInOutFlow",
+        "lines": [
+            "420",
+            "469",
+            "471",
+            "567",
+            "569"
+        ],
+        "location": "localVar",
+        "name": "uz",
+        "type": "double"
+    },
+    "localVar17": {
+        "file": "lbm.c",
+        "function": "LBM_handleInOutFlow",
+        "lines": [
+            "421",
+            "463",
+            "563"
+        ],
+        "location": "localVar",
+        "name": "rho",
+        "type": "double"
+    },
+    "localVar18": {
+        "file": "lbm.c",
+        "function": "LBM_handleInOutFlow",
+        "lines": [
+            "422",
+            "529",
+            "565"
+        ],
+        "location": "localVar",
+        "name": "ux1",
+        "type": "double"
+    },
+    "localVar19": {
+        "file": "lbm.c",
+        "function": "LBM_handleInOutFlow",
+        "lines": [
+            "423",
+            "530",
+            "566"
+        ],
+        "location": "localVar",
+        "name": "uy1",
+        "type": "double"
+    },
+    "localVar2": {
+        "file": "lbm.c",
+        "function": "LBM_performStreamCollideBGK",
+        "lines": [
+            "172",
+            "233",
+            "238"
+        ],
+        "location": "localVar",
+        "name": "uz",
+        "type": "double"
+    },
+    "localVar20": {
+        "file": "lbm.c",
+        "function": "LBM_handleInOutFlow",
+        "lines": [
+            "424",
+            "531",
+            "567"
+        ],
+        "location": "localVar",
+        "name": "uz1",
+        "type": "double"
+    },
+    "localVar21": {
+        "file": "lbm.c",
+        "function": "LBM_handleInOutFlow",
+        "lines": [
+            "425",
+            "463",
+            "529",
+            "530",
+            "531"
+        ],
+        "location": "localVar",
+        "name": "rho1",
+        "type": "double"
+    },
+    "localVar22": {
+        "file": "lbm.c",
+        "function": "LBM_handleInOutFlow",
+        "lines": [
+            "426",
+            "559",
+            "565"
+        ],
+        "location": "localVar",
+        "name": "ux2",
+        "type": "double"
+    },
+    "localVar23": {
+        "file": "lbm.c",
+        "function": "LBM_handleInOutFlow",
+        "lines": [
+            "427",
+            "560",
+            "566"
+        ],
+        "location": "localVar",
+        "name": "uy2",
+        "type": "double"
+    },
+    "localVar24": {
+        "file": "lbm.c",
+        "function": "LBM_handleInOutFlow",
+        "lines": [
+            "428",
+            "561",
+            "567"
+        ],
+        "location": "localVar",
+        "name": "uz2",
+        "type": "double"
+    },
+    "localVar25": {
+        "file": "lbm.c",
+        "function": "LBM_handleInOutFlow",
+        "lines": [
+            "429",
+            "463",
+            "559",
+            "560",
+            "561"
+        ],
+        "location": "localVar",
+        "name": "rho2",
+        "type": "double"
+    },
+    "localVar26": {
+        "file": "lbm.c",
+        "function": "LBM_handleInOutFlow",
+        "lines": [
+            "430",
+            "471",
+            "569"
+        ],
+        "location": "localVar",
+        "name": "u2",
+        "type": "double"
+    },
+    "localVar27": {
+        "file": "lbm.c",
+        "function": "LBM_handleInOutFlow",
+        "lines": [
+            "431",
+            "469"
+        ],
+        "location": "localVar",
+        "name": "px",
+        "type": "double"
+    },
+    "localVar28": {
+        "file": "lbm.c",
+        "function": "LBM_handleInOutFlow",
+        "lines": [
+            "432",
+            "469"
+        ],
+        "location": "localVar",
+        "name": "py",
+        "type": "double"
+    },
+    "localVar29": {
+        "file": "lbm.c",
+        "function": "LBM_showGridStatistics",
+        "lines": [
+            "601",
+            "653"
+        ],
+        "location": "localVar",
+        "name": "ux",
+        "type": "double"
+    },
+    "localVar3": {
+        "file": "lbm.c",
+        "function": "LBM_performStreamCollideBGK",
+        "lines": [
+            "173"
+        ],
+        "location": "localVar",
+        "name": "u2",
+        "type": "double"
+    },
+    "localVar30": {
+        "file": "lbm.c",
+        "function": "LBM_showGridStatistics",
+        "lines": [
+            "602",
+            "653"
+        ],
+        "location": "localVar",
+        "name": "uy",
+        "type": "double"
+    },
+    "localVar31": {
+        "file": "lbm.c",
+        "function": "LBM_showGridStatistics",
+        "lines": [
+            "603",
+            "653"
+        ],
+        "location": "localVar",
+        "name": "uz",
+        "type": "double"
+    },
+    "localVar32": {
+        "file": "lbm.c",
+        "function": "LBM_showGridStatistics",
+        "lines": [
+            "604",
+            "654"
+        ],
+        "location": "localVar",
+        "name": "minU2",
+        "type": "double"
+    },
+    "localVar33": {
+        "file": "lbm.c",
+        "function": "LBM_showGridStatistics",
+        "lines": [
+            "605",
+            "655"
+        ],
+        "location": "localVar",
+        "name": "maxU2",
+        "type": "double"
+    },
+    "localVar34": {
+        "file": "lbm.c",
+        "function": "LBM_showGridStatistics",
+        "lines": [
+            "606",
+            "653",
+            "654",
+            "655"
+        ],
+        "location": "localVar",
+        "name": "u2",
+        "type": "double"
+    },
+    "localVar35": {
+        "file": "lbm.c",
+        "function": "LBM_showGridStatistics",
+        "lines": [
+            "607",
+            "625"
+        ],
+        "location": "localVar",
+        "name": "minRho",
+        "type": "double"
+    },
+    "localVar36": {
+        "file": "lbm.c",
+        "function": "LBM_showGridStatistics",
+        "lines": [
+            "608",
+            "626"
+        ],
+        "location": "localVar",
+        "name": "maxRho",
+        "type": "double"
+    },
+    "localVar37": {
+        "file": "lbm.c",
+        "function": "LBM_showGridStatistics",
+        "lines": [
+            "609",
+            "625",
+            "626",
+            "627",
+            "653"
+        ],
+        "location": "localVar",
+        "name": "rho",
+        "type": "double"
+    },
+    "localVar38": {
+        "file": "lbm.c",
+        "function": "LBM_showGridStatistics",
+        "lines": [
+            "610",
+            "627"
+        ],
+        "location": "localVar",
+        "name": "mass",
+        "type": "double"
+    },
+    "localVar39": {
+        "file": "lbm.c",
+        "function": "LBM_compareVelocityField",
+        "lines": [
+            "779"
+        ],
+        "location": "localVar",
+        "name": "rho",
+        "type": "double"
+    },
+    "localVar4": {
+        "file": "lbm.c",
+        "function": "LBM_performStreamCollideBGK",
+        "lines": [
+            "174",
+            "232",
+            "233"
+        ],
+        "location": "localVar",
+        "name": "rho",
+        "type": "double"
+    },
+    "localVar40": {
+        "file": "lbm.c",
+        "function": "LBM_compareVelocityField",
+        "lines": [
+            "780"
+        ],
+        "location": "localVar",
+        "name": "ux",
+        "type": "double"
+    },
+    "localVar41": {
+        "file": "lbm.c",
+        "function": "LBM_compareVelocityField",
+        "lines": [
+            "781"
+        ],
+        "location": "localVar",
+        "name": "uy",
+        "type": "double"
+    },
+    "localVar42": {
+        "file": "lbm.c",
+        "function": "LBM_compareVelocityField",
+        "lines": [
+            "782"
+        ],
+        "location": "localVar",
+        "name": "uz",
+        "type": "double"
+    },
+    "localVar5": {
+        "file": "lbm.c",
+        "function": "LBM_performStreamCollideTRT",
+        "lines": [
+            "271",
+            "338",
+            "343"
+        ],
+        "location": "localVar",
+        "name": "uy",
+        "type": "double"
+    },
+    "localVar6": {
+        "file": "lbm.c",
+        "function": "LBM_performStreamCollideTRT",
+        "lines": [
+            "272",
+            "339",
+            "344"
+        ],
+        "location": "localVar",
+        "name": "uz",
+        "type": "double"
+    },
+    "localVar7": {
+        "file": "lbm.c",
+        "function": "LBM_performStreamCollideTRT",
+        "lines": [
+            "273"
+        ],
+        "location": "localVar",
+        "name": "u2",
+        "type": "double"
+    },
+    "localVar8": {
+        "file": "lbm.c",
+        "function": "LBM_performStreamCollideTRT",
+        "lines": [
+            "274",
+            "338",
+            "339"
+        ],
+        "location": "localVar",
+        "name": "rho",
+        "type": "double"
+    },
+    "localVar9": {
+        "file": "lbm.c",
+        "function": "LBM_performStreamCollideTRT",
+        "lines": [
+            "276"
+        ],
+        "location": "localVar",
+        "name": "lambda0",
+        "type": "const double"
+    }
+}

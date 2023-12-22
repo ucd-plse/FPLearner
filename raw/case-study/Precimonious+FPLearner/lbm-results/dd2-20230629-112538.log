@@ -1,0 +1,673 @@
+INFO:root:** Searching for valid configuration using delta-debugging algorithm
+INFO:root:-------- running config 0 --------
+INFO:root:within err threshold: true, error = 9.7518653163137E-09
+INFO:root:runtime: 194.474345874
+INFO:root:Average runtime = 194.474345874 s 
+INFO:root:-------- running config 1 --------
+INFO:root:-------- running config 2 --------
+INFO:root:-------- running config 3 --------
+INFO:root:-------- running config 4 --------
+INFO:root:-------- running config 5 --------
+INFO:root:-------- running config 6 --------
+INFO:root:-------- running config 7 --------
+INFO:root:-------- running config 8 --------
+INFO:root:-------- running config 9 --------
+INFO:root:-------- running config 10 --------
+INFO:root:-------- running config 11 --------
+INFO:root:-------- running config 12 --------
+INFO:root:-------- running config 13 --------
+INFO:root:-------- running config 14 --------
+INFO:root:-------- running config 15 --------
+INFO:root:-------- running config 16 --------
+INFO:root:-------- running config 17 --------
+INFO:root:-------- running config 18 --------
+INFO:root:-------- running config 19 --------
+INFO:root:-------- running config 20 --------
+INFO:root:-------- running config 21 --------
+INFO:root:-------- running config 22 --------
+INFO:root:-------- running config 23 --------
+INFO:root:-------- running config 24 --------
+INFO:root:-------- running config 25 --------
+INFO:root:-------- running config 26 --------
+INFO:root:-------- running config 27 --------
+INFO:root:-------- running config 28 --------
+INFO:root:-------- running config 29 --------
+INFO:root:-------- running config 30 --------
+INFO:root:-------- running config 31 --------
+INFO:root:-------- running config 32 --------
+INFO:root:-------- running config 33 --------
+INFO:root:-------- running config 34 --------
+INFO:root:-------- running config 35 --------
+INFO:root:-------- running config 36 --------
+INFO:root:-------- running config 37 --------
+INFO:root:-------- running config 38 --------
+INFO:root:-------- running config 39 --------
+INFO:root:-------- running config 40 --------
+INFO:root:-------- running config 41 --------
+INFO:root:-------- running config 42 --------
+INFO:root:-------- running config 43 --------
+INFO:root:-------- running config 44 --------
+INFO:root:-------- running config 45 --------
+INFO:root:-------- running config 46 --------
+INFO:root:-------- running config 47 --------
+INFO:root:-------- running config 48 --------
+INFO:root:-------- running config 49 --------
+INFO:root:-------- running config 50 --------
+INFO:root:-------- running config 51 --------
+INFO:root:-------- running config 52 --------
+INFO:root:-------- running config 53 --------
+INFO:root:-------- running config 54 --------
+INFO:root:-------- running config 55 --------
+INFO:root:-------- running config 56 --------
+INFO:root:-------- running config 57 --------
+INFO:root:-------- running config 58 --------
+INFO:root:-------- running config 59 --------
+INFO:root:-------- running config 60 --------
+INFO:root:-------- running config 61 --------
+INFO:root:-------- running config 62 --------
+INFO:root:-------- running config 63 --------
+INFO:root:-------- running config 64 --------
+INFO:root:-------- running config 65 --------
+INFO:root:-------- running config 66 --------
+INFO:root:-------- running config 67 --------
+INFO:root:-------- running config 68 --------
+INFO:root:-------- running config 69 --------
+INFO:root:-------- running config 70 --------
+INFO:root:-------- running config 71 --------
+INFO:root:-------- running config 72 --------
+INFO:root:-------- running config 73 --------
+INFO:root:-------- running config 74 --------
+INFO:root:-------- running config 75 --------
+INFO:root:-------- running config 76 --------
+INFO:root:-------- running config 77 --------
+INFO:root:-------- running config 78 --------
+INFO:root:-------- running config 79 --------
+INFO:root:-------- running config 80 --------
+INFO:root:Runtime prediction: 0.3901435434818268 ==> 0.0
+INFO:root:Error prediction: 0.06609506160020828 ==> 0.0
+INFO:root:-------- running config 81 --------
+INFO:root:Runtime prediction: 0.7691240906715393 ==> 1.0
+INFO:root:Error prediction: 0.9004254341125488 ==> 1.0
+INFO:root:within err threshold: true, error = 9.7518653163137E-09
+INFO:root:runtime: 167.832857743
+INFO:root:Average runtime = 167.832857743 s
+INFO:root:-------- running config 82 --------
+INFO:root:Runtime prediction: 0.43883824348449707 ==> 0.0
+INFO:root:Error prediction: 0.0658092349767685 ==> 0.0
+INFO:root:-------- running config 83 --------
+INFO:root:Runtime prediction: 0.7852473258972168 ==> 1.0
+INFO:root:Error prediction: 0.9182968735694885 ==> 1.0
+INFO:root:within err threshold: true, error = 9.7518653163137E-09
+INFO:root:runtime: 173.83878219
+INFO:root:Average runtime = 173.83878219 s
+INFO:root:-------- running config 84 --------
+INFO:root:Runtime prediction: 0.5389604568481445 ==> 1.0
+INFO:root:Error prediction: 0.06774930655956268 ==> 0.0
+INFO:root:-------- running config 85 --------
+INFO:root:Runtime prediction: 0.7017645239830017 ==> 1.0
+INFO:root:Error prediction: 0.9113672375679016 ==> 1.0
+INFO:root:within err threshold: true, error = 9.7518653163137E-09
+INFO:root:runtime: 172.515144236
+INFO:root:Average runtime = 172.515144236 s
+INFO:root:-------- running config 86 --------
+INFO:root:Runtime prediction: 0.4406322240829468 ==> 0.0
+INFO:root:Error prediction: 0.065207839012146 ==> 0.0
+INFO:root:-------- running config 87 --------
+INFO:root:Runtime prediction: 0.7402917146682739 ==> 1.0
+INFO:root:Error prediction: 0.9270452260971069 ==> 1.0
+INFO:root:within err threshold: true, error = 7.1661026219638E-09
+INFO:root:runtime: 164.719817933
+INFO:root:Average runtime = 164.719817933 s
+INFO:root:-------- running config 88 --------
+INFO:root:Runtime prediction: 0.4185783565044403 ==> 0.0
+INFO:root:Error prediction: 0.06218181177973747 ==> 0.0
+INFO:root:-------- running config 89 --------
+INFO:root:Runtime prediction: 0.7933900356292725 ==> 1.0
+INFO:root:Error prediction: 0.9391660094261169 ==> 1.0
+INFO:root:within err threshold: true, error = 9.7647702021314E-09
+INFO:root:runtime: 172.692551841
+INFO:root:Average runtime = 172.692551841 s
+INFO:root:-------- running config 90 --------
+INFO:root:Runtime prediction: 0.42106547951698303 ==> 0.0
+INFO:root:Error prediction: 0.07438347488641739 ==> 0.0
+INFO:root:-------- running config 91 --------
+INFO:root:Runtime prediction: 0.7917802929878235 ==> 1.0
+INFO:root:Error prediction: 0.923988938331604 ==> 1.0
+INFO:root:within err threshold: true, error = 2.6440488594384E-08
+INFO:root:runtime: 178.582741344
+INFO:root:Average runtime = 178.582741344 s
+INFO:root:-------- running config 92 --------
+INFO:root:Runtime prediction: 0.402271032333374 ==> 0.0
+INFO:root:Error prediction: 0.06996200233697891 ==> 0.0
+INFO:root:-------- running config 93 --------
+INFO:root:Runtime prediction: 0.7866876721382141 ==> 1.0
+INFO:root:Error prediction: 0.9250207543373108 ==> 1.0
+INFO:root:within err threshold: false, error = 4.6919336405259E-07
+INFO:root:runtime: 161.160169889
+INFO:root:Average runtime = 161.160169889 s
+INFO:root:-------- running config 94 --------
+INFO:root:Runtime prediction: 0.4383428692817688 ==> 0.0
+INFO:root:Error prediction: 0.07174862176179886 ==> 0.0
+INFO:root:-------- running config 95 --------
+INFO:root:Runtime prediction: 0.7521016597747803 ==> 1.0
+INFO:root:Error prediction: 0.9197391867637634 ==> 1.0
+INFO:root:within err threshold: false, error = 8.3952915203478E-06
+INFO:root:runtime: 153.270886773
+INFO:root:Average runtime = 153.270886773 s
+INFO:root:-------- running config 96 --------
+INFO:root:Runtime prediction: 0.5220196843147278 ==> 1.0
+INFO:root:Error prediction: 0.5701417326927185 ==> 1.0
+INFO:root:within err threshold: false, error = 2.1621355109190E-05
+INFO:root:runtime: 157.018056775
+INFO:root:Average runtime = 157.018056775 s
+INFO:root:-------- running config 97 --------
+INFO:root:Runtime prediction: 0.5912736058235168 ==> 1.0
+INFO:root:Error prediction: 0.37597882747650146 ==> 0.0
+INFO:root:-------- running config 98 --------
+INFO:root:Runtime prediction: 0.3913007378578186 ==> 0.0
+INFO:root:Error prediction: 0.13778086006641388 ==> 0.0
+INFO:root:-------- running config 99 --------
+INFO:root:Runtime prediction: 0.4787123203277588 ==> 0.0
+INFO:root:Error prediction: 0.7146610617637634 ==> 1.0
+INFO:root:-------- running config 100 --------
+INFO:root:Runtime prediction: 0.257300466299057 ==> 0.0
+INFO:root:Error prediction: 0.20584629476070404 ==> 0.0
+INFO:root:-------- running config 101 --------
+INFO:root:Runtime prediction: 0.5919679999351501 ==> 1.0
+INFO:root:Error prediction: 0.6029813885688782 ==> 1.0
+INFO:root:within err threshold: false, error = 2.0318572799112E-07
+INFO:root:runtime: 159.667307697
+INFO:root:Average runtime = 159.667307697 s
+INFO:root:-------- running config 102 --------
+INFO:root:Runtime prediction: 0.42159977555274963 ==> 0.0
+INFO:root:Error prediction: 0.1455804407596588 ==> 0.0
+INFO:root:-------- running config 103 --------
+INFO:root:Runtime prediction: 0.6832137107849121 ==> 1.0
+INFO:root:Error prediction: 0.7739549875259399 ==> 1.0
+INFO:root:within err threshold: true, error = 8.5790266719804E-09
+INFO:root:runtime: 163.300774046
+INFO:root:Average runtime = 163.300774046 s
+INFO:root:-------- running config 104 --------
+INFO:root:Runtime prediction: 0.5874850749969482 ==> 1.0
+INFO:root:Error prediction: 0.14099951088428497 ==> 0.0
+INFO:root:-------- running config 105 --------
+INFO:root:Runtime prediction: 0.5895348191261292 ==> 1.0
+INFO:root:Error prediction: 0.7823001742362976 ==> 1.0
+INFO:root:within err threshold: false, error = 1.5664048800428E-05
+INFO:root:runtime: 171.43060286
+INFO:root:Average runtime = 171.43060286 s
+INFO:root:-------- running config 106 --------
+INFO:root:Runtime prediction: 0.5111660361289978 ==> 1.0
+INFO:root:Error prediction: 0.2653347849845886 ==> 0.0
+INFO:root:-------- running config 107 --------
+INFO:root:Runtime prediction: 0.31403881311416626 ==> 0.0
+INFO:root:Error prediction: 0.2130623310804367 ==> 0.0
+INFO:root:-------- running config 108 --------
+INFO:root:Runtime prediction: 0.331783264875412 ==> 0.0
+INFO:root:Error prediction: 0.12662093341350555 ==> 0.0
+INFO:root:-------- running config 109 --------
+INFO:root:Runtime prediction: 0.4437888562679291 ==> 0.0
+INFO:root:Error prediction: 0.5130143761634827 ==> 1.0
+INFO:root:-------- running config 110 --------
+INFO:root:Runtime prediction: 0.5529109835624695 ==> 1.0
+INFO:root:Error prediction: 0.139374777674675 ==> 0.0
+INFO:root:-------- running config 111 --------
+INFO:root:Runtime prediction: 0.5227773785591125 ==> 1.0
+INFO:root:Error prediction: 0.4165484607219696 ==> 1.0
+INFO:root:within err threshold: false, error = 2.0632407232643E-07
+INFO:root:runtime: 176.240416451
+INFO:root:Average runtime = 176.240416451 s
+INFO:root:-------- running config 112 --------
+INFO:root:Runtime prediction: 0.27159202098846436 ==> 0.0
+INFO:root:Error prediction: 0.09862175583839417 ==> 0.0
+INFO:root:-------- running config 113 --------
+INFO:root:Runtime prediction: 0.5565703511238098 ==> 1.0
+INFO:root:Error prediction: 0.49142366647720337 ==> 1.0
+INFO:root:within err threshold: false, error = 1.9602808036870E-07
+INFO:root:runtime: 155.211373364
+INFO:root:Average runtime = 155.211373364 s
+INFO:root:-------- running config 114 --------
+INFO:root:Runtime prediction: 0.46811798214912415 ==> 0.0
+INFO:root:Error prediction: 0.12105691432952881 ==> 0.0
+INFO:root:-------- running config 115 --------
+INFO:root:Runtime prediction: 0.6386282444000244 ==> 1.0
+INFO:root:Error prediction: 0.612510085105896 ==> 1.0
+INFO:root:within err threshold: false, error = 2.1621351258056E-05
+INFO:root:runtime: 159.861708685
+INFO:root:Average runtime = 159.861708685 s
+INFO:root:-------- running config 116 --------
+INFO:root:Runtime prediction: 0.43348369002342224 ==> 0.0
+INFO:root:Error prediction: 0.07131847739219666 ==> 0.0
+INFO:root:-------- running config 117 --------
+INFO:root:Runtime prediction: 0.6635990738868713 ==> 1.0
+INFO:root:Error prediction: 0.7337995171546936 ==> 1.0
+INFO:root:within err threshold: true, error = 8.5790266719804E-09
+INFO:root:runtime: 162.878403003
+INFO:root:Average runtime = 162.878403003 s
+INFO:root:-------- running config 118 --------
+INFO:root:Runtime prediction: 0.3187883794307709 ==> 0.0
+INFO:root:Error prediction: 0.10717524588108063 ==> 0.0
+INFO:root:-------- running config 119 --------
+INFO:root:Runtime prediction: 0.46590477228164673 ==> 0.0
+INFO:root:Error prediction: 0.5668137073516846 ==> 1.0
+INFO:root:-------- running config 120 --------
+INFO:root:Runtime prediction: 0.430917352437973 ==> 0.0
+INFO:root:Error prediction: 0.07492536306381226 ==> 0.0
+INFO:root:-------- running config 121 --------
+INFO:root:Runtime prediction: 0.6509005427360535 ==> 1.0
+INFO:root:Error prediction: 0.6024430394172668 ==> 1.0
+INFO:root:within err threshold: false, error = 1.7014998363506E-07
+INFO:root:runtime: 163.837239072
+INFO:root:Average runtime = 163.837239072 s
+INFO:root:-------- running config 122 --------
+INFO:root:Runtime prediction: 0.45288488268852234 ==> 0.0
+INFO:root:Error prediction: 0.07865877449512482 ==> 0.0
+INFO:root:-------- running config 123 --------
+INFO:root:Runtime prediction: 0.6226620674133301 ==> 1.0
+INFO:root:Error prediction: 0.5014910697937012 ==> 1.0
+INFO:root:within err threshold: false, error = 3.3054827366341E-07
+INFO:root:runtime: 165.290875564
+INFO:root:Average runtime = 165.290875564 s
+INFO:root:-------- running config 124 --------
+INFO:root:Runtime prediction: 0.1872711181640625 ==> 0.0
+INFO:root:Error prediction: 0.08408623188734055 ==> 0.0
+INFO:root:-------- running config 125 --------
+INFO:root:Runtime prediction: 0.6700772643089294 ==> 1.0
+INFO:root:Error prediction: 0.535226047039032 ==> 1.0
+INFO:root:within err threshold: false, error = 1.9601351813325E-07
+INFO:root:runtime: 155.789691653
+INFO:root:Average runtime = 155.789691653 s
+INFO:root:-------- running config 126 --------
+INFO:root:Runtime prediction: 0.5385267734527588 ==> 1.0
+INFO:root:Error prediction: 0.07044214755296707 ==> 0.0
+INFO:root:-------- running config 127 --------
+INFO:root:Runtime prediction: 0.5713351368904114 ==> 1.0
+INFO:root:Error prediction: 0.7417977452278137 ==> 1.0
+INFO:root:within err threshold: true, error = 8.5557353368399E-09
+INFO:root:runtime: 163.140963662
+INFO:root:Average runtime = 163.140963662 s
+INFO:root:-------- running config 128 --------
+INFO:root:Runtime prediction: 0.41057583689689636 ==> 0.0
+INFO:root:Error prediction: 0.08928772807121277 ==> 0.0
+INFO:root:-------- running config 129 --------
+INFO:root:Runtime prediction: 0.6566479802131653 ==> 1.0
+INFO:root:Error prediction: 0.6577098965644836 ==> 1.0
+INFO:root:within err threshold: false, error = 1.6779851246150E-07
+INFO:root:runtime: 154.849449084
+INFO:root:Average runtime = 154.849449084 s
+INFO:root:-------- running config 130 --------
+INFO:root:Runtime prediction: 0.4383428692817688 ==> 0.0
+INFO:root:Error prediction: 0.07174862176179886 ==> 0.0
+INFO:root:-------- running config 131 --------
+INFO:root:Runtime prediction: 0.6305779218673706 ==> 1.0
+INFO:root:Error prediction: 0.7090709209442139 ==> 1.0
+INFO:root:within err threshold: false, error = 2.4973400372680E-05
+INFO:root:runtime: 166.818146978
+INFO:root:Average runtime = 166.818146978 s
+INFO:root:-------- running config 132 --------
+INFO:root:Runtime prediction: 0.4818015396595001 ==> 0.0
+INFO:root:Error prediction: 0.32006117701530457 ==> 0.0
+INFO:root:-------- running config 133 --------
+INFO:root:Runtime prediction: 0.29181310534477234 ==> 0.0
+INFO:root:Error prediction: 0.1721450835466385 ==> 0.0
+INFO:root:-------- running config 134 --------
+INFO:root:Runtime prediction: 0.4137432873249054 ==> 0.0
+INFO:root:Error prediction: 0.12020864337682724 ==> 0.0
+INFO:root:-------- running config 135 --------
+INFO:root:Runtime prediction: 0.37436968088150024 ==> 0.0
+INFO:root:Error prediction: 0.34640616178512573 ==> 0.0
+INFO:root:-------- running config 136 --------
+INFO:root:Runtime prediction: 0.5117228031158447 ==> 1.0
+INFO:root:Error prediction: 0.15379637479782104 ==> 0.0
+INFO:root:-------- running config 137 --------
+INFO:root:Runtime prediction: 0.5641713738441467 ==> 1.0
+INFO:root:Error prediction: 0.3370397388935089 ==> 0.0
+INFO:root:-------- running config 138 --------
+INFO:root:Runtime prediction: 0.24932768940925598 ==> 0.0
+INFO:root:Error prediction: 0.07877609133720398 ==> 0.0
+INFO:root:-------- running config 139 --------
+INFO:root:Runtime prediction: 0.5744422674179077 ==> 1.0
+INFO:root:Error prediction: 0.6364116668701172 ==> 1.0
+INFO:root:within err threshold: true, error = 1.5018930121204E-08
+INFO:root:runtime: 152.945327391
+INFO:root:Average runtime = 152.945327391 s
+INFO:root:-------- running config 140 --------
+INFO:root:Runtime prediction: 0.46833527088165283 ==> 0.0
+INFO:root:Error prediction: 0.11884696781635284 ==> 0.0
+INFO:root:-------- running config 141 --------
+INFO:root:Runtime prediction: 0.6175912022590637 ==> 1.0
+INFO:root:Error prediction: 0.5651320219039917 ==> 1.0
+INFO:root:within err threshold: false, error = 2.1621346123210E-05
+INFO:root:runtime: 158.058690749
+INFO:root:Average runtime = 158.058690749 s
+INFO:root:-------- running config 142 --------
+INFO:root:Runtime prediction: 0.49331972002983093 ==> 0.0
+INFO:root:Error prediction: 0.19152092933654785 ==> 0.0
+INFO:root:-------- running config 143 --------
+INFO:root:Runtime prediction: 0.491976797580719 ==> 0.0
+INFO:root:Error prediction: 0.18851660192012787 ==> 0.0
+INFO:root:-------- running config 144 --------
+INFO:root:Runtime prediction: 0.34570541977882385 ==> 0.0
+INFO:root:Error prediction: 0.11282756179571152 ==> 0.0
+INFO:root:-------- running config 145 --------
+INFO:root:Runtime prediction: 0.6386117339134216 ==> 1.0
+INFO:root:Error prediction: 0.3816043734550476 ==> 0.0
+INFO:root:-------- running config 146 --------
+INFO:root:Runtime prediction: 0.49992382526397705 ==> 0.0
+INFO:root:Error prediction: 0.10270477086305618 ==> 0.0
+INFO:root:-------- running config 147 --------
+INFO:root:Runtime prediction: 0.4916440546512604 ==> 0.0
+INFO:root:Error prediction: 0.3427484631538391 ==> 0.0
+INFO:root:-------- running config 148 --------
+INFO:root:Runtime prediction: 0.44453054666519165 ==> 0.0
+INFO:root:Error prediction: 0.119366355240345 ==> 0.0
+INFO:root:-------- running config 149 --------
+INFO:root:Runtime prediction: 0.5410066843032837 ==> 1.0
+INFO:root:Error prediction: 0.27925804257392883 ==> 0.0
+INFO:root:-------- running config 150 --------
+INFO:root:Runtime prediction: 0.46611493825912476 ==> 0.0
+INFO:root:Error prediction: 0.09420404583215714 ==> 0.0
+INFO:root:-------- running config 151 --------
+INFO:root:Runtime prediction: 0.5272977352142334 ==> 1.0
+INFO:root:Error prediction: 0.5052639842033386 ==> 1.0
+INFO:root:within err threshold: false, error = 1.1356503940755E-05
+INFO:root:runtime: 159.829717484
+INFO:root:Average runtime = 159.829717484 s
+INFO:root:-------- running config 152 --------
+INFO:root:Runtime prediction: 0.16351652145385742 ==> 0.0
+INFO:root:Error prediction: 0.08640526980161667 ==> 0.0
+INFO:root:-------- running config 153 --------
+INFO:root:Runtime prediction: 0.31280502676963806 ==> 0.0
+INFO:root:Error prediction: 0.484360933303833 ==> 1.0
+INFO:root:-------- running config 154 --------
+INFO:root:Runtime prediction: 0.16955360770225525 ==> 0.0
+INFO:root:Error prediction: 0.07550158351659775 ==> 0.0
+INFO:root:-------- running config 155 --------
+INFO:root:Runtime prediction: 0.2955511510372162 ==> 0.0
+INFO:root:Error prediction: 0.4385174810886383 ==> 1.0
+INFO:root:-------- running config 156 --------
+INFO:root:Runtime prediction: 0.41856998205184937 ==> 0.0
+INFO:root:Error prediction: 0.07104451954364777 ==> 0.0
+INFO:root:-------- running config 157 --------
+INFO:root:Runtime prediction: 0.5305721759796143 ==> 1.0
+INFO:root:Error prediction: 0.4721109867095947 ==> 1.0
+INFO:root:within err threshold: true, error = 2.6093657549698E-08
+INFO:root:runtime: 160.15357835
+INFO:root:Average runtime = 160.15357835 s
+INFO:root:-------- running config 158 --------
+INFO:root:Runtime prediction: 0.4209109842777252 ==> 0.0
+INFO:root:Error prediction: 0.06961854547262192 ==> 0.0
+INFO:root:-------- running config 159 --------
+INFO:root:Runtime prediction: 0.5273562073707581 ==> 1.0
+INFO:root:Error prediction: 0.35329869389533997 ==> 0.0
+INFO:root:-------- running config 160 --------
+INFO:root:Runtime prediction: 0.443060040473938 ==> 0.0
+INFO:root:Error prediction: 0.09144538640975952 ==> 0.0
+INFO:root:-------- running config 161 --------
+INFO:root:Runtime prediction: 0.532454788684845 ==> 1.0
+INFO:root:Error prediction: 0.3700519800186157 ==> 0.0
+INFO:root:-------- running config 162 --------
+INFO:root:Runtime prediction: 0.4677596688270569 ==> 0.0
+INFO:root:Error prediction: 0.08504485338926315 ==> 0.0
+INFO:root:-------- running config 163 --------
+INFO:root:Runtime prediction: 0.5256499648094177 ==> 1.0
+INFO:root:Error prediction: 0.533301055431366 ==> 1.0
+INFO:root:within err threshold: false, error = 9.8329783682788E-06
+INFO:root:runtime: 162.81943296
+INFO:root:Average runtime = 162.81943296 s
+INFO:root:-------- running config 164 --------
+INFO:root:Runtime prediction: 0.41739508509635925 ==> 0.0
+INFO:root:Error prediction: 0.06642059981822968 ==> 0.0
+INFO:root:-------- running config 165 --------
+INFO:root:Runtime prediction: 0.576056718826294 ==> 1.0
+INFO:root:Error prediction: 0.6100394129753113 ==> 1.0
+INFO:root:within err threshold: true, error = 5.6073044327983E-08
+INFO:root:runtime: 157.569217884
+INFO:root:Average runtime = 157.569217884 s
+INFO:root:-------- running config 166 --------
+INFO:root:Runtime prediction: 0.1720084547996521 ==> 0.0
+INFO:root:Error prediction: 0.07106312364339828 ==> 0.0
+INFO:root:-------- running config 167 --------
+INFO:root:Runtime prediction: 0.31667444109916687 ==> 0.0
+INFO:root:Error prediction: 0.5556620955467224 ==> 1.0
+INFO:root:-------- running config 168 --------
+INFO:root:Runtime prediction: 0.15725542604923248 ==> 0.0
+INFO:root:Error prediction: 0.08590972423553467 ==> 0.0
+INFO:root:-------- running config 169 --------
+INFO:root:Runtime prediction: 0.332271546125412 ==> 0.0
+INFO:root:Error prediction: 0.4929068982601166 ==> 1.0
+INFO:root:-------- running config 170 --------
+INFO:root:Runtime prediction: 0.4392358958721161 ==> 0.0
+INFO:root:Error prediction: 0.06494315713644028 ==> 0.0
+INFO:root:-------- running config 171 --------
+INFO:root:Runtime prediction: 0.5449041724205017 ==> 1.0
+INFO:root:Error prediction: 0.5148066878318787 ==> 1.0
+INFO:root:within err threshold: false, error = 1.7574457368173E-07
+INFO:root:runtime: 164.644607662
+INFO:root:Average runtime = 164.644607662 s
+INFO:root:-------- running config 172 --------
+INFO:root:Runtime prediction: 0.41182416677474976 ==> 0.0
+INFO:root:Error prediction: 0.06902557611465454 ==> 0.0
+INFO:root:-------- running config 173 --------
+INFO:root:Runtime prediction: 0.5773205161094666 ==> 1.0
+INFO:root:Error prediction: 0.5491677522659302 ==> 1.0
+INFO:root:within err threshold: true, error = 1.5018930121204E-08
+INFO:root:runtime: 157.036880135
+INFO:root:Average runtime = 157.036880135 s
+INFO:root:-------- running config 174 --------
+INFO:root:Runtime prediction: 0.44954371452331543 ==> 0.0
+INFO:root:Error prediction: 0.07147082686424255 ==> 0.0
+INFO:root:-------- running config 175 --------
+INFO:root:Runtime prediction: 0.5101746916770935 ==> 1.0
+INFO:root:Error prediction: 0.4639827609062195 ==> 1.0
+INFO:root:within err threshold: false, error = 2.0024085103627E-07
+INFO:root:runtime: 158.633309492
+INFO:root:Average runtime = 158.633309492 s
+INFO:root:-------- running config 176 --------
+INFO:root:Runtime prediction: 0.41500988602638245 ==> 0.0
+INFO:root:Error prediction: 0.06533089280128479 ==> 0.0
+INFO:root:-------- running config 177 --------
+INFO:root:Runtime prediction: 0.5587210059165955 ==> 1.0
+INFO:root:Error prediction: 0.486437052488327 ==> 1.0
+INFO:root:within err threshold: true, error = 1.5018930121204E-08
+INFO:root:runtime: 153.276992056
+INFO:root:Average runtime = 153.276992056 s
+INFO:root:-------- running config 178 --------
+INFO:root:Runtime prediction: 0.4407569169998169 ==> 0.0
+INFO:root:Error prediction: 0.07520771771669388 ==> 0.0
+INFO:root:-------- running config 179 --------
+INFO:root:Runtime prediction: 0.5346745252609253 ==> 1.0
+INFO:root:Error prediction: 0.4324069321155548 ==> 1.0
+INFO:root:within err threshold: false, error = 1.9622761662288E-07
+INFO:root:runtime: 153.976565497
+INFO:root:Average runtime = 153.976565497 s
+INFO:root:-------- running config 180 --------
+INFO:root:Runtime prediction: 0.41099831461906433 ==> 0.0
+INFO:root:Error prediction: 0.08594106882810593 ==> 0.0
+INFO:root:-------- running config 181 --------
+INFO:root:Runtime prediction: 0.5443990230560303 ==> 1.0
+INFO:root:Error prediction: 0.5060043931007385 ==> 1.0
+INFO:root:within err threshold: false, error = 1.6814995898546E-07
+INFO:root:runtime: 155.591841107
+INFO:root:Average runtime = 155.591841107 s
+INFO:root:-------- running config 182 --------
+INFO:root:Runtime prediction: 0.4397558271884918 ==> 0.0
+INFO:root:Error prediction: 0.06589390337467194 ==> 0.0
+INFO:root:-------- running config 183 --------
+INFO:root:Runtime prediction: 0.5150899887084961 ==> 1.0
+INFO:root:Error prediction: 0.5772097706794739 ==> 1.0
+INFO:root:within err threshold: false, error = 3.7393286066405E-05
+INFO:root:runtime: 166.393401372
+INFO:root:Average runtime = 166.393401372 s
+INFO:root:-------- running config 184 --------
+INFO:root:Runtime prediction: 0.41739508509635925 ==> 0.0
+INFO:root:Error prediction: 0.06642059981822968 ==> 0.0
+INFO:root:-------- running config 185 --------
+INFO:root:Runtime prediction: 0.576056718826294 ==> 1.0
+INFO:root:Error prediction: 0.6100394129753113 ==> 1.0
+INFO:root:within err threshold: true, error = 5.6073044327983E-08
+INFO:root:runtime: 161.682210355
+INFO:root:Average runtime = 161.682210355 s
+INFO:root:-------- running config 186 --------
+INFO:root:Runtime prediction: 0.4190031886100769 ==> 0.0
+INFO:root:Error prediction: 0.059784457087516785 ==> 0.0
+INFO:root:-------- running config 187 --------
+INFO:root:Runtime prediction: 0.5744422674179077 ==> 1.0
+INFO:root:Error prediction: 0.6364116668701172 ==> 1.0
+INFO:root:within err threshold: true, error = 1.5018930121204E-08
+INFO:root:runtime: 155.986138222
+INFO:root:Average runtime = 155.986138222 s
+INFO:root:-------- running config 188 --------
+INFO:root:Runtime prediction: 0.1720084547996521 ==> 0.0
+INFO:root:Error prediction: 0.07106312364339828 ==> 0.0
+INFO:root:-------- running config 189 --------
+INFO:root:Runtime prediction: 0.31667444109916687 ==> 0.0
+INFO:root:Error prediction: 0.5556620955467224 ==> 1.0
+INFO:root:-------- running config 190 --------
+INFO:root:Runtime prediction: 0.17218203842639923 ==> 0.0
+INFO:root:Error prediction: 0.07177288830280304 ==> 0.0
+INFO:root:-------- running config 191 --------
+INFO:root:Runtime prediction: 0.3047742247581482 ==> 0.0
+INFO:root:Error prediction: 0.545413613319397 ==> 1.0
+INFO:root:-------- running config 192 --------
+INFO:root:Runtime prediction: 0.15946607291698456 ==> 0.0
+INFO:root:Error prediction: 0.06959126889705658 ==> 0.0
+INFO:root:-------- running config 193 --------
+INFO:root:Runtime prediction: 0.31880983710289 ==> 0.0
+INFO:root:Error prediction: 0.5624686479568481 ==> 1.0
+INFO:root:-------- running config 194 --------
+INFO:root:Runtime prediction: 0.43162599205970764 ==> 0.0
+INFO:root:Error prediction: 0.06285928189754486 ==> 0.0
+INFO:root:-------- running config 195 --------
+INFO:root:Runtime prediction: 0.5785751938819885 ==> 1.0
+INFO:root:Error prediction: 0.5947754383087158 ==> 1.0
+INFO:root:within err threshold: false, error = 1.9140109262137E-07
+INFO:root:runtime: 166.645765355
+INFO:root:Average runtime = 166.645765355 s
+INFO:root:-------- running config 196 --------
+INFO:root:Runtime prediction: 0.42782092094421387 ==> 0.0
+INFO:root:Error prediction: 0.06175510585308075 ==> 0.0
+INFO:root:-------- running config 197 --------
+INFO:root:Runtime prediction: 0.5437845587730408 ==> 1.0
+INFO:root:Error prediction: 0.5638076066970825 ==> 1.0
+INFO:root:within err threshold: true, error = 1.5018930121204E-08
+INFO:root:runtime: 165.681522224
+INFO:root:Average runtime = 165.681522224 s
+INFO:root:-------- running config 198 --------
+INFO:root:Runtime prediction: 0.42932480573654175 ==> 0.0
+INFO:root:Error prediction: 0.061532605439424515 ==> 0.0
+INFO:root:-------- running config 199 --------
+INFO:root:Runtime prediction: 0.559704065322876 ==> 1.0
+INFO:root:Error prediction: 0.5793814659118652 ==> 1.0
+INFO:root:within err threshold: true, error = 1.5018930121204E-08
+INFO:root:runtime: 160.330713542
+INFO:root:Average runtime = 160.330713542 s
+INFO:root:-------- running config 200 --------
+INFO:root:Runtime prediction: 0.4016273319721222 ==> 0.0
+INFO:root:Error prediction: 0.06707975268363953 ==> 0.0
+INFO:root:-------- running config 201 --------
+INFO:root:Runtime prediction: 0.591899037361145 ==> 1.0
+INFO:root:Error prediction: 0.6075193881988525 ==> 1.0
+INFO:root:within err threshold: true, error = 1.5018930121204E-08
+INFO:root:runtime: 155.614232361
+INFO:root:Average runtime = 155.614232361 s
+INFO:root:-------- running config 202 --------
+INFO:root:Runtime prediction: 0.42641040682792664 ==> 0.0
+INFO:root:Error prediction: 0.06154327839612961 ==> 0.0
+INFO:root:-------- running config 203 --------
+INFO:root:Runtime prediction: 0.5428611040115356 ==> 1.0
+INFO:root:Error prediction: 0.5717911124229431 ==> 1.0
+INFO:root:within err threshold: true, error = 1.1214608865597E-08
+INFO:root:runtime: 155.431075865
+INFO:root:Average runtime = 155.431075865 s
+INFO:root:-------- running config 204 --------
+INFO:root:Runtime prediction: 0.4247387945652008 ==> 0.0
+INFO:root:Error prediction: 0.06363160908222198 ==> 0.0
+INFO:root:-------- running config 205 --------
+INFO:root:Runtime prediction: 0.5296614766120911 ==> 1.0
+INFO:root:Error prediction: 0.5127105712890625 ==> 1.0
+INFO:root:within err threshold: false, error = 2.1350620803947E-07
+INFO:root:runtime: 153.687149084
+INFO:root:Average runtime = 153.687149084 s
+INFO:root:-------- running config 206 --------
+INFO:root:Runtime prediction: 0.41796252131462097 ==> 0.0
+INFO:root:Error prediction: 0.06256727874279022 ==> 0.0
+INFO:root:-------- running config 207 --------
+INFO:root:Runtime prediction: 0.5605299472808838 ==> 1.0
+INFO:root:Error prediction: 0.5580935478210449 ==> 1.0
+INFO:root:within err threshold: true, error = 1.5018930121204E-08
+INFO:root:runtime: 163.466473182
+INFO:root:Average runtime = 163.466473182 s
+INFO:root:-------- running config 208 --------
+INFO:root:Runtime prediction: 0.4175803065299988 ==> 0.0
+INFO:root:Error prediction: 0.06230241805315018 ==> 0.0
+INFO:root:-------- running config 209 --------
+INFO:root:Runtime prediction: 0.5720816850662231 ==> 1.0
+INFO:root:Error prediction: 0.5721322298049927 ==> 1.0
+INFO:root:within err threshold: true, error = 1.5018930121204E-08
+INFO:root:runtime: 167.047356323
+INFO:root:Average runtime = 167.047356323 s
+INFO:root:-------- running config 210 --------
+INFO:root:Runtime prediction: 0.41585126519203186 ==> 0.0
+INFO:root:Error prediction: 0.06344322860240936 ==> 0.0
+INFO:root:-------- running config 211 --------
+INFO:root:Runtime prediction: 0.5683397054672241 ==> 1.0
+INFO:root:Error prediction: 0.552277147769928 ==> 1.0
+INFO:root:within err threshold: true, error = 1.5018930121204E-08
+INFO:root:runtime: 160.646058502
+INFO:root:Average runtime = 160.646058502 s
+INFO:root:-------- running config 212 --------
+INFO:root:Runtime prediction: 0.4230149984359741 ==> 0.0
+INFO:root:Error prediction: 0.0667528584599495 ==> 0.0
+INFO:root:-------- running config 213 --------
+INFO:root:Runtime prediction: 0.5317601561546326 ==> 1.0
+INFO:root:Error prediction: 0.4996195435523987 ==> 1.0
+INFO:root:within err threshold: false, error = 1.9682398744865E-07
+INFO:root:runtime: 160.039234839
+INFO:root:Average runtime = 160.039234839 s
+INFO:root:-------- running config 214 --------
+INFO:root:Runtime prediction: 0.4212782084941864 ==> 0.0
+INFO:root:Error prediction: 0.07295488566160202 ==> 0.0
+INFO:root:-------- running config 215 --------
+INFO:root:Runtime prediction: 0.5722604393959045 ==> 1.0
+INFO:root:Error prediction: 0.5744099617004395 ==> 1.0
+INFO:root:within err threshold: true, error = 2.6353518478572E-08
+INFO:root:runtime: 160.965851726
+INFO:root:Average runtime = 160.965851726 s
+INFO:root:-------- running config 216 --------
+INFO:root:Runtime prediction: 0.4024808406829834 ==> 0.0
+INFO:root:Error prediction: 0.06861201673746109 ==> 0.0
+INFO:root:-------- running config 217 --------
+INFO:root:Runtime prediction: 0.5647501349449158 ==> 1.0
+INFO:root:Error prediction: 0.5780200362205505 ==> 1.0
+INFO:root:within err threshold: false, error = 3.9506527015879E-07
+INFO:root:runtime: 160.980726739
+INFO:root:Average runtime = 160.980726739 s
+INFO:root:-------- running config 218 --------
+INFO:root:Runtime prediction: 0.4187908172607422 ==> 0.0
+INFO:root:Error prediction: 0.06097210943698883 ==> 0.0
+INFO:root:-------- running config 219 --------
+INFO:root:Runtime prediction: 0.5746555328369141 ==> 1.0
+INFO:root:Error prediction: 0.6315537095069885 ==> 1.0
+INFO:root:within err threshold: true, error = 1.1217025546772E-08
+INFO:root:runtime: 156.998866788
+INFO:root:Average runtime = 156.998866788 s
+INFO:root:-------- running config 220 --------
+INFO:root:Runtime prediction: 0.43997082114219666 ==> 0.0
+INFO:root:Error prediction: 0.06461694836616516 ==> 0.0
+INFO:root:-------- running config 221 --------
+INFO:root:Runtime prediction: 0.5148720741271973 ==> 1.0
+INFO:root:Error prediction: 0.5823103189468384 ==> 1.0
+INFO:root:within err threshold: false, error = 9.1149167950033E-06
+INFO:root:runtime: 161.727765602
+INFO:root:Average runtime = 161.727765602 s
+INFO:root:-------- running config 222 --------
+INFO:root:Runtime prediction: 0.41739508509635925 ==> 0.0
+INFO:root:Error prediction: 0.06642059981822968 ==> 0.0
+INFO:root:-------- running config 223 --------
+INFO:root:Runtime prediction: 0.5760566592216492 ==> 1.0
+INFO:root:Error prediction: 0.6100394129753113 ==> 1.0
+INFO:root:within err threshold: true, error = 5.6073044327983E-08
+INFO:root:runtime: 154.281634062
+INFO:root:Average runtime = 154.281634062 s
+INFO:root:Check dd2_valid_spec_lbm.json for the valid configuration file

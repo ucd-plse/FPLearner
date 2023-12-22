@@ -1,0 +1,630 @@
+{
+    "call34": {
+        "file": "mg.c",
+        "function": "norm2u3",
+        "lines": [
+            "890"
+        ],
+        "location": "../scripts/MG/mg.c:890:11",
+        "name": "sqrt",
+        "switch": "sqrt",
+        "type": [
+            "double",
+            "double"
+        ]
+    },
+    "localVar1": {
+        "file": "mg.c",
+        "function": "main",
+        "lines": [
+            "97",
+            "202",
+            "203",
+            "204",
+            "205"
+        ],
+        "location": "localVar",
+        "name": "a",
+        "type": "double [4]"
+    },
+    "localVar10": {
+        "file": "mg.c",
+        "function": "mg3P",
+        "lines": [
+            "437",
+            "482",
+            "483"
+        ],
+        "location": "parmVar",
+        "name": "r",
+        "type": "double []"
+    },
+    "localVar11": {
+        "file": "mg.c",
+        "function": "mg3P",
+        "lines": [
+            "438",
+            "482"
+        ],
+        "location": "parmVar",
+        "name": "a",
+        "type": "double [4]"
+    },
+    "localVar12": {
+        "file": "mg.c",
+        "function": "mg3P",
+        "lines": [
+            "438",
+            "483"
+        ],
+        "location": "parmVar",
+        "name": "c",
+        "type": "double [4]"
+    },
+    "localVar13": {
+        "file": "mg.c",
+        "function": "psinv",
+        "lines": [
+            "499"
+        ],
+        "location": "parmVar",
+        "name": "c",
+        "type": "double [4]"
+    },
+    "localVar14": {
+        "file": "mg.c",
+        "function": "psinv",
+        "lines": [
+            "501"
+        ],
+        "location": "localVar",
+        "name": "r",
+        "type": "double (*)[n2][n1]"
+    },
+    "localVar15": {
+        "file": "mg.c",
+        "function": "psinv",
+        "lines": [
+            "502"
+        ],
+        "location": "localVar",
+        "name": "u",
+        "type": "double (*)[n2][n1]"
+    },
+    "localVar16": {
+        "file": "mg.c",
+        "function": "psinv",
+        "lines": [
+            "506"
+        ],
+        "location": "localVar",
+        "name": "r1",
+        "type": "double"
+    },
+    "localVar17": {
+        "file": "mg.c",
+        "function": "psinv",
+        "lines": [
+            "507"
+        ],
+        "location": "localVar",
+        "name": "r2",
+        "type": "double"
+    },
+    "localVar18": {
+        "file": "mg.c",
+        "function": "rprj3",
+        "lines": [
+            "623"
+        ],
+        "location": "localVar",
+        "name": "r",
+        "type": "double (*)[m2k][m1k]"
+    },
+    "localVar19": {
+        "file": "mg.c",
+        "function": "rprj3",
+        "lines": [
+            "624"
+        ],
+        "location": "localVar",
+        "name": "s",
+        "type": "double (*)[m2j][m1j]"
+    },
+    "localVar2": {
+        "file": "mg.c",
+        "function": "main",
+        "lines": [
+            "98",
+            "211",
+            "212",
+            "213",
+            "214",
+            "219",
+            "220",
+            "221",
+            "222"
+        ],
+        "location": "localVar",
+        "name": "c",
+        "type": "double [4]"
+    },
+    "localVar20": {
+        "file": "mg.c",
+        "function": "rprj3",
+        "lines": [
+            "628"
+        ],
+        "location": "localVar",
+        "name": "x1",
+        "type": "double"
+    },
+    "localVar21": {
+        "file": "mg.c",
+        "function": "rprj3",
+        "lines": [
+            "629"
+        ],
+        "location": "localVar",
+        "name": "y1",
+        "type": "double"
+    },
+    "localVar22": {
+        "file": "mg.c",
+        "function": "rprj3",
+        "lines": [
+            "630",
+            "669"
+        ],
+        "location": "localVar",
+        "name": "x2",
+        "type": "double"
+    },
+    "localVar23": {
+        "file": "mg.c",
+        "function": "rprj3",
+        "lines": [
+            "631",
+            "667"
+        ],
+        "location": "localVar",
+        "name": "y2",
+        "type": "double"
+    },
+    "localVar24": {
+        "file": "mg.c",
+        "function": "interp",
+        "lines": [
+            "707"
+        ],
+        "location": "localVar",
+        "name": "z",
+        "type": "double (*)[mm2][mm1]"
+    },
+    "localVar25": {
+        "file": "mg.c",
+        "function": "interp",
+        "lines": [
+            "708"
+        ],
+        "location": "localVar",
+        "name": "u",
+        "type": "double (*)[n2][n1]"
+    },
+    "localVar26": {
+        "file": "mg.c",
+        "function": "interp",
+        "lines": [
+            "716"
+        ],
+        "location": "localVar",
+        "name": "z1",
+        "type": "double"
+    },
+    "localVar27": {
+        "file": "mg.c",
+        "function": "interp",
+        "lines": [
+            "717"
+        ],
+        "location": "localVar",
+        "name": "z2",
+        "type": "double"
+    },
+    "localVar28": {
+        "file": "mg.c",
+        "function": "interp",
+        "lines": [
+            "718"
+        ],
+        "location": "localVar",
+        "name": "z3",
+        "type": "double"
+    },
+    "localVar29": {
+        "file": "mg.c",
+        "function": "norm2u3",
+        "lines": [
+            "864",
+            "890"
+        ],
+        "location": "parmVar",
+        "name": "rnm2",
+        "type": "double *"
+    },
+    "localVar3": {
+        "file": "mg.c",
+        "function": "main",
+        "lines": [
+            "100",
+            "239",
+            "266",
+            "310",
+            "315",
+            "320",
+            "327",
+            "334"
+        ],
+        "location": "localVar",
+        "name": "rnm2",
+        "type": "double"
+    },
+    "localVar30": {
+        "file": "mg.c",
+        "function": "norm2u3",
+        "lines": [
+            "867"
+        ],
+        "location": "localVar",
+        "name": "r",
+        "type": "double (*)[n2][n1]"
+    },
+    "localVar31": {
+        "file": "mg.c",
+        "function": "norm2u3",
+        "lines": [
+            "869",
+            "878",
+            "883",
+            "890"
+        ],
+        "location": "localVar",
+        "name": "s",
+        "type": "double"
+    },
+    "localVar32": {
+        "file": "mg.c",
+        "function": "norm2u3",
+        "lines": [
+            "870",
+            "884",
+            "885"
+        ],
+        "location": "localVar",
+        "name": "a",
+        "type": "double"
+    },
+    "localVar33": {
+        "file": "mg.c",
+        "function": "norm2u3",
+        "lines": [
+            "873",
+            "876",
+            "890"
+        ],
+        "location": "localVar",
+        "name": "dn",
+        "type": "double"
+    },
+    "localVar35": {
+        "file": "mg.c",
+        "function": "rep_nrm",
+        "lines": [
+            "900",
+            "904"
+        ],
+        "location": "localVar",
+        "name": "rnm2",
+        "type": "double"
+    },
+    "localVar36": {
+        "file": "mg.c",
+        "function": "rep_nrm",
+        "lines": [
+            "901",
+            "904"
+        ],
+        "location": "localVar",
+        "name": "rnmu",
+        "type": "double"
+    },
+    "localVar37": {
+        "file": "mg.c",
+        "function": "comm3",
+        "lines": [
+            "913"
+        ],
+        "location": "localVar",
+        "name": "u",
+        "type": "double (*)[n2][n1]"
+    },
+    "localVar38": {
+        "file": "mg.c",
+        "function": "zran3",
+        "lines": [
+            "949"
+        ],
+        "location": "localVar",
+        "name": "z",
+        "type": "double (*)[n2][n1]"
+    },
+    "localVar39": {
+        "file": "mg.c",
+        "function": "zran3",
+        "lines": [
+            "954",
+            "989",
+            "990"
+        ],
+        "location": "localVar",
+        "name": "xx",
+        "type": "double"
+    },
+    "localVar4": {
+        "file": "mg.c",
+        "function": "main",
+        "lines": [
+            "101",
+            "240",
+            "267"
+        ],
+        "location": "localVar",
+        "name": "rnmu",
+        "type": "double"
+    },
+    "localVar40": {
+        "file": "mg.c",
+        "function": "zran3",
+        "lines": [
+            "955",
+            "983",
+            "984",
+            "987",
+            "993"
+        ],
+        "location": "localVar",
+        "name": "x0",
+        "type": "double"
+    },
+    "localVar41": {
+        "file": "mg.c",
+        "function": "zran3",
+        "lines": [
+            "956",
+            "987",
+            "989",
+            "991"
+        ],
+        "location": "localVar",
+        "name": "x1",
+        "type": "double"
+    },
+    "localVar42": {
+        "file": "mg.c",
+        "function": "zran3",
+        "lines": [
+            "957",
+            "971",
+            "991"
+        ],
+        "location": "localVar",
+        "name": "a1",
+        "type": "double"
+    },
+    "localVar43": {
+        "file": "mg.c",
+        "function": "zran3",
+        "lines": [
+            "958",
+            "972",
+            "993"
+        ],
+        "location": "localVar",
+        "name": "a2",
+        "type": "double"
+    },
+    "localVar44": {
+        "file": "mg.c",
+        "function": "zran3",
+        "lines": [
+            "959",
+            "978",
+            "984"
+        ],
+        "location": "localVar",
+        "name": "ai",
+        "type": "double"
+    },
+    "localVar45": {
+        "file": "mg.c",
+        "function": "zran3",
+        "lines": [
+            "962",
+            "971",
+            "972",
+            "978",
+            "990"
+        ],
+        "location": "localVar",
+        "name": "a",
+        "type": "const double"
+    },
+    "localVar46": {
+        "file": "mg.c",
+        "function": "zran3",
+        "lines": [
+            "965",
+            "1043",
+            "1044",
+            "1057",
+            "1058"
+        ],
+        "location": "localVar",
+        "name": "best",
+        "type": "double"
+    },
+    "localVar47": {
+        "file": "mg.c",
+        "function": "zran3",
+        "lines": [
+            "969",
+            "984",
+            "991",
+            "993"
+        ],
+        "location": "localVar",
+        "name": "rdummy",
+        "type": "double"
+    },
+    "localVar48": {
+        "file": "mg.c",
+        "function": "showall",
+        "lines": [
+            "1145"
+        ],
+        "location": "localVar",
+        "name": "z",
+        "type": "double (*)[n2][n1]"
+    },
+    "localVar49": {
+        "file": "mg.c",
+        "function": "power",
+        "lines": [
+            "1172",
+            "1181"
+        ],
+        "location": "parmVar",
+        "name": "a",
+        "type": "double"
+    },
+    "localVar5": {
+        "file": "mg.c",
+        "function": "main",
+        "lines": [
+            "102",
+            "239",
+            "266"
+        ],
+        "location": "localVar",
+        "name": "old2",
+        "type": "double"
+    },
+    "localVar50": {
+        "file": "mg.c",
+        "function": "power",
+        "lines": [
+            "1174",
+            "1181",
+            "1184",
+            "1185"
+        ],
+        "location": "localVar",
+        "name": "aj",
+        "type": "double"
+    },
+    "localVar51": {
+        "file": "mg.c",
+        "function": "power",
+        "lines": [
+            "1176",
+            "1184",
+            "1185"
+        ],
+        "location": "localVar",
+        "name": "rdummy",
+        "type": "double"
+    },
+    "localVar52": {
+        "file": "mg.c",
+        "function": "power",
+        "lines": [
+            "1177",
+            "1179",
+            "1184",
+            "1189"
+        ],
+        "location": "localVar",
+        "name": "power",
+        "type": "double"
+    },
+    "localVar53": {
+        "file": "mg.c",
+        "function": "bubble",
+        "lines": [
+            "1199",
+            "1205",
+            "1207",
+            "1228",
+            "1230"
+        ],
+        "location": "localVar",
+        "name": "temp",
+        "type": "double"
+    },
+    "localVar54": {
+        "file": "mg.c",
+        "function": "zero3",
+        "lines": [
+            "1253"
+        ],
+        "location": "localVar",
+        "name": "z",
+        "type": "double (*)[n2][n1]"
+    },
+    "localVar6": {
+        "file": "mg.c",
+        "function": "main",
+        "lines": [
+            "103",
+            "240",
+            "267"
+        ],
+        "location": "localVar",
+        "name": "oldu",
+        "type": "double"
+    },
+    "localVar7": {
+        "file": "mg.c",
+        "function": "main",
+        "lines": [
+            "107",
+            "340"
+        ],
+        "location": "localVar",
+        "name": "nn",
+        "type": "double"
+    },
+    "localVar8": {
+        "file": "mg.c",
+        "function": "mg3P",
+        "lines": [
+            "437",
+            "482",
+            "483"
+        ],
+        "location": "parmVar",
+        "name": "u",
+        "type": "double []"
+    },
+    "localVar9": {
+        "file": "mg.c",
+        "function": "mg3P",
+        "lines": [
+            "437",
+            "482"
+        ],
+        "location": "parmVar",
+        "name": "v",
+        "type": "double []"
+    }
+}

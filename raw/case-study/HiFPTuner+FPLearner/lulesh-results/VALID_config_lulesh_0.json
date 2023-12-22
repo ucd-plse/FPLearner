@@ -1,0 +1,4817 @@
+{
+    "localVar1": {
+        "file": "lulesh.cc",
+        "function": "CalcElemShapeFunctionDerivatives",
+        "lines": [
+            "601",
+            "647",
+            "648",
+            "649"
+        ],
+        "location": "localVar",
+        "name": "x0",
+        "type": "double"
+    },
+    "localVar10": {
+        "file": "lulesh.cc",
+        "function": "CalcElemShapeFunctionDerivatives",
+        "lines": [
+            "611",
+            "651",
+            "652",
+            "653"
+        ],
+        "location": "localVar",
+        "name": "y1",
+        "type": "double"
+    },
+    "localVar100": {
+        "file": "lulesh.cc",
+        "function": "VoluDer",
+        "lines": [
+            "926",
+            "930",
+            "944"
+        ],
+        "location": "parmVar",
+        "name": "dvdx",
+        "type": "double *"
+    },
+    "localVar101": {
+        "file": "lulesh.cc",
+        "function": "VoluDer",
+        "lines": [
+            "926",
+            "934",
+            "945"
+        ],
+        "location": "parmVar",
+        "name": "dvdy",
+        "type": "double *"
+    },
+    "localVar102": {
+        "file": "lulesh.cc",
+        "function": "VoluDer",
+        "lines": [
+            "926",
+            "939",
+            "946"
+        ],
+        "location": "parmVar",
+        "name": "dvdz",
+        "type": "double *"
+    },
+    "localVar103": {
+        "file": "lulesh.cc",
+        "function": "VoluDer",
+        "lines": [
+            "928",
+            "944",
+            "945",
+            "946"
+        ],
+        "location": "localVar",
+        "name": "twelfth",
+        "type": "double"
+    },
+    "localVar104": {
+        "file": "lulesh.cc",
+        "function": "CalcFBHourglassForceForElems",
+        "lines": [
+            "1043",
+            "1229"
+        ],
+        "location": "parmVar",
+        "name": "hourg",
+        "type": "double"
+    },
+    "localVar105": {
+        "file": "lulesh.cc",
+        "function": "CalcFBHourglassForceForElems",
+        "lines": [
+            "1071",
+            "1073",
+            "1074",
+            "1075",
+            "1076",
+            "1077",
+            "1078",
+            "1079",
+            "1080",
+            "1081",
+            "1082",
+            "1083",
+            "1084",
+            "1085",
+            "1086",
+            "1087",
+            "1088",
+            "1089",
+            "1090",
+            "1091",
+            "1092",
+            "1093",
+            "1094",
+            "1095",
+            "1096",
+            "1097",
+            "1098",
+            "1099",
+            "1100",
+            "1101",
+            "1102",
+            "1103",
+            "1104",
+            "1135",
+            "1136",
+            "1137",
+            "1138",
+            "1141",
+            "1142",
+            "1143",
+            "1144",
+            "1147",
+            "1148",
+            "1149",
+            "1150",
+            "1152",
+            "1156",
+            "1160",
+            "1164",
+            "1168",
+            "1172",
+            "1176",
+            "1180"
+        ],
+        "location": "localVar",
+        "name": "gamma",
+        "type": "double [4][8]"
+    },
+    "localVar106": {
+        "file": "lulesh.cc",
+        "function": "CalcFBHourglassForceForElems",
+        "lines": [
+            "1119",
+            "1229",
+            "1233"
+        ],
+        "location": "localVar",
+        "name": "coefficient",
+        "type": "double"
+    },
+    "localVar107": {
+        "file": "lulesh.cc",
+        "function": "CalcFBHourglassForceForElems",
+        "lines": [
+            "1128",
+            "1152",
+            "1156",
+            "1160",
+            "1164",
+            "1168",
+            "1172",
+            "1176",
+            "1180"
+        ],
+        "location": "localVar",
+        "name": "volinv",
+        "type": "double"
+    },
+    "localVar108": {
+        "file": "lulesh.cc",
+        "function": "CalcFBHourglassForceForElems",
+        "lines": [
+            "1129",
+            "1189",
+            "1229"
+        ],
+        "location": "localVar",
+        "name": "ss1",
+        "type": "double"
+    },
+    "localVar109": {
+        "file": "lulesh.cc",
+        "function": "CalcFBHourglassForceForElems",
+        "lines": [
+            "1130",
+            "1190",
+            "1229"
+        ],
+        "location": "localVar",
+        "name": "mass1",
+        "type": "double"
+    },
+    "localVar11": {
+        "file": "lulesh.cc",
+        "function": "CalcElemShapeFunctionDerivatives",
+        "lines": [
+            "612",
+            "651",
+            "652",
+            "653"
+        ],
+        "location": "localVar",
+        "name": "y2",
+        "type": "double"
+    },
+    "localVar110": {
+        "file": "lulesh.cc",
+        "function": "CalcFBHourglassForceForElems",
+        "lines": [
+            "1131",
+            "1191",
+            "1229"
+        ],
+        "location": "localVar",
+        "name": "volume13",
+        "type": "double"
+    },
+    "localVar111": {
+        "file": "lulesh.cc",
+        "function": "CalcFBHourglassForceForElems",
+        "lines": [
+            "1134",
+            "1152",
+            "1156",
+            "1160",
+            "1164",
+            "1168",
+            "1172",
+            "1176",
+            "1180"
+        ],
+        "location": "localVar",
+        "name": "hourmodx",
+        "type": "double"
+    },
+    "localVar112": {
+        "file": "lulesh.cc",
+        "function": "CalcFBHourglassForceForElems",
+        "lines": [
+            "1140",
+            "1153",
+            "1157",
+            "1161",
+            "1165",
+            "1169",
+            "1173",
+            "1177",
+            "1181"
+        ],
+        "location": "localVar",
+        "name": "hourmody",
+        "type": "double"
+    },
+    "localVar113": {
+        "file": "lulesh.cc",
+        "function": "CalcFBHourglassForceForElems",
+        "lines": [
+            "1146",
+            "1154",
+            "1158",
+            "1162",
+            "1166",
+            "1170",
+            "1174",
+            "1178",
+            "1182"
+        ],
+        "location": "localVar",
+        "name": "hourmodz",
+        "type": "double"
+    },
+    "localVar114": {
+        "file": "lulesh.cc",
+        "function": "CalcFBHourglassForceForElems",
+        "lines": [
+            "1310",
+            "1315",
+            "1319"
+        ],
+        "location": "localVar",
+        "name": "fx_tmp",
+        "type": "double"
+    },
+    "localVar115": {
+        "file": "lulesh.cc",
+        "function": "CalcFBHourglassForceForElems",
+        "lines": [
+            "1311",
+            "1316",
+            "1320"
+        ],
+        "location": "localVar",
+        "name": "fy_tmp",
+        "type": "double"
+    },
+    "localVar116": {
+        "file": "lulesh.cc",
+        "function": "CalcFBHourglassForceForElems",
+        "lines": [
+            "1312",
+            "1317",
+            "1321"
+        ],
+        "location": "localVar",
+        "name": "fz_tmp",
+        "type": "double"
+    },
+    "localVar117": {
+        "file": "lulesh.cc",
+        "function": "CalcHourglassControlForElems",
+        "lines": [
+            "1333",
+            "1379",
+            "1382"
+        ],
+        "location": "parmVar",
+        "name": "hgcoef",
+        "type": "double"
+    },
+    "localVar118": {
+        "file": "lulesh.cc",
+        "function": "CalcVolumeForceForElems",
+        "lines": [
+            "1402",
+            "1429"
+        ],
+        "location": "localVar",
+        "name": "hgcoef",
+        "type": "double"
+    },
+    "localVar119": {
+        "file": "lulesh.cc",
+        "function": "CalcVelocityForNodes",
+        "lines": [
+            "1520",
+            "1531",
+            "1535",
+            "1539"
+        ],
+        "location": "parmVar",
+        "name": "dt",
+        "type": "double"
+    },
+    "localVar12": {
+        "file": "lulesh.cc",
+        "function": "CalcElemShapeFunctionDerivatives",
+        "lines": [
+            "613",
+            "651",
+            "652",
+            "653"
+        ],
+        "location": "localVar",
+        "name": "y3",
+        "type": "double"
+    },
+    "localVar120": {
+        "file": "lulesh.cc",
+        "function": "CalcVelocityForNodes",
+        "lines": [
+            "1520",
+            "1532",
+            "1536",
+            "1540"
+        ],
+        "location": "parmVar",
+        "name": "u_cut",
+        "type": "double"
+    },
+    "localVar121": {
+        "file": "lulesh.cc",
+        "function": "CalcVelocityForNodes",
+        "lines": [
+            "1527",
+            "1531",
+            "1532",
+            "1533"
+        ],
+        "location": "localVar",
+        "name": "xdtmp",
+        "type": "double"
+    },
+    "localVar122": {
+        "file": "lulesh.cc",
+        "function": "CalcVelocityForNodes",
+        "lines": [
+            "1528",
+            "1535",
+            "1536",
+            "1537"
+        ],
+        "location": "localVar",
+        "name": "ydtmp",
+        "type": "double"
+    },
+    "localVar123": {
+        "file": "lulesh.cc",
+        "function": "CalcVelocityForNodes",
+        "lines": [
+            "1529",
+            "1539",
+            "1540",
+            "1541"
+        ],
+        "location": "localVar",
+        "name": "zdtmp",
+        "type": "double"
+    },
+    "localVar124": {
+        "file": "lulesh.cc",
+        "function": "CalcPositionForNodes",
+        "lines": [
+            "1548",
+            "1553",
+            "1554",
+            "1555"
+        ],
+        "location": "parmVar",
+        "name": "dt",
+        "type": "double"
+    },
+    "localVar125": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1612",
+            "1631",
+            "1639",
+            "1643"
+        ],
+        "location": "parmVar",
+        "name": "x0",
+        "type": "double"
+    },
+    "localVar126": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1612",
+            "1627",
+            "1651",
+            "1667"
+        ],
+        "location": "parmVar",
+        "name": "x1",
+        "type": "double"
+    },
+    "localVar127": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1613",
+            "1639",
+            "1655",
+            "1671"
+        ],
+        "location": "parmVar",
+        "name": "x2",
+        "type": "double"
+    },
+    "localVar128": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1613",
+            "1635",
+            "1651",
+            "1659"
+        ],
+        "location": "parmVar",
+        "name": "x3",
+        "type": "double"
+    },
+    "localVar129": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1614",
+            "1647",
+            "1659",
+            "1667"
+        ],
+        "location": "parmVar",
+        "name": "x4",
+        "type": "double"
+    },
+    "localVar13": {
+        "file": "lulesh.cc",
+        "function": "CalcElemShapeFunctionDerivatives",
+        "lines": [
+            "614",
+            "651",
+            "652",
+            "653"
+        ],
+        "location": "localVar",
+        "name": "y4",
+        "type": "double"
+    },
+    "localVar130": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1614",
+            "1643",
+            "1663",
+            "1671"
+        ],
+        "location": "parmVar",
+        "name": "x5",
+        "type": "double"
+    },
+    "localVar131": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1615",
+            "1627",
+            "1635",
+            "1647"
+        ],
+        "location": "parmVar",
+        "name": "x6",
+        "type": "double"
+    },
+    "localVar132": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1615",
+            "1631",
+            "1655",
+            "1663"
+        ],
+        "location": "parmVar",
+        "name": "x7",
+        "type": "double"
+    },
+    "localVar133": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1616",
+            "1632",
+            "1640",
+            "1644"
+        ],
+        "location": "parmVar",
+        "name": "y0",
+        "type": "double"
+    },
+    "localVar134": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1616",
+            "1628",
+            "1652",
+            "1668"
+        ],
+        "location": "parmVar",
+        "name": "y1",
+        "type": "double"
+    },
+    "localVar135": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1617",
+            "1640",
+            "1656",
+            "1672"
+        ],
+        "location": "parmVar",
+        "name": "y2",
+        "type": "double"
+    },
+    "localVar136": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1617",
+            "1636",
+            "1652",
+            "1660"
+        ],
+        "location": "parmVar",
+        "name": "y3",
+        "type": "double"
+    },
+    "localVar137": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1618",
+            "1648",
+            "1660",
+            "1668"
+        ],
+        "location": "parmVar",
+        "name": "y4",
+        "type": "double"
+    },
+    "localVar138": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1618",
+            "1644",
+            "1664",
+            "1672"
+        ],
+        "location": "parmVar",
+        "name": "y5",
+        "type": "double"
+    },
+    "localVar139": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1619",
+            "1628",
+            "1636",
+            "1648"
+        ],
+        "location": "parmVar",
+        "name": "y6",
+        "type": "double"
+    },
+    "localVar14": {
+        "file": "lulesh.cc",
+        "function": "CalcElemShapeFunctionDerivatives",
+        "lines": [
+            "615",
+            "651",
+            "652",
+            "653"
+        ],
+        "location": "localVar",
+        "name": "y5",
+        "type": "double"
+    },
+    "localVar140": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1619",
+            "1632",
+            "1656",
+            "1664"
+        ],
+        "location": "parmVar",
+        "name": "y7",
+        "type": "double"
+    },
+    "localVar141": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1620",
+            "1633",
+            "1641",
+            "1645"
+        ],
+        "location": "parmVar",
+        "name": "z0",
+        "type": "double"
+    },
+    "localVar142": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1620",
+            "1629",
+            "1653",
+            "1669"
+        ],
+        "location": "parmVar",
+        "name": "z1",
+        "type": "double"
+    },
+    "localVar143": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1621",
+            "1641",
+            "1657",
+            "1673"
+        ],
+        "location": "parmVar",
+        "name": "z2",
+        "type": "double"
+    },
+    "localVar144": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1621",
+            "1637",
+            "1653",
+            "1661"
+        ],
+        "location": "parmVar",
+        "name": "z3",
+        "type": "double"
+    },
+    "localVar145": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1622",
+            "1649",
+            "1661",
+            "1669"
+        ],
+        "location": "parmVar",
+        "name": "z4",
+        "type": "double"
+    },
+    "localVar146": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1622",
+            "1645",
+            "1665",
+            "1673"
+        ],
+        "location": "parmVar",
+        "name": "z5",
+        "type": "double"
+    },
+    "localVar147": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1623",
+            "1629",
+            "1637",
+            "1649"
+        ],
+        "location": "parmVar",
+        "name": "z6",
+        "type": "double"
+    },
+    "localVar148": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1623",
+            "1633",
+            "1657",
+            "1665"
+        ],
+        "location": "parmVar",
+        "name": "z7",
+        "type": "double"
+    },
+    "localVar149": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1625",
+            "1691"
+        ],
+        "location": "localVar",
+        "name": "twelveth",
+        "type": "double"
+    },
+    "localVar15": {
+        "file": "lulesh.cc",
+        "function": "CalcElemShapeFunctionDerivatives",
+        "lines": [
+            "616",
+            "651",
+            "652",
+            "653"
+        ],
+        "location": "localVar",
+        "name": "y6",
+        "type": "double"
+    },
+    "localVar150": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1627",
+            "1685"
+        ],
+        "location": "localVar",
+        "name": "dx61",
+        "type": "double"
+    },
+    "localVar151": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1628",
+            "1685"
+        ],
+        "location": "localVar",
+        "name": "dy61",
+        "type": "double"
+    },
+    "localVar152": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1629",
+            "1685"
+        ],
+        "location": "localVar",
+        "name": "dz61",
+        "type": "double"
+    },
+    "localVar153": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1631",
+            "1682"
+        ],
+        "location": "localVar",
+        "name": "dx70",
+        "type": "double"
+    },
+    "localVar154": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1632",
+            "1682"
+        ],
+        "location": "localVar",
+        "name": "dy70",
+        "type": "double"
+    },
+    "localVar155": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1633",
+            "1682"
+        ],
+        "location": "localVar",
+        "name": "dz70",
+        "type": "double"
+    },
+    "localVar156": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1635",
+            "1679"
+        ],
+        "location": "localVar",
+        "name": "dx63",
+        "type": "double"
+    },
+    "localVar157": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1636",
+            "1679"
+        ],
+        "location": "localVar",
+        "name": "dy63",
+        "type": "double"
+    },
+    "localVar158": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1637",
+            "1679"
+        ],
+        "location": "localVar",
+        "name": "dz63",
+        "type": "double"
+    },
+    "localVar159": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1639",
+            "1679"
+        ],
+        "location": "localVar",
+        "name": "dx20",
+        "type": "double"
+    },
+    "localVar16": {
+        "file": "lulesh.cc",
+        "function": "CalcElemShapeFunctionDerivatives",
+        "lines": [
+            "617",
+            "651",
+            "652",
+            "653"
+        ],
+        "location": "localVar",
+        "name": "y7",
+        "type": "double"
+    },
+    "localVar160": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1640",
+            "1679"
+        ],
+        "location": "localVar",
+        "name": "dy20",
+        "type": "double"
+    },
+    "localVar161": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1641",
+            "1679"
+        ],
+        "location": "localVar",
+        "name": "dz20",
+        "type": "double"
+    },
+    "localVar162": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1643",
+            "1685"
+        ],
+        "location": "localVar",
+        "name": "dx50",
+        "type": "double"
+    },
+    "localVar163": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1644",
+            "1685"
+        ],
+        "location": "localVar",
+        "name": "dy50",
+        "type": "double"
+    },
+    "localVar164": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1645",
+            "1685"
+        ],
+        "location": "localVar",
+        "name": "dz50",
+        "type": "double"
+    },
+    "localVar165": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1647",
+            "1682"
+        ],
+        "location": "localVar",
+        "name": "dx64",
+        "type": "double"
+    },
+    "localVar166": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1648",
+            "1682"
+        ],
+        "location": "localVar",
+        "name": "dy64",
+        "type": "double"
+    },
+    "localVar167": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1649",
+            "1682"
+        ],
+        "location": "localVar",
+        "name": "dz64",
+        "type": "double"
+    },
+    "localVar168": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1651",
+            "1679"
+        ],
+        "location": "localVar",
+        "name": "dx31",
+        "type": "double"
+    },
+    "localVar169": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1652",
+            "1679"
+        ],
+        "location": "localVar",
+        "name": "dy31",
+        "type": "double"
+    },
+    "localVar17": {
+        "file": "lulesh.cc",
+        "function": "CalcElemShapeFunctionDerivatives",
+        "lines": [
+            "619",
+            "655",
+            "656",
+            "657"
+        ],
+        "location": "localVar",
+        "name": "z0",
+        "type": "double"
+    },
+    "localVar170": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1653",
+            "1679"
+        ],
+        "location": "localVar",
+        "name": "dz31",
+        "type": "double"
+    },
+    "localVar171": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1655",
+            "1679"
+        ],
+        "location": "localVar",
+        "name": "dx72",
+        "type": "double"
+    },
+    "localVar172": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1656",
+            "1679"
+        ],
+        "location": "localVar",
+        "name": "dy72",
+        "type": "double"
+    },
+    "localVar173": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1657",
+            "1679"
+        ],
+        "location": "localVar",
+        "name": "dz72",
+        "type": "double"
+    },
+    "localVar174": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1659",
+            "1682"
+        ],
+        "location": "localVar",
+        "name": "dx43",
+        "type": "double"
+    },
+    "localVar175": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1660",
+            "1682"
+        ],
+        "location": "localVar",
+        "name": "dy43",
+        "type": "double"
+    },
+    "localVar176": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1661",
+            "1682"
+        ],
+        "location": "localVar",
+        "name": "dz43",
+        "type": "double"
+    },
+    "localVar177": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1663",
+            "1682"
+        ],
+        "location": "localVar",
+        "name": "dx57",
+        "type": "double"
+    },
+    "localVar178": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1664",
+            "1682"
+        ],
+        "location": "localVar",
+        "name": "dy57",
+        "type": "double"
+    },
+    "localVar179": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1665",
+            "1682"
+        ],
+        "location": "localVar",
+        "name": "dz57",
+        "type": "double"
+    },
+    "localVar18": {
+        "file": "lulesh.cc",
+        "function": "CalcElemShapeFunctionDerivatives",
+        "lines": [
+            "620",
+            "655",
+            "656",
+            "657"
+        ],
+        "location": "localVar",
+        "name": "z1",
+        "type": "double"
+    },
+    "localVar180": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1667",
+            "1685"
+        ],
+        "location": "localVar",
+        "name": "dx14",
+        "type": "double"
+    },
+    "localVar181": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1668",
+            "1685"
+        ],
+        "location": "localVar",
+        "name": "dy14",
+        "type": "double"
+    },
+    "localVar182": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1669",
+            "1685"
+        ],
+        "location": "localVar",
+        "name": "dz14",
+        "type": "double"
+    },
+    "localVar183": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1671",
+            "1685"
+        ],
+        "location": "localVar",
+        "name": "dx25",
+        "type": "double"
+    },
+    "localVar184": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1672",
+            "1685"
+        ],
+        "location": "localVar",
+        "name": "dy25",
+        "type": "double"
+    },
+    "localVar185": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1673",
+            "1685"
+        ],
+        "location": "localVar",
+        "name": "dz25",
+        "type": "double"
+    },
+    "localVar186": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1678",
+            "1691",
+            "1693"
+        ],
+        "location": "localVar",
+        "name": "volume",
+        "type": "double"
+    },
+    "localVar187": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1699",
+            "1701"
+        ],
+        "location": "parmVar",
+        "name": "x",
+        "type": "double [8]"
+    },
+    "localVar188": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1699",
+            "1702"
+        ],
+        "location": "parmVar",
+        "name": "y",
+        "type": "double [8]"
+    },
+    "localVar189": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVolume",
+        "lines": [
+            "1699",
+            "1703"
+        ],
+        "location": "parmVar",
+        "name": "z",
+        "type": "double [8]"
+    },
+    "localVar19": {
+        "file": "lulesh.cc",
+        "function": "CalcElemShapeFunctionDerivatives",
+        "lines": [
+            "621",
+            "655",
+            "656",
+            "657"
+        ],
+        "location": "localVar",
+        "name": "z2",
+        "type": "double"
+    },
+    "localVar190": {
+        "file": "lulesh.cc",
+        "function": "AreaFace",
+        "lines": [
+            "1709",
+            "1716",
+            "1719"
+        ],
+        "location": "parmVar",
+        "name": "x0",
+        "type": "double"
+    },
+    "localVar191": {
+        "file": "lulesh.cc",
+        "function": "AreaFace",
+        "lines": [
+            "1709",
+            "1716",
+            "1719"
+        ],
+        "location": "parmVar",
+        "name": "x1",
+        "type": "double"
+    },
+    "localVar192": {
+        "file": "lulesh.cc",
+        "function": "AreaFace",
+        "lines": [
+            "1710",
+            "1716",
+            "1719"
+        ],
+        "location": "parmVar",
+        "name": "x2",
+        "type": "double"
+    },
+    "localVar193": {
+        "file": "lulesh.cc",
+        "function": "AreaFace",
+        "lines": [
+            "1710",
+            "1716",
+            "1719"
+        ],
+        "location": "parmVar",
+        "name": "x3",
+        "type": "double"
+    },
+    "localVar194": {
+        "file": "lulesh.cc",
+        "function": "AreaFace",
+        "lines": [
+            "1711",
+            "1717",
+            "1720"
+        ],
+        "location": "parmVar",
+        "name": "y0",
+        "type": "double"
+    },
+    "localVar195": {
+        "file": "lulesh.cc",
+        "function": "AreaFace",
+        "lines": [
+            "1711",
+            "1717",
+            "1720"
+        ],
+        "location": "parmVar",
+        "name": "y1",
+        "type": "double"
+    },
+    "localVar196": {
+        "file": "lulesh.cc",
+        "function": "AreaFace",
+        "lines": [
+            "1712",
+            "1717",
+            "1720"
+        ],
+        "location": "parmVar",
+        "name": "y2",
+        "type": "double"
+    },
+    "localVar197": {
+        "file": "lulesh.cc",
+        "function": "AreaFace",
+        "lines": [
+            "1712",
+            "1717",
+            "1720"
+        ],
+        "location": "parmVar",
+        "name": "y3",
+        "type": "double"
+    },
+    "localVar198": {
+        "file": "lulesh.cc",
+        "function": "AreaFace",
+        "lines": [
+            "1713",
+            "1718",
+            "1721"
+        ],
+        "location": "parmVar",
+        "name": "z0",
+        "type": "double"
+    },
+    "localVar199": {
+        "file": "lulesh.cc",
+        "function": "AreaFace",
+        "lines": [
+            "1713",
+            "1718",
+            "1721"
+        ],
+        "location": "parmVar",
+        "name": "z1",
+        "type": "double"
+    },
+    "localVar2": {
+        "file": "lulesh.cc",
+        "function": "CalcElemShapeFunctionDerivatives",
+        "lines": [
+            "602",
+            "647",
+            "648",
+            "649"
+        ],
+        "location": "localVar",
+        "name": "x1",
+        "type": "double"
+    },
+    "localVar20": {
+        "file": "lulesh.cc",
+        "function": "CalcElemShapeFunctionDerivatives",
+        "lines": [
+            "622",
+            "655",
+            "656",
+            "657"
+        ],
+        "location": "localVar",
+        "name": "z3",
+        "type": "double"
+    },
+    "localVar200": {
+        "file": "lulesh.cc",
+        "function": "AreaFace",
+        "lines": [
+            "1714",
+            "1718",
+            "1721"
+        ],
+        "location": "parmVar",
+        "name": "z2",
+        "type": "double"
+    },
+    "localVar201": {
+        "file": "lulesh.cc",
+        "function": "AreaFace",
+        "lines": [
+            "1714",
+            "1718",
+            "1721"
+        ],
+        "location": "parmVar",
+        "name": "z3",
+        "type": "double"
+    },
+    "localVar202": {
+        "file": "lulesh.cc",
+        "function": "AreaFace",
+        "lines": [
+            "1716",
+            "1723",
+            "1725",
+            "1726"
+        ],
+        "location": "localVar",
+        "name": "fx",
+        "type": "double"
+    },
+    "localVar203": {
+        "file": "lulesh.cc",
+        "function": "AreaFace",
+        "lines": [
+            "1717",
+            "1723",
+            "1725",
+            "1726"
+        ],
+        "location": "localVar",
+        "name": "fy",
+        "type": "double"
+    },
+    "localVar204": {
+        "file": "lulesh.cc",
+        "function": "AreaFace",
+        "lines": [
+            "1718",
+            "1723",
+            "1725",
+            "1726"
+        ],
+        "location": "localVar",
+        "name": "fz",
+        "type": "double"
+    },
+    "localVar205": {
+        "file": "lulesh.cc",
+        "function": "AreaFace",
+        "lines": [
+            "1719",
+            "1724",
+            "1725",
+            "1726"
+        ],
+        "location": "localVar",
+        "name": "gx",
+        "type": "double"
+    },
+    "localVar206": {
+        "file": "lulesh.cc",
+        "function": "AreaFace",
+        "lines": [
+            "1720",
+            "1724",
+            "1725",
+            "1726"
+        ],
+        "location": "localVar",
+        "name": "gy",
+        "type": "double"
+    },
+    "localVar207": {
+        "file": "lulesh.cc",
+        "function": "AreaFace",
+        "lines": [
+            "1721",
+            "1724",
+            "1725",
+            "1726"
+        ],
+        "location": "localVar",
+        "name": "gz",
+        "type": "double"
+    },
+    "localVar208": {
+        "file": "lulesh.cc",
+        "function": "AreaFace",
+        "lines": [
+            "1722",
+            "1727"
+        ],
+        "location": "localVar",
+        "name": "area",
+        "type": "double"
+    },
+    "localVar209": {
+        "file": "lulesh.cc",
+        "function": "CalcElemCharacteristicLength",
+        "lines": [
+            "1738",
+            "1741",
+            "1746",
+            "1751",
+            "1756",
+            "1761",
+            "1766"
+        ],
+        "location": "localVar",
+        "name": "a",
+        "type": "double"
+    },
+    "localVar21": {
+        "file": "lulesh.cc",
+        "function": "CalcElemShapeFunctionDerivatives",
+        "lines": [
+            "623",
+            "655",
+            "656",
+            "657"
+        ],
+        "location": "localVar",
+        "name": "z4",
+        "type": "double"
+    },
+    "localVar210": {
+        "file": "lulesh.cc",
+        "function": "CalcElemCharacteristicLength",
+        "lines": [
+            "1739",
+            "1771",
+            "1773"
+        ],
+        "location": "localVar",
+        "name": "charLength",
+        "type": "double"
+    },
+    "localVar211": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVelocityGradient",
+        "lines": [
+            "1779",
+            "1797",
+            "1798",
+            "1799",
+            "1800",
+            "1817",
+            "1818",
+            "1819",
+            "1820",
+            "1827",
+            "1828",
+            "1829",
+            "1830"
+        ],
+        "location": "parmVar",
+        "name": "xvel",
+        "type": "double *"
+    },
+    "localVar212": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVelocityGradient",
+        "lines": [
+            "1780",
+            "1802",
+            "1803",
+            "1804",
+            "1805",
+            "1812",
+            "1813",
+            "1814",
+            "1815",
+            "1837",
+            "1838",
+            "1839",
+            "1840"
+        ],
+        "location": "parmVar",
+        "name": "yvel",
+        "type": "double *"
+    },
+    "localVar213": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVelocityGradient",
+        "lines": [
+            "1781",
+            "1807",
+            "1808",
+            "1809",
+            "1810",
+            "1822",
+            "1823",
+            "1824",
+            "1825",
+            "1832",
+            "1833",
+            "1834",
+            "1835"
+        ],
+        "location": "parmVar",
+        "name": "zvel",
+        "type": "double *"
+    },
+    "localVar214": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVelocityGradient",
+        "lines": [
+            "1783",
+            "1786"
+        ],
+        "location": "parmVar",
+        "name": "detJ",
+        "type": "double"
+    },
+    "localVar215": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVelocityGradient",
+        "lines": [
+            "1784",
+            "1797",
+            "1802",
+            "1807",
+            "1841",
+            "1842",
+            "1843"
+        ],
+        "location": "parmVar",
+        "name": "d",
+        "type": "double *"
+    },
+    "localVar216": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVelocityGradient",
+        "lines": [
+            "1786",
+            "1797",
+            "1802",
+            "1807",
+            "1812",
+            "1817",
+            "1822",
+            "1827",
+            "1832",
+            "1837"
+        ],
+        "location": "localVar",
+        "name": "inv_detJ",
+        "type": "double"
+    },
+    "localVar217": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVelocityGradient",
+        "lines": [
+            "1787",
+            "1812",
+            "1841"
+        ],
+        "location": "localVar",
+        "name": "dyddx",
+        "type": "double"
+    },
+    "localVar218": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVelocityGradient",
+        "lines": [
+            "1788",
+            "1817",
+            "1841"
+        ],
+        "location": "localVar",
+        "name": "dxddy",
+        "type": "double"
+    },
+    "localVar219": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVelocityGradient",
+        "lines": [
+            "1789",
+            "1822",
+            "1842"
+        ],
+        "location": "localVar",
+        "name": "dzddx",
+        "type": "double"
+    },
+    "localVar22": {
+        "file": "lulesh.cc",
+        "function": "CalcElemShapeFunctionDerivatives",
+        "lines": [
+            "624",
+            "655",
+            "656",
+            "657"
+        ],
+        "location": "localVar",
+        "name": "z5",
+        "type": "double"
+    },
+    "localVar220": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVelocityGradient",
+        "lines": [
+            "1790",
+            "1827",
+            "1842"
+        ],
+        "location": "localVar",
+        "name": "dxddz",
+        "type": "double"
+    },
+    "localVar221": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVelocityGradient",
+        "lines": [
+            "1791",
+            "1832",
+            "1843"
+        ],
+        "location": "localVar",
+        "name": "dzddy",
+        "type": "double"
+    },
+    "localVar222": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVelocityGradient",
+        "lines": [
+            "1792",
+            "1837",
+            "1843"
+        ],
+        "location": "localVar",
+        "name": "dyddz",
+        "type": "double"
+    },
+    "localVar223": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVelocityGradient",
+        "lines": [
+            "1793",
+            "1797",
+            "1798",
+            "1799",
+            "1800",
+            "1812",
+            "1813",
+            "1814",
+            "1815",
+            "1822",
+            "1823",
+            "1824",
+            "1825"
+        ],
+        "location": "localVar",
+        "name": "pfx",
+        "type": "double *"
+    },
+    "localVar224": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVelocityGradient",
+        "lines": [
+            "1794",
+            "1802",
+            "1803",
+            "1804",
+            "1805",
+            "1817",
+            "1818",
+            "1819",
+            "1820",
+            "1832",
+            "1833",
+            "1834",
+            "1835"
+        ],
+        "location": "localVar",
+        "name": "pfy",
+        "type": "double *"
+    },
+    "localVar225": {
+        "file": "lulesh.cc",
+        "function": "CalcElemVelocityGradient",
+        "lines": [
+            "1795",
+            "1807",
+            "1808",
+            "1809",
+            "1810",
+            "1827",
+            "1828",
+            "1829",
+            "1830",
+            "1837",
+            "1838",
+            "1839",
+            "1840"
+        ],
+        "location": "localVar",
+        "name": "pfz",
+        "type": "double *"
+    },
+    "localVar226": {
+        "file": "lulesh.cc",
+        "function": "CalcKinematicsForElems",
+        "lines": [
+            "1850",
+            "1893"
+        ],
+        "location": "parmVar",
+        "name": "deltaTime",
+        "type": "double"
+    },
+    "localVar227": {
+        "file": "lulesh.cc",
+        "function": "CalcKinematicsForElems",
+        "lines": [
+            "1865",
+            "1902",
+            "1905"
+        ],
+        "location": "localVar",
+        "name": "detJ",
+        "type": "double"
+    },
+    "localVar228": {
+        "file": "lulesh.cc",
+        "function": "CalcKinematicsForElems",
+        "lines": [
+            "1867",
+            "1875",
+            "1876",
+            "1882"
+        ],
+        "location": "localVar",
+        "name": "volume",
+        "type": "double"
+    },
+    "localVar229": {
+        "file": "lulesh.cc",
+        "function": "CalcKinematicsForElems",
+        "lines": [
+            "1868",
+            "1876",
+            "1877",
+            "1878"
+        ],
+        "location": "localVar",
+        "name": "relativeVolume",
+        "type": "double"
+    },
+    "localVar23": {
+        "file": "lulesh.cc",
+        "function": "CalcElemShapeFunctionDerivatives",
+        "lines": [
+            "625",
+            "655",
+            "656",
+            "657"
+        ],
+        "location": "localVar",
+        "name": "z6",
+        "type": "double"
+    },
+    "localVar230": {
+        "file": "lulesh.cc",
+        "function": "CalcKinematicsForElems",
+        "lines": [
+            "1893",
+            "1896",
+            "1897",
+            "1898"
+        ],
+        "location": "localVar",
+        "name": "dt2",
+        "type": "double"
+    },
+    "localVar231": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "1964",
+            "2037",
+            "2057",
+            "2075",
+            "2093"
+        ],
+        "location": "localVar",
+        "name": "ptiny",
+        "type": "double"
+    },
+    "localVar232": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "1965",
+            "2053",
+            "2057",
+            "2059",
+            "2067",
+            "2071",
+            "2075",
+            "2077",
+            "2085",
+            "2089",
+            "2093",
+            "2095",
+            "2103"
+        ],
+        "location": "localVar",
+        "name": "ax",
+        "type": "double"
+    },
+    "localVar233": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "1966",
+            "2054",
+            "2057",
+            "2060",
+            "2067",
+            "2072",
+            "2075",
+            "2078",
+            "2085",
+            "2090",
+            "2093",
+            "2096",
+            "2103"
+        ],
+        "location": "localVar",
+        "name": "ay",
+        "type": "double"
+    },
+    "localVar234": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "1967",
+            "2055",
+            "2057",
+            "2061",
+            "2067",
+            "2073",
+            "2075",
+            "2079",
+            "2085",
+            "2091",
+            "2093",
+            "2097",
+            "2103"
+        ],
+        "location": "localVar",
+        "name": "az",
+        "type": "double"
+    },
+    "localVar235": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "1968",
+            "2063",
+            "2067",
+            "2081",
+            "2085",
+            "2099",
+            "2103"
+        ],
+        "location": "localVar",
+        "name": "dxv",
+        "type": "double"
+    },
+    "localVar236": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "1969",
+            "2064",
+            "2067",
+            "2082",
+            "2085",
+            "2100",
+            "2103"
+        ],
+        "location": "localVar",
+        "name": "dyv",
+        "type": "double"
+    },
+    "localVar237": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "1970",
+            "2065",
+            "2067",
+            "2083",
+            "2085",
+            "2101",
+            "2103"
+        ],
+        "location": "localVar",
+        "name": "dzv",
+        "type": "double"
+    },
+    "localVar238": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "1982",
+            "2039",
+            "2043",
+            "2047"
+        ],
+        "location": "localVar",
+        "name": "x0",
+        "type": "double"
+    },
+    "localVar239": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "1983",
+            "2039",
+            "2043",
+            "2047"
+        ],
+        "location": "localVar",
+        "name": "x1",
+        "type": "double"
+    },
+    "localVar24": {
+        "file": "lulesh.cc",
+        "function": "CalcElemShapeFunctionDerivatives",
+        "lines": [
+            "626",
+            "655",
+            "656",
+            "657"
+        ],
+        "location": "localVar",
+        "name": "z7",
+        "type": "double"
+    },
+    "localVar240": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "1984",
+            "2039",
+            "2043",
+            "2047"
+        ],
+        "location": "localVar",
+        "name": "x2",
+        "type": "double"
+    },
+    "localVar241": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "1985",
+            "2039",
+            "2043",
+            "2047"
+        ],
+        "location": "localVar",
+        "name": "x3",
+        "type": "double"
+    },
+    "localVar242": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "1986",
+            "2039",
+            "2043",
+            "2047"
+        ],
+        "location": "localVar",
+        "name": "x4",
+        "type": "double"
+    },
+    "localVar243": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "1987",
+            "2039",
+            "2043",
+            "2047"
+        ],
+        "location": "localVar",
+        "name": "x5",
+        "type": "double"
+    },
+    "localVar244": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "1988",
+            "2039",
+            "2043",
+            "2047"
+        ],
+        "location": "localVar",
+        "name": "x6",
+        "type": "double"
+    },
+    "localVar245": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "1989",
+            "2039",
+            "2043",
+            "2047"
+        ],
+        "location": "localVar",
+        "name": "x7",
+        "type": "double"
+    },
+    "localVar246": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "1991",
+            "2040",
+            "2044",
+            "2048"
+        ],
+        "location": "localVar",
+        "name": "y0",
+        "type": "double"
+    },
+    "localVar247": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "1992",
+            "2040",
+            "2044",
+            "2048"
+        ],
+        "location": "localVar",
+        "name": "y1",
+        "type": "double"
+    },
+    "localVar248": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "1993",
+            "2040",
+            "2044",
+            "2048"
+        ],
+        "location": "localVar",
+        "name": "y2",
+        "type": "double"
+    },
+    "localVar249": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "1994",
+            "2040",
+            "2044",
+            "2048"
+        ],
+        "location": "localVar",
+        "name": "y3",
+        "type": "double"
+    },
+    "localVar25": {
+        "file": "lulesh.cc",
+        "function": "CalcElemShapeFunctionDerivatives",
+        "lines": [
+            "628",
+            "647",
+            "665",
+            "666",
+            "669",
+            "670"
+        ],
+        "location": "localVar",
+        "name": "fjxxi",
+        "type": "double"
+    },
+    "localVar250": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "1995",
+            "2040",
+            "2044",
+            "2048"
+        ],
+        "location": "localVar",
+        "name": "y4",
+        "type": "double"
+    },
+    "localVar251": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "1996",
+            "2040",
+            "2044",
+            "2048"
+        ],
+        "location": "localVar",
+        "name": "y5",
+        "type": "double"
+    },
+    "localVar252": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "1997",
+            "2040",
+            "2044",
+            "2048"
+        ],
+        "location": "localVar",
+        "name": "y6",
+        "type": "double"
+    },
+    "localVar253": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "1998",
+            "2040",
+            "2044",
+            "2048"
+        ],
+        "location": "localVar",
+        "name": "y7",
+        "type": "double"
+    },
+    "localVar254": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "2000",
+            "2041",
+            "2045",
+            "2049"
+        ],
+        "location": "localVar",
+        "name": "z0",
+        "type": "double"
+    },
+    "localVar255": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "2001",
+            "2041",
+            "2045",
+            "2049"
+        ],
+        "location": "localVar",
+        "name": "z1",
+        "type": "double"
+    },
+    "localVar256": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "2002",
+            "2041",
+            "2045",
+            "2049"
+        ],
+        "location": "localVar",
+        "name": "z2",
+        "type": "double"
+    },
+    "localVar257": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "2003",
+            "2041",
+            "2045",
+            "2049"
+        ],
+        "location": "localVar",
+        "name": "z3",
+        "type": "double"
+    },
+    "localVar258": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "2004",
+            "2041",
+            "2045",
+            "2049"
+        ],
+        "location": "localVar",
+        "name": "z4",
+        "type": "double"
+    },
+    "localVar259": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "2005",
+            "2041",
+            "2045",
+            "2049"
+        ],
+        "location": "localVar",
+        "name": "z5",
+        "type": "double"
+    },
+    "localVar26": {
+        "file": "lulesh.cc",
+        "function": "CalcElemShapeFunctionDerivatives",
+        "lines": [
+            "629",
+            "648",
+            "664",
+            "666",
+            "668",
+            "670",
+            "704"
+        ],
+        "location": "localVar",
+        "name": "fjxet",
+        "type": "double"
+    },
+    "localVar260": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "2006",
+            "2041",
+            "2045",
+            "2049"
+        ],
+        "location": "localVar",
+        "name": "z6",
+        "type": "double"
+    },
+    "localVar261": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "2007",
+            "2041",
+            "2045",
+            "2049"
+        ],
+        "location": "localVar",
+        "name": "z7",
+        "type": "double"
+    },
+    "localVar262": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "2009",
+            "2063",
+            "2081",
+            "2099"
+        ],
+        "location": "localVar",
+        "name": "xv0",
+        "type": "double"
+    },
+    "localVar263": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "2010",
+            "2063",
+            "2081",
+            "2099"
+        ],
+        "location": "localVar",
+        "name": "xv1",
+        "type": "double"
+    },
+    "localVar264": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "2011",
+            "2063",
+            "2081",
+            "2099"
+        ],
+        "location": "localVar",
+        "name": "xv2",
+        "type": "double"
+    },
+    "localVar265": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "2012",
+            "2063",
+            "2081",
+            "2099"
+        ],
+        "location": "localVar",
+        "name": "xv3",
+        "type": "double"
+    },
+    "localVar266": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "2013",
+            "2063",
+            "2081",
+            "2099"
+        ],
+        "location": "localVar",
+        "name": "xv4",
+        "type": "double"
+    },
+    "localVar267": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "2014",
+            "2063",
+            "2081",
+            "2099"
+        ],
+        "location": "localVar",
+        "name": "xv5",
+        "type": "double"
+    },
+    "localVar268": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "2015",
+            "2063",
+            "2081",
+            "2099"
+        ],
+        "location": "localVar",
+        "name": "xv6",
+        "type": "double"
+    },
+    "localVar269": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "2016",
+            "2063",
+            "2081",
+            "2099"
+        ],
+        "location": "localVar",
+        "name": "xv7",
+        "type": "double"
+    },
+    "localVar27": {
+        "file": "lulesh.cc",
+        "function": "CalcElemShapeFunctionDerivatives",
+        "lines": [
+            "630",
+            "649",
+            "664",
+            "665",
+            "668",
+            "669"
+        ],
+        "location": "localVar",
+        "name": "fjxze",
+        "type": "double"
+    },
+    "localVar270": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "2018",
+            "2064",
+            "2082",
+            "2100"
+        ],
+        "location": "localVar",
+        "name": "yv0",
+        "type": "double"
+    },
+    "localVar271": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "2019",
+            "2064",
+            "2082",
+            "2100"
+        ],
+        "location": "localVar",
+        "name": "yv1",
+        "type": "double"
+    },
+    "localVar272": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "2020",
+            "2064",
+            "2082",
+            "2100"
+        ],
+        "location": "localVar",
+        "name": "yv2",
+        "type": "double"
+    },
+    "localVar273": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "2021",
+            "2064",
+            "2082",
+            "2100"
+        ],
+        "location": "localVar",
+        "name": "yv3",
+        "type": "double"
+    },
+    "localVar274": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "2022",
+            "2064",
+            "2082",
+            "2100"
+        ],
+        "location": "localVar",
+        "name": "yv4",
+        "type": "double"
+    },
+    "localVar275": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "2023",
+            "2064",
+            "2082",
+            "2100"
+        ],
+        "location": "localVar",
+        "name": "yv5",
+        "type": "double"
+    },
+    "localVar276": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "2024",
+            "2064",
+            "2082",
+            "2100"
+        ],
+        "location": "localVar",
+        "name": "yv6",
+        "type": "double"
+    },
+    "localVar277": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "2025",
+            "2064",
+            "2082",
+            "2100"
+        ],
+        "location": "localVar",
+        "name": "yv7",
+        "type": "double"
+    },
+    "localVar278": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "2027",
+            "2065",
+            "2083",
+            "2101"
+        ],
+        "location": "localVar",
+        "name": "zv0",
+        "type": "double"
+    },
+    "localVar279": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "2028",
+            "2065",
+            "2083",
+            "2101"
+        ],
+        "location": "localVar",
+        "name": "zv1",
+        "type": "double"
+    },
+    "localVar28": {
+        "file": "lulesh.cc",
+        "function": "CalcElemShapeFunctionDerivatives",
+        "lines": [
+            "631",
+            "651",
+            "661",
+            "662",
+            "669",
+            "670"
+        ],
+        "location": "localVar",
+        "name": "fjyxi",
+        "type": "double"
+    },
+    "localVar280": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "2029",
+            "2065",
+            "2083",
+            "2101"
+        ],
+        "location": "localVar",
+        "name": "zv2",
+        "type": "double"
+    },
+    "localVar281": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "2030",
+            "2065",
+            "2083",
+            "2101"
+        ],
+        "location": "localVar",
+        "name": "zv3",
+        "type": "double"
+    },
+    "localVar282": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "2031",
+            "2065",
+            "2083",
+            "2101"
+        ],
+        "location": "localVar",
+        "name": "zv4",
+        "type": "double"
+    },
+    "localVar283": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "2032",
+            "2065",
+            "2083",
+            "2101"
+        ],
+        "location": "localVar",
+        "name": "zv5",
+        "type": "double"
+    },
+    "localVar284": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "2033",
+            "2065",
+            "2083",
+            "2101"
+        ],
+        "location": "localVar",
+        "name": "zv6",
+        "type": "double"
+    },
+    "localVar285": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "2034",
+            "2065",
+            "2083",
+            "2101"
+        ],
+        "location": "localVar",
+        "name": "zv7",
+        "type": "double"
+    },
+    "localVar286": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "2036",
+            "2037",
+            "2057",
+            "2075",
+            "2093"
+        ],
+        "location": "localVar",
+        "name": "vol",
+        "type": "double"
+    },
+    "localVar287": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "2037",
+            "2059",
+            "2060",
+            "2061",
+            "2077",
+            "2078",
+            "2079",
+            "2095",
+            "2096",
+            "2097"
+        ],
+        "location": "localVar",
+        "name": "norm",
+        "type": "double"
+    },
+    "localVar288": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "2039",
+            "2054",
+            "2055",
+            "2072",
+            "2073"
+        ],
+        "location": "localVar",
+        "name": "dxj",
+        "type": "double"
+    },
+    "localVar289": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "2040",
+            "2053",
+            "2055",
+            "2071",
+            "2073"
+        ],
+        "location": "localVar",
+        "name": "dyj",
+        "type": "double"
+    },
+    "localVar29": {
+        "file": "lulesh.cc",
+        "function": "CalcElemShapeFunctionDerivatives",
+        "lines": [
+            "632",
+            "652",
+            "660",
+            "662",
+            "668",
+            "670",
+            "704"
+        ],
+        "location": "localVar",
+        "name": "fjyet",
+        "type": "double"
+    },
+    "localVar290": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "2041",
+            "2053",
+            "2054",
+            "2071",
+            "2072"
+        ],
+        "location": "localVar",
+        "name": "dzj",
+        "type": "double"
+    },
+    "localVar291": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "2043",
+            "2054",
+            "2055",
+            "2090",
+            "2091"
+        ],
+        "location": "localVar",
+        "name": "dxi",
+        "type": "double"
+    },
+    "localVar292": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "2044",
+            "2053",
+            "2055",
+            "2089",
+            "2091"
+        ],
+        "location": "localVar",
+        "name": "dyi",
+        "type": "double"
+    },
+    "localVar293": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "2045",
+            "2053",
+            "2054",
+            "2089",
+            "2090"
+        ],
+        "location": "localVar",
+        "name": "dzi",
+        "type": "double"
+    },
+    "localVar294": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "2047",
+            "2072",
+            "2073",
+            "2090",
+            "2091"
+        ],
+        "location": "localVar",
+        "name": "dxk",
+        "type": "double"
+    },
+    "localVar295": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "2048",
+            "2071",
+            "2073",
+            "2089",
+            "2091"
+        ],
+        "location": "localVar",
+        "name": "dyk",
+        "type": "double"
+    },
+    "localVar296": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQGradientsForElems",
+        "lines": [
+            "2049",
+            "2071",
+            "2072",
+            "2089",
+            "2090"
+        ],
+        "location": "localVar",
+        "name": "dzk",
+        "type": "double"
+    },
+    "localVar297": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQRegionForElems",
+        "lines": [
+            "2111",
+            "2131",
+            "2169",
+            "2206"
+        ],
+        "location": "parmVar",
+        "name": "ptiny",
+        "type": "double"
+    },
+    "localVar298": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQRegionForElems",
+        "lines": [
+            "2113",
+            "2159",
+            "2160",
+            "2197",
+            "2198",
+            "2234",
+            "2235"
+        ],
+        "location": "localVar",
+        "name": "monoq_limiter_mult",
+        "type": "double"
+    },
+    "localVar299": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQRegionForElems",
+        "lines": [
+            "2114",
+            "2165",
+            "2203",
+            "2240"
+        ],
+        "location": "localVar",
+        "name": "monoq_max_slope",
+        "type": "double"
+    },
+    "localVar3": {
+        "file": "lulesh.cc",
+        "function": "CalcElemShapeFunctionDerivatives",
+        "lines": [
+            "603",
+            "647",
+            "648",
+            "649"
+        ],
+        "location": "localVar",
+        "name": "x2",
+        "type": "double"
+    },
+    "localVar30": {
+        "file": "lulesh.cc",
+        "function": "CalcElemShapeFunctionDerivatives",
+        "lines": [
+            "633",
+            "653",
+            "660",
+            "661",
+            "668",
+            "669"
+        ],
+        "location": "localVar",
+        "name": "fjyze",
+        "type": "double"
+    },
+    "localVar300": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQRegionForElems",
+        "lines": [
+            "2115",
+            "2259"
+        ],
+        "location": "localVar",
+        "name": "qlc_monoq",
+        "type": "double"
+    },
+    "localVar301": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQRegionForElems",
+        "lines": [
+            "2116",
+            "2264"
+        ],
+        "location": "localVar",
+        "name": "qqc_monoq",
+        "type": "double"
+    },
+    "localVar302": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQRegionForElems",
+        "lines": [
+            "2121",
+            "2245",
+            "2259",
+            "2271"
+        ],
+        "location": "localVar",
+        "name": "qlin",
+        "type": "double"
+    },
+    "localVar303": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQRegionForElems",
+        "lines": [
+            "2122",
+            "2246",
+            "2264",
+            "2270"
+        ],
+        "location": "localVar",
+        "name": "qquad",
+        "type": "double"
+    },
+    "localVar304": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQRegionForElems",
+        "lines": [
+            "2123",
+            "2157",
+            "2162",
+            "2163",
+            "2164",
+            "2165",
+            "2260",
+            "2265"
+        ],
+        "location": "localVar",
+        "name": "phixi",
+        "type": "double"
+    },
+    "localVar305": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQRegionForElems",
+        "lines": [
+            "2124",
+            "2195",
+            "2200",
+            "2201",
+            "2202",
+            "2203",
+            "2261",
+            "2266"
+        ],
+        "location": "localVar",
+        "name": "phieta",
+        "type": "double"
+    },
+    "localVar306": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQRegionForElems",
+        "lines": [
+            "2125",
+            "2232",
+            "2237",
+            "2238",
+            "2239",
+            "2240",
+            "2262",
+            "2267"
+        ],
+        "location": "localVar",
+        "name": "phizeta",
+        "type": "double"
+    },
+    "localVar307": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQRegionForElems",
+        "lines": [
+            "2127",
+            "2154",
+            "2157",
+            "2159",
+            "2162",
+            "2192",
+            "2195",
+            "2197",
+            "2200",
+            "2229",
+            "2232",
+            "2234",
+            "2237"
+        ],
+        "location": "localVar",
+        "name": "delvm",
+        "type": "double"
+    },
+    "localVar308": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQRegionForElems",
+        "lines": [
+            "2128",
+            "2155",
+            "2157",
+            "2160",
+            "2163",
+            "2193",
+            "2195",
+            "2198",
+            "2201",
+            "2230",
+            "2232",
+            "2235",
+            "2238"
+        ],
+        "location": "localVar",
+        "name": "delvp",
+        "type": "double"
+    },
+    "localVar309": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQRegionForElems",
+        "lines": [
+            "2131",
+            "2154",
+            "2155",
+            "2169",
+            "2192",
+            "2193",
+            "2206",
+            "2229",
+            "2230"
+        ],
+        "location": "localVar",
+        "name": "norm",
+        "type": "double"
+    },
+    "localVar31": {
+        "file": "lulesh.cc",
+        "function": "CalcElemShapeFunctionDerivatives",
+        "lines": [
+            "634",
+            "655",
+            "661",
+            "662",
+            "665",
+            "666"
+        ],
+        "location": "localVar",
+        "name": "fjzxi",
+        "type": "double"
+    },
+    "localVar310": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQRegionForElems",
+        "lines": [
+            "2249",
+            "2253",
+            "2260",
+            "2265"
+        ],
+        "location": "localVar",
+        "name": "delvxxi",
+        "type": "double"
+    },
+    "localVar311": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQRegionForElems",
+        "lines": [
+            "2250",
+            "2254",
+            "2261",
+            "2266"
+        ],
+        "location": "localVar",
+        "name": "delvxeta",
+        "type": "double"
+    },
+    "localVar312": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQRegionForElems",
+        "lines": [
+            "2251",
+            "2255",
+            "2262",
+            "2267"
+        ],
+        "location": "localVar",
+        "name": "delvxzeta",
+        "type": "double"
+    },
+    "localVar313": {
+        "file": "lulesh.cc",
+        "function": "CalcMonotonicQRegionForElems",
+        "lines": [
+            "2257",
+            "2259",
+            "2264"
+        ],
+        "location": "localVar",
+        "name": "rho",
+        "type": "double"
+    },
+    "localVar314": {
+        "file": "lulesh.cc",
+        "function": "CalcPressureForElems",
+        "lines": [
+            "2367",
+            "2385",
+            "2387",
+            "2388",
+            "2391",
+            "2393",
+            "2394"
+        ],
+        "location": "parmVar",
+        "name": "p_new",
+        "type": "double *"
+    },
+    "localVar315": {
+        "file": "lulesh.cc",
+        "function": "CalcPressureForElems",
+        "lines": [
+            "2367",
+            "2377",
+            "2385"
+        ],
+        "location": "parmVar",
+        "name": "bvc",
+        "type": "double *"
+    },
+    "localVar316": {
+        "file": "lulesh.cc",
+        "function": "CalcPressureForElems",
+        "lines": [
+            "2368",
+            "2378"
+        ],
+        "location": "parmVar",
+        "name": "pbvc",
+        "type": "double *"
+    },
+    "localVar317": {
+        "file": "lulesh.cc",
+        "function": "CalcPressureForElems",
+        "lines": [
+            "2368",
+            "2385"
+        ],
+        "location": "parmVar",
+        "name": "e_old",
+        "type": "double *"
+    },
+    "localVar318": {
+        "file": "lulesh.cc",
+        "function": "CalcPressureForElems",
+        "lines": [
+            "2369",
+            "2377"
+        ],
+        "location": "parmVar",
+        "name": "compression",
+        "type": "double *"
+    },
+    "localVar319": {
+        "file": "lulesh.cc",
+        "function": "CalcPressureForElems",
+        "lines": [
+            "2369",
+            "2390"
+        ],
+        "location": "parmVar",
+        "name": "vnewc",
+        "type": "double *"
+    },
+    "localVar32": {
+        "file": "lulesh.cc",
+        "function": "CalcElemShapeFunctionDerivatives",
+        "lines": [
+            "635",
+            "656",
+            "660",
+            "662",
+            "664",
+            "666",
+            "704"
+        ],
+        "location": "localVar",
+        "name": "fjzet",
+        "type": "double"
+    },
+    "localVar320": {
+        "file": "lulesh.cc",
+        "function": "CalcPressureForElems",
+        "lines": [
+            "2370",
+            "2393",
+            "2394"
+        ],
+        "location": "parmVar",
+        "name": "pmin",
+        "type": "double"
+    },
+    "localVar321": {
+        "file": "lulesh.cc",
+        "function": "CalcPressureForElems",
+        "lines": [
+            "2371",
+            "2387"
+        ],
+        "location": "parmVar",
+        "name": "p_cut",
+        "type": "double"
+    },
+    "localVar322": {
+        "file": "lulesh.cc",
+        "function": "CalcPressureForElems",
+        "lines": [
+            "2371",
+            "2390"
+        ],
+        "location": "parmVar",
+        "name": "eosvmax",
+        "type": "double"
+    },
+    "localVar323": {
+        "file": "lulesh.cc",
+        "function": "CalcPressureForElems",
+        "lines": [
+            "2376",
+            "2377",
+            "2378"
+        ],
+        "location": "localVar",
+        "name": "c1s",
+        "type": "double"
+    },
+    "localVar324": {
+        "file": "lulesh.cc",
+        "function": "CalcEnergyForElems",
+        "lines": [
+            "2405",
+            "2425",
+            "2466",
+            "2503"
+        ],
+        "location": "parmVar",
+        "name": "pmin",
+        "type": "double"
+    },
+    "localVar325": {
+        "file": "lulesh.cc",
+        "function": "CalcEnergyForElems",
+        "lines": [
+            "2406",
+            "2425",
+            "2466",
+            "2503"
+        ],
+        "location": "parmVar",
+        "name": "p_cut",
+        "type": "double"
+    },
+    "localVar326": {
+        "file": "lulesh.cc",
+        "function": "CalcEnergyForElems",
+        "lines": [
+            "2406",
+            "2457",
+            "2494"
+        ],
+        "location": "parmVar",
+        "name": "e_cut",
+        "type": "double"
+    },
+    "localVar327": {
+        "file": "lulesh.cc",
+        "function": "CalcEnergyForElems",
+        "lines": [
+            "2406",
+            "2521"
+        ],
+        "location": "parmVar",
+        "name": "q_cut",
+        "type": "double"
+    },
+    "localVar328": {
+        "file": "lulesh.cc",
+        "function": "CalcEnergyForElems",
+        "lines": [
+            "2406",
+            "2419",
+            "2420",
+            "2460",
+            "2461",
+            "2497",
+            "2498"
+        ],
+        "location": "parmVar",
+        "name": "emin",
+        "type": "double"
+    },
+    "localVar329": {
+        "file": "lulesh.cc",
+        "function": "CalcEnergyForElems",
+        "lines": [
+            "2408",
+            "2436",
+            "2479",
+            "2511"
+        ],
+        "location": "parmVar",
+        "name": "rho0",
+        "type": "double"
+    },
+    "localVar33": {
+        "file": "lulesh.cc",
+        "function": "CalcElemShapeFunctionDerivatives",
+        "lines": [
+            "636",
+            "657",
+            "660",
+            "661",
+            "664",
+            "665"
+        ],
+        "location": "localVar",
+        "name": "fjzze",
+        "type": "double"
+    },
+    "localVar330": {
+        "file": "lulesh.cc",
+        "function": "CalcEnergyForElems",
+        "lines": [
+            "2409",
+            "2425",
+            "2466",
+            "2503"
+        ],
+        "location": "parmVar",
+        "name": "eosvmax",
+        "type": "double"
+    },
+    "localVar331": {
+        "file": "lulesh.cc",
+        "function": "CalcEnergyForElems",
+        "lines": [
+            "2429",
+            "2436"
+        ],
+        "location": "localVar",
+        "name": "vhalf",
+        "type": "double"
+    },
+    "localVar332": {
+        "file": "lulesh.cc",
+        "function": "CalcEnergyForElems",
+        "lines": [
+            "2435",
+            "2438",
+            "2439",
+            "2441",
+            "2444",
+            "2481",
+            "2482",
+            "2484",
+            "2487",
+            "2513",
+            "2514",
+            "2516",
+            "2519"
+        ],
+        "location": "localVar",
+        "name": "ssc",
+        "type": "double"
+    },
+    "localVar333": {
+        "file": "lulesh.cc",
+        "function": "CalcEnergyForElems",
+        "lines": [
+            "2470",
+            "2492"
+        ],
+        "location": "localVar",
+        "name": "sixth",
+        "type": "double"
+    },
+    "localVar334": {
+        "file": "lulesh.cc",
+        "function": "CalcEnergyForElems",
+        "lines": [
+            "2472",
+            "2475",
+            "2487",
+            "2492"
+        ],
+        "location": "localVar",
+        "name": "q_tilde",
+        "type": "double"
+    },
+    "localVar335": {
+        "file": "lulesh.cc",
+        "function": "CalcEnergyForElems",
+        "lines": [
+            "2478",
+            "2438",
+            "2439",
+            "2441",
+            "2444",
+            "2481",
+            "2482",
+            "2484",
+            "2487",
+            "2513",
+            "2514",
+            "2516",
+            "2519"
+        ],
+        "location": "localVar",
+        "name": "ssc",
+        "type": "double"
+    },
+    "localVar336": {
+        "file": "lulesh.cc",
+        "function": "CalcEnergyForElems",
+        "lines": [
+            "2510",
+            "2438",
+            "2439",
+            "2441",
+            "2444",
+            "2481",
+            "2482",
+            "2484",
+            "2487",
+            "2513",
+            "2514",
+            "2516",
+            "2519"
+        ],
+        "location": "localVar",
+        "name": "ssc",
+        "type": "double"
+    },
+    "localVar337": {
+        "file": "lulesh.cc",
+        "function": "CalcSoundSpeedForElems",
+        "lines": [
+            "2534",
+            "2542"
+        ],
+        "location": "parmVar",
+        "name": "vnewc",
+        "type": "double *"
+    },
+    "localVar338": {
+        "file": "lulesh.cc",
+        "function": "CalcSoundSpeedForElems",
+        "lines": [
+            "2534",
+            "2543"
+        ],
+        "location": "parmVar",
+        "name": "rho0",
+        "type": "double"
+    },
+    "localVar339": {
+        "file": "lulesh.cc",
+        "function": "CalcSoundSpeedForElems",
+        "lines": [
+            "2534",
+            "2542"
+        ],
+        "location": "parmVar",
+        "name": "enewc",
+        "type": "double *"
+    },
+    "localVar34": {
+        "file": "lulesh.cc",
+        "function": "CalcElemShapeFunctionDerivatives",
+        "lines": [
+            "637",
+            "660",
+            "676",
+            "677",
+            "678",
+            "679"
+        ],
+        "location": "localVar",
+        "name": "cjxxi",
+        "type": "double"
+    },
+    "localVar340": {
+        "file": "lulesh.cc",
+        "function": "CalcSoundSpeedForElems",
+        "lines": [
+            "2535",
+            "2543"
+        ],
+        "location": "parmVar",
+        "name": "pnewc",
+        "type": "double *"
+    },
+    "localVar341": {
+        "file": "lulesh.cc",
+        "function": "CalcSoundSpeedForElems",
+        "lines": [
+            "2535",
+            "2542"
+        ],
+        "location": "parmVar",
+        "name": "pbvc",
+        "type": "double *"
+    },
+    "localVar342": {
+        "file": "lulesh.cc",
+        "function": "CalcSoundSpeedForElems",
+        "lines": [
+            "2536",
+            "2543"
+        ],
+        "location": "parmVar",
+        "name": "bvc",
+        "type": "double *"
+    },
+    "localVar343": {
+        "file": "lulesh.cc",
+        "function": "CalcSoundSpeedForElems",
+        "lines": [
+            "2536"
+        ],
+        "location": "parmVar",
+        "name": "ss4o3",
+        "type": "double"
+    },
+    "localVar344": {
+        "file": "lulesh.cc",
+        "function": "CalcSoundSpeedForElems",
+        "lines": [
+            "2542",
+            "2544",
+            "2545",
+            "2548",
+            "2550"
+        ],
+        "location": "localVar",
+        "name": "ssTmp",
+        "type": "double"
+    },
+    "localVar345": {
+        "file": "lulesh.cc",
+        "function": "EvalEOSForElems",
+        "lines": [
+            "2560",
+            "2644"
+        ],
+        "location": "localVar",
+        "name": "e_cut",
+        "type": "double"
+    },
+    "localVar346": {
+        "file": "lulesh.cc",
+        "function": "EvalEOSForElems",
+        "lines": [
+            "2561",
+            "2644"
+        ],
+        "location": "localVar",
+        "name": "p_cut",
+        "type": "double"
+    },
+    "localVar347": {
+        "file": "lulesh.cc",
+        "function": "EvalEOSForElems",
+        "lines": [
+            "2562",
+            "2659"
+        ],
+        "location": "localVar",
+        "name": "ss4o3",
+        "type": "double"
+    },
+    "localVar348": {
+        "file": "lulesh.cc",
+        "function": "EvalEOSForElems",
+        "lines": [
+            "2563",
+            "2644"
+        ],
+        "location": "localVar",
+        "name": "q_cut",
+        "type": "double"
+    },
+    "localVar349": {
+        "file": "lulesh.cc",
+        "function": "EvalEOSForElems",
+        "lines": [
+            "2565",
+            "2624",
+            "2628",
+            "2645"
+        ],
+        "location": "localVar",
+        "name": "eosvmax",
+        "type": "double"
+    },
+    "localVar35": {
+        "file": "lulesh.cc",
+        "function": "CalcElemShapeFunctionDerivatives",
+        "lines": [
+            "638",
+            "661",
+            "676",
+            "677",
+            "678",
+            "679",
+            "704"
+        ],
+        "location": "localVar",
+        "name": "cjxet",
+        "type": "double"
+    },
+    "localVar350": {
+        "file": "lulesh.cc",
+        "function": "EvalEOSForElems",
+        "lines": [
+            "2566",
+            "2615",
+            "2619"
+        ],
+        "location": "localVar",
+        "name": "eosvmin",
+        "type": "double"
+    },
+    "localVar351": {
+        "file": "lulesh.cc",
+        "function": "EvalEOSForElems",
+        "lines": [
+            "2567",
+            "2643"
+        ],
+        "location": "localVar",
+        "name": "pmin",
+        "type": "double"
+    },
+    "localVar352": {
+        "file": "lulesh.cc",
+        "function": "EvalEOSForElems",
+        "lines": [
+            "2568",
+            "2644"
+        ],
+        "location": "localVar",
+        "name": "emin",
+        "type": "double"
+    },
+    "localVar353": {
+        "file": "lulesh.cc",
+        "function": "EvalEOSForElems",
+        "lines": [
+            "2569",
+            "2645",
+            "2658"
+        ],
+        "location": "localVar",
+        "name": "rho0",
+        "type": "double"
+    },
+    "localVar354": {
+        "file": "lulesh.cc",
+        "function": "EvalEOSForElems",
+        "lines": [
+            "2608",
+            "2610",
+            "2611"
+        ],
+        "location": "localVar",
+        "name": "vchalf",
+        "type": "double"
+    },
+    "localVar355": {
+        "file": "lulesh.cc",
+        "function": "UpdateVolumesForElems",
+        "lines": [
+            "2764",
+            "2771"
+        ],
+        "location": "parmVar",
+        "name": "v_cut",
+        "type": "double"
+    },
+    "localVar356": {
+        "file": "lulesh.cc",
+        "function": "UpdateVolumesForElems",
+        "lines": [
+            "2769",
+            "2771",
+            "2772",
+            "2774"
+        ],
+        "location": "localVar",
+        "name": "tmpV",
+        "type": "double"
+    },
+    "localVar357": {
+        "file": "lulesh.cc",
+        "function": "CalcCourantConstraintForElems",
+        "lines": [
+            "2802",
+            "2816"
+        ],
+        "location": "parmVar",
+        "name": "qqc",
+        "type": "double"
+    },
+    "localVar358": {
+        "file": "lulesh.cc",
+        "function": "CalcCourantConstraintForElems",
+        "lines": [
+            "2811",
+            "2848",
+            "2853",
+            "2854",
+            "2860"
+        ],
+        "location": "localVar",
+        "name": "dtcourant_per_thread",
+        "type": "double [1]"
+    },
+    "localVar359": {
+        "file": "lulesh.cc",
+        "function": "CalcCourantConstraintForElems",
+        "lines": [
+            "2816",
+            "2833"
+        ],
+        "location": "localVar",
+        "name": "qqc2",
+        "type": "double"
+    },
+    "localVar36": {
+        "file": "lulesh.cc",
+        "function": "CalcElemShapeFunctionDerivatives",
+        "lines": [
+            "639",
+            "662",
+            "676",
+            "677",
+            "678",
+            "679"
+        ],
+        "location": "localVar",
+        "name": "cjxze",
+        "type": "double"
+    },
+    "localVar360": {
+        "file": "lulesh.cc",
+        "function": "CalcCourantConstraintForElems",
+        "lines": [
+            "2817",
+            "2841",
+            "2842",
+            "2848"
+        ],
+        "location": "localVar",
+        "name": "dtcourant_tmp",
+        "type": "double"
+    },
+    "localVar361": {
+        "file": "lulesh.cc",
+        "function": "CalcCourantConstraintForElems",
+        "lines": [
+            "2829",
+            "2832",
+            "2837",
+            "2838",
+            "2841",
+            "2842"
+        ],
+        "location": "localVar",
+        "name": "dtf",
+        "type": "double"
+    },
+    "localVar362": {
+        "file": "lulesh.cc",
+        "function": "CalcHydroConstraintForElems",
+        "lines": [
+            "2871",
+            "2899"
+        ],
+        "location": "parmVar",
+        "name": "dvovmax",
+        "type": "double"
+    },
+    "localVar363": {
+        "file": "lulesh.cc",
+        "function": "CalcHydroConstraintForElems",
+        "lines": [
+            "2880",
+            "2908",
+            "2913",
+            "2914",
+            "2920"
+        ],
+        "location": "localVar",
+        "name": "dthydro_per_thread",
+        "type": "double [1]"
+    },
+    "localVar364": {
+        "file": "lulesh.cc",
+        "function": "CalcHydroConstraintForElems",
+        "lines": [
+            "2885",
+            "2901",
+            "2902",
+            "2908"
+        ],
+        "location": "localVar",
+        "name": "dthydro_tmp",
+        "type": "double"
+    },
+    "localVar365": {
+        "file": "lulesh.cc",
+        "function": "CalcHydroConstraintForElems",
+        "lines": [
+            "2899",
+            "2901",
+            "2902"
+        ],
+        "location": "localVar",
+        "name": "dtdvov",
+        "type": "double"
+    },
+    "localVar37": {
+        "file": "lulesh.cc",
+        "function": "CalcElemShapeFunctionDerivatives",
+        "lines": [
+            "640",
+            "664",
+            "685",
+            "686",
+            "687",
+            "688"
+        ],
+        "location": "localVar",
+        "name": "cjyxi",
+        "type": "double"
+    },
+    "localVar38": {
+        "file": "lulesh.cc",
+        "function": "CalcElemShapeFunctionDerivatives",
+        "lines": [
+            "641",
+            "665",
+            "685",
+            "686",
+            "687",
+            "688",
+            "704"
+        ],
+        "location": "localVar",
+        "name": "cjyet",
+        "type": "double"
+    },
+    "localVar39": {
+        "file": "lulesh.cc",
+        "function": "CalcElemShapeFunctionDerivatives",
+        "lines": [
+            "642",
+            "666",
+            "685",
+            "686",
+            "687",
+            "688"
+        ],
+        "location": "localVar",
+        "name": "cjyze",
+        "type": "double"
+    },
+    "localVar4": {
+        "file": "lulesh.cc",
+        "function": "CalcElemShapeFunctionDerivatives",
+        "lines": [
+            "604",
+            "647",
+            "648",
+            "649"
+        ],
+        "location": "localVar",
+        "name": "x3",
+        "type": "double"
+    },
+    "localVar40": {
+        "file": "lulesh.cc",
+        "function": "CalcElemShapeFunctionDerivatives",
+        "lines": [
+            "643",
+            "668",
+            "694",
+            "695",
+            "696",
+            "697"
+        ],
+        "location": "localVar",
+        "name": "cjzxi",
+        "type": "double"
+    },
+    "localVar41": {
+        "file": "lulesh.cc",
+        "function": "CalcElemShapeFunctionDerivatives",
+        "lines": [
+            "644",
+            "669",
+            "694",
+            "695",
+            "696",
+            "697",
+            "704"
+        ],
+        "location": "localVar",
+        "name": "cjzet",
+        "type": "double"
+    },
+    "localVar42": {
+        "file": "lulesh.cc",
+        "function": "CalcElemShapeFunctionDerivatives",
+        "lines": [
+            "645",
+            "670",
+            "694",
+            "695",
+            "696",
+            "697"
+        ],
+        "location": "localVar",
+        "name": "cjzze",
+        "type": "double"
+    },
+    "localVar43": {
+        "file": "lulesh.cc",
+        "function": "SumElemFaceNormal",
+        "lines": [
+            "710",
+            "729"
+        ],
+        "location": "parmVar",
+        "name": "normalX0",
+        "type": "double *"
+    },
+    "localVar44": {
+        "file": "lulesh.cc",
+        "function": "SumElemFaceNormal",
+        "lines": [
+            "710",
+            "734"
+        ],
+        "location": "parmVar",
+        "name": "normalY0",
+        "type": "double *"
+    },
+    "localVar45": {
+        "file": "lulesh.cc",
+        "function": "SumElemFaceNormal",
+        "lines": [
+            "710",
+            "739"
+        ],
+        "location": "parmVar",
+        "name": "normalZ0",
+        "type": "double *"
+    },
+    "localVar46": {
+        "file": "lulesh.cc",
+        "function": "SumElemFaceNormal",
+        "lines": [
+            "711",
+            "730"
+        ],
+        "location": "parmVar",
+        "name": "normalX1",
+        "type": "double *"
+    },
+    "localVar47": {
+        "file": "lulesh.cc",
+        "function": "SumElemFaceNormal",
+        "lines": [
+            "711",
+            "735"
+        ],
+        "location": "parmVar",
+        "name": "normalY1",
+        "type": "double *"
+    },
+    "localVar48": {
+        "file": "lulesh.cc",
+        "function": "SumElemFaceNormal",
+        "lines": [
+            "711",
+            "740"
+        ],
+        "location": "parmVar",
+        "name": "normalZ1",
+        "type": "double *"
+    },
+    "localVar49": {
+        "file": "lulesh.cc",
+        "function": "SumElemFaceNormal",
+        "lines": [
+            "712",
+            "731"
+        ],
+        "location": "parmVar",
+        "name": "normalX2",
+        "type": "double *"
+    },
+    "localVar5": {
+        "file": "lulesh.cc",
+        "function": "CalcElemShapeFunctionDerivatives",
+        "lines": [
+            "605",
+            "647",
+            "648",
+            "649"
+        ],
+        "location": "localVar",
+        "name": "x4",
+        "type": "double"
+    },
+    "localVar50": {
+        "file": "lulesh.cc",
+        "function": "SumElemFaceNormal",
+        "lines": [
+            "712",
+            "736"
+        ],
+        "location": "parmVar",
+        "name": "normalY2",
+        "type": "double *"
+    },
+    "localVar51": {
+        "file": "lulesh.cc",
+        "function": "SumElemFaceNormal",
+        "lines": [
+            "712",
+            "741"
+        ],
+        "location": "parmVar",
+        "name": "normalZ2",
+        "type": "double *"
+    },
+    "localVar52": {
+        "file": "lulesh.cc",
+        "function": "SumElemFaceNormal",
+        "lines": [
+            "713",
+            "732"
+        ],
+        "location": "parmVar",
+        "name": "normalX3",
+        "type": "double *"
+    },
+    "localVar53": {
+        "file": "lulesh.cc",
+        "function": "SumElemFaceNormal",
+        "lines": [
+            "713",
+            "737"
+        ],
+        "location": "parmVar",
+        "name": "normalY3",
+        "type": "double *"
+    },
+    "localVar54": {
+        "file": "lulesh.cc",
+        "function": "SumElemFaceNormal",
+        "lines": [
+            "713",
+            "742"
+        ],
+        "location": "parmVar",
+        "name": "normalZ3",
+        "type": "double *"
+    },
+    "localVar55": {
+        "file": "lulesh.cc",
+        "function": "SumElemFaceNormal",
+        "lines": [
+            "714",
+            "719",
+            "722"
+        ],
+        "location": "parmVar",
+        "name": "x0",
+        "type": "double"
+    },
+    "localVar56": {
+        "file": "lulesh.cc",
+        "function": "SumElemFaceNormal",
+        "lines": [
+            "714",
+            "720",
+            "723"
+        ],
+        "location": "parmVar",
+        "name": "y0",
+        "type": "double"
+    },
+    "localVar57": {
+        "file": "lulesh.cc",
+        "function": "SumElemFaceNormal",
+        "lines": [
+            "714",
+            "721",
+            "724"
+        ],
+        "location": "parmVar",
+        "name": "z0",
+        "type": "double"
+    },
+    "localVar58": {
+        "file": "lulesh.cc",
+        "function": "SumElemFaceNormal",
+        "lines": [
+            "715",
+            "719",
+            "722"
+        ],
+        "location": "parmVar",
+        "name": "x1",
+        "type": "double"
+    },
+    "localVar59": {
+        "file": "lulesh.cc",
+        "function": "SumElemFaceNormal",
+        "lines": [
+            "715",
+            "720",
+            "723"
+        ],
+        "location": "parmVar",
+        "name": "y1",
+        "type": "double"
+    },
+    "localVar6": {
+        "file": "lulesh.cc",
+        "function": "CalcElemShapeFunctionDerivatives",
+        "lines": [
+            "606",
+            "647",
+            "648",
+            "649"
+        ],
+        "location": "localVar",
+        "name": "x5",
+        "type": "double"
+    },
+    "localVar60": {
+        "file": "lulesh.cc",
+        "function": "SumElemFaceNormal",
+        "lines": [
+            "715",
+            "721",
+            "724"
+        ],
+        "location": "parmVar",
+        "name": "z1",
+        "type": "double"
+    },
+    "localVar61": {
+        "file": "lulesh.cc",
+        "function": "SumElemFaceNormal",
+        "lines": [
+            "716",
+            "719",
+            "722"
+        ],
+        "location": "parmVar",
+        "name": "x2",
+        "type": "double"
+    },
+    "localVar62": {
+        "file": "lulesh.cc",
+        "function": "SumElemFaceNormal",
+        "lines": [
+            "716",
+            "720",
+            "723"
+        ],
+        "location": "parmVar",
+        "name": "y2",
+        "type": "double"
+    },
+    "localVar63": {
+        "file": "lulesh.cc",
+        "function": "SumElemFaceNormal",
+        "lines": [
+            "716",
+            "721",
+            "724"
+        ],
+        "location": "parmVar",
+        "name": "z2",
+        "type": "double"
+    },
+    "localVar64": {
+        "file": "lulesh.cc",
+        "function": "SumElemFaceNormal",
+        "lines": [
+            "717",
+            "719",
+            "722"
+        ],
+        "location": "parmVar",
+        "name": "x3",
+        "type": "double"
+    },
+    "localVar65": {
+        "file": "lulesh.cc",
+        "function": "SumElemFaceNormal",
+        "lines": [
+            "717",
+            "720",
+            "723"
+        ],
+        "location": "parmVar",
+        "name": "y3",
+        "type": "double"
+    },
+    "localVar66": {
+        "file": "lulesh.cc",
+        "function": "SumElemFaceNormal",
+        "lines": [
+            "717",
+            "721",
+            "724"
+        ],
+        "location": "parmVar",
+        "name": "z3",
+        "type": "double"
+    },
+    "localVar67": {
+        "file": "lulesh.cc",
+        "function": "SumElemFaceNormal",
+        "lines": [
+            "719",
+            "726",
+            "727"
+        ],
+        "location": "localVar",
+        "name": "bisectX0",
+        "type": "double"
+    },
+    "localVar68": {
+        "file": "lulesh.cc",
+        "function": "SumElemFaceNormal",
+        "lines": [
+            "720",
+            "725",
+            "727"
+        ],
+        "location": "localVar",
+        "name": "bisectY0",
+        "type": "double"
+    },
+    "localVar69": {
+        "file": "lulesh.cc",
+        "function": "SumElemFaceNormal",
+        "lines": [
+            "721",
+            "725",
+            "726"
+        ],
+        "location": "localVar",
+        "name": "bisectZ0",
+        "type": "double"
+    },
+    "localVar7": {
+        "file": "lulesh.cc",
+        "function": "CalcElemShapeFunctionDerivatives",
+        "lines": [
+            "607",
+            "647",
+            "648",
+            "649"
+        ],
+        "location": "localVar",
+        "name": "x6",
+        "type": "double"
+    },
+    "localVar70": {
+        "file": "lulesh.cc",
+        "function": "SumElemFaceNormal",
+        "lines": [
+            "722",
+            "726",
+            "727"
+        ],
+        "location": "localVar",
+        "name": "bisectX1",
+        "type": "double"
+    },
+    "localVar71": {
+        "file": "lulesh.cc",
+        "function": "SumElemFaceNormal",
+        "lines": [
+            "723",
+            "725",
+            "727"
+        ],
+        "location": "localVar",
+        "name": "bisectY1",
+        "type": "double"
+    },
+    "localVar72": {
+        "file": "lulesh.cc",
+        "function": "SumElemFaceNormal",
+        "lines": [
+            "724",
+            "725",
+            "726"
+        ],
+        "location": "localVar",
+        "name": "bisectZ1",
+        "type": "double"
+    },
+    "localVar73": {
+        "file": "lulesh.cc",
+        "function": "SumElemFaceNormal",
+        "lines": [
+            "725",
+            "729",
+            "730",
+            "731",
+            "732"
+        ],
+        "location": "localVar",
+        "name": "areaX",
+        "type": "double"
+    },
+    "localVar74": {
+        "file": "lulesh.cc",
+        "function": "SumElemFaceNormal",
+        "lines": [
+            "726",
+            "734",
+            "735",
+            "736",
+            "737"
+        ],
+        "location": "localVar",
+        "name": "areaY",
+        "type": "double"
+    },
+    "localVar75": {
+        "file": "lulesh.cc",
+        "function": "SumElemFaceNormal",
+        "lines": [
+            "727",
+            "739",
+            "740",
+            "741",
+            "742"
+        ],
+        "location": "localVar",
+        "name": "areaZ",
+        "type": "double"
+    },
+    "localVar76": {
+        "file": "lulesh.cc",
+        "function": "SumElemStressesToNodeForces",
+        "lines": [
+            "808",
+            "814"
+        ],
+        "location": "parmVar",
+        "name": "stress_xx",
+        "type": "double"
+    },
+    "localVar77": {
+        "file": "lulesh.cc",
+        "function": "SumElemStressesToNodeForces",
+        "lines": [
+            "809",
+            "815"
+        ],
+        "location": "parmVar",
+        "name": "stress_yy",
+        "type": "double"
+    },
+    "localVar78": {
+        "file": "lulesh.cc",
+        "function": "SumElemStressesToNodeForces",
+        "lines": [
+            "810",
+            "816"
+        ],
+        "location": "parmVar",
+        "name": "stress_zz",
+        "type": "double"
+    },
+    "localVar79": {
+        "file": "lulesh.cc",
+        "function": "IntegrateStressForElems",
+        "lines": [
+            "898",
+            "903",
+            "907"
+        ],
+        "location": "localVar",
+        "name": "fx_tmp",
+        "type": "double"
+    },
+    "localVar8": {
+        "file": "lulesh.cc",
+        "function": "CalcElemShapeFunctionDerivatives",
+        "lines": [
+            "608",
+            "647",
+            "648",
+            "649"
+        ],
+        "location": "localVar",
+        "name": "x7",
+        "type": "double"
+    },
+    "localVar80": {
+        "file": "lulesh.cc",
+        "function": "IntegrateStressForElems",
+        "lines": [
+            "899",
+            "904",
+            "908"
+        ],
+        "location": "localVar",
+        "name": "fy_tmp",
+        "type": "double"
+    },
+    "localVar81": {
+        "file": "lulesh.cc",
+        "function": "IntegrateStressForElems",
+        "lines": [
+            "900",
+            "905",
+            "909"
+        ],
+        "location": "localVar",
+        "name": "fz_tmp",
+        "type": "double"
+    },
+    "localVar82": {
+        "file": "lulesh.cc",
+        "function": "VoluDer",
+        "lines": [
+            "920",
+            "935",
+            "936",
+            "940",
+            "941"
+        ],
+        "location": "parmVar",
+        "name": "x0",
+        "type": "double"
+    },
+    "localVar83": {
+        "file": "lulesh.cc",
+        "function": "VoluDer",
+        "lines": [
+            "920",
+            "935",
+            "940"
+        ],
+        "location": "parmVar",
+        "name": "x1",
+        "type": "double"
+    },
+    "localVar84": {
+        "file": "lulesh.cc",
+        "function": "VoluDer",
+        "lines": [
+            "920",
+            "935",
+            "937",
+            "940",
+            "942"
+        ],
+        "location": "parmVar",
+        "name": "x2",
+        "type": "double"
+    },
+    "localVar85": {
+        "file": "lulesh.cc",
+        "function": "VoluDer",
+        "lines": [
+            "921",
+            "936",
+            "937",
+            "941",
+            "942"
+        ],
+        "location": "parmVar",
+        "name": "x3",
+        "type": "double"
+    },
+    "localVar86": {
+        "file": "lulesh.cc",
+        "function": "VoluDer",
+        "lines": [
+            "921",
+            "936",
+            "941"
+        ],
+        "location": "parmVar",
+        "name": "x4",
+        "type": "double"
+    },
+    "localVar87": {
+        "file": "lulesh.cc",
+        "function": "VoluDer",
+        "lines": [
+            "921",
+            "937",
+            "942"
+        ],
+        "location": "parmVar",
+        "name": "x5",
+        "type": "double"
+    },
+    "localVar88": {
+        "file": "lulesh.cc",
+        "function": "VoluDer",
+        "lines": [
+            "922",
+            "931",
+            "932",
+            "940",
+            "941"
+        ],
+        "location": "parmVar",
+        "name": "y0",
+        "type": "double"
+    },
+    "localVar89": {
+        "file": "lulesh.cc",
+        "function": "VoluDer",
+        "lines": [
+            "922",
+            "931",
+            "940"
+        ],
+        "location": "parmVar",
+        "name": "y1",
+        "type": "double"
+    },
+    "localVar9": {
+        "file": "lulesh.cc",
+        "function": "CalcElemShapeFunctionDerivatives",
+        "lines": [
+            "610",
+            "651",
+            "652",
+            "653"
+        ],
+        "location": "localVar",
+        "name": "y0",
+        "type": "double"
+    },
+    "localVar90": {
+        "file": "lulesh.cc",
+        "function": "VoluDer",
+        "lines": [
+            "922",
+            "931",
+            "933",
+            "940",
+            "942"
+        ],
+        "location": "parmVar",
+        "name": "y2",
+        "type": "double"
+    },
+    "localVar91": {
+        "file": "lulesh.cc",
+        "function": "VoluDer",
+        "lines": [
+            "923",
+            "932",
+            "933",
+            "941",
+            "942"
+        ],
+        "location": "parmVar",
+        "name": "y3",
+        "type": "double"
+    },
+    "localVar92": {
+        "file": "lulesh.cc",
+        "function": "VoluDer",
+        "lines": [
+            "923",
+            "932",
+            "941"
+        ],
+        "location": "parmVar",
+        "name": "y4",
+        "type": "double"
+    },
+    "localVar93": {
+        "file": "lulesh.cc",
+        "function": "VoluDer",
+        "lines": [
+            "923",
+            "933",
+            "942"
+        ],
+        "location": "parmVar",
+        "name": "y5",
+        "type": "double"
+    },
+    "localVar94": {
+        "file": "lulesh.cc",
+        "function": "VoluDer",
+        "lines": [
+            "924",
+            "931",
+            "932",
+            "935",
+            "936"
+        ],
+        "location": "parmVar",
+        "name": "z0",
+        "type": "double"
+    },
+    "localVar95": {
+        "file": "lulesh.cc",
+        "function": "VoluDer",
+        "lines": [
+            "924",
+            "931",
+            "935"
+        ],
+        "location": "parmVar",
+        "name": "z1",
+        "type": "double"
+    },
+    "localVar96": {
+        "file": "lulesh.cc",
+        "function": "VoluDer",
+        "lines": [
+            "924",
+            "931",
+            "933",
+            "935",
+            "937"
+        ],
+        "location": "parmVar",
+        "name": "z2",
+        "type": "double"
+    },
+    "localVar97": {
+        "file": "lulesh.cc",
+        "function": "VoluDer",
+        "lines": [
+            "925",
+            "932",
+            "933",
+            "936",
+            "937"
+        ],
+        "location": "parmVar",
+        "name": "z3",
+        "type": "double"
+    },
+    "localVar98": {
+        "file": "lulesh.cc",
+        "function": "VoluDer",
+        "lines": [
+            "925",
+            "932",
+            "936"
+        ],
+        "location": "parmVar",
+        "name": "z4",
+        "type": "double"
+    },
+    "localVar99": {
+        "file": "lulesh.cc",
+        "function": "VoluDer",
+        "lines": [
+            "925",
+            "933",
+            "937"
+        ],
+        "location": "parmVar",
+        "name": "z5",
+        "type": "double"
+    }
+}

@@ -1,7 +1,7 @@
 # FPLearner 
 
 [![DOI](https://zenodo.org/badge/693315488.svg)](https://zenodo.org/doi/10.5281/zenodo.10426441)
-[![P](https://img.shields.io/badge/Paper-FPLearner-orange)](https://www.computer.org/csdl/proceedings-article/icse/2024/021700a141/1RLIWpUoFKo)
+[![P](https://img.shields.io/badge/Paper-FPLearner-orange)](https://dl.acm.org/doi/abs/10.1145/3597503.3623338)
 
 
 This is the **executable** artifact of the ICSE'24 paper: **Predicting Performance and Accuracy of Mixed-Precision Programs for Precision Tuning**.
